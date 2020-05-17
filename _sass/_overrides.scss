@@ -1,0 +1,44 @@
+.navbar-fixed {
+	height: 0;
+}
+
+.navbar-fixed nav {
+	bottom: 0;
+}
+
+nav .nav-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-wrapper img.logo {
+    height: 50%;
+    margin-bottom: -5%;
+}
+
+nav i.logo {
+	display: inline-block;
+}
+
+.logo-text {
+	font-family: 'Montserrat', sans-serif;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.table-of-contents a.active {
+	border-left: 2px solid #d50000;
+}
+
+.table-of-contents a:hover {
+	border-left: 1px solid #d50000;
+}
+
+.collection a.collection-item{
+	color: #b71c1c;	
+}
+
+.material-icons.md-dark { color: #424242; }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }

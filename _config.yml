@@ -1,0 +1,50 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: ""
+email: ""
+description: >- # this means to ignore newlines until "baseurl:"
+  ""
+
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
+# Build settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+#  - FILENAME.md
+
+# A list of the pages to display in the navigation bar
+header_pages:
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - update_boostrap.sh
+
+sass:
+  style: compressed
+  #sass_dir: css
+
+#sample: https://github.com/nicolas-van/bootstrap-4-github-pages
+#sample 2: https://medium.com/better-programming/an-introduction-to-using-jekyll-with-bootstrap-4-6f2433afeda9
+#sample 3: https://outragedpinkracoon.com/2019/10/19/how-to-setup-jekyll-bootstrap-sass-github-pages/
+#bootswatch: https://bootswatch.com/flatly/
+#assets: https://github.com/envygeeks/jekyll-assets/blob/master/README.md
+#jekyll: https://github.com/benbalter/jekyll-relative-links
+# https://medium.com/@kurtiskemple/setting-up-client-side-search-for-a-jekyll-github-pages-site-with-lunr-and-backbone-d644541d7260
+#https://github.com/readium/readium.github.io/wiki/Website-Structure-and-Construction

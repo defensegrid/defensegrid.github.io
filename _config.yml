@@ -8,7 +8,7 @@ email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   ""
 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://defensegrid.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 
@@ -42,8 +42,6 @@ sass:
 
 #sample: https://github.com/nicolas-van/bootstrap-4-github-pages
 #sample 2: https://medium.com/better-programming/an-introduction-to-using-jekyll-with-bootstrap-4-6f2433afeda9
-#sample 3: https://outragedpinkracoon.com/2019/10/19/how-to-setup-jekyll-bootstrap-sass-github-pages/
-#bootswatch: https://bootswatch.com/flatly/
 #assets: https://github.com/envygeeks/jekyll-assets/blob/master/README.md
 #jekyll: https://github.com/benbalter/jekyll-relative-links
 # https://medium.com/@kurtiskemple/setting-up-client-side-search-for-a-jekyll-github-pages-site-with-lunr-and-backbone-d644541d7260

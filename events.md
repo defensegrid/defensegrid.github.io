@@ -29,11 +29,11 @@ title: Events
             </p>
         </div>
     </div>
-    <div class="row" id="page_result_none">
+    <div class="row" id="page_search_none" hidden>
         <div class="col s12">
             <p class="flow-text">
                 We found nothing related to your search.<br>
-                Please check the spelling and try again. <br>
+                Please check the spelling and try again.<br>
             </p>
         </div>
     </div>
@@ -131,6 +131,8 @@ title: Events
         var str = $("#search_event").val()
         event.preventDefault();
 
+        $("#page_filler").hide();
+
         var name_similarity = [];
         var brawler_similarity = [];
         var cards_to_show = [];
@@ -151,14 +153,13 @@ title: Events
             }
         }
 
-        console.log(cards_shown);
-
-        $("#page_filler").hide();
-        $("#page_result_none").hide();
-
         if(cards_shown < 1)
         {
-            $("#page_result_none").show();
+            $("#page_search_none").show();
+        }
+        else
+        {
+            $("#page_search_none").hide();
         }
 
         $("#search_event").val('');

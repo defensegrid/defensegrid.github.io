@@ -36,8 +36,30 @@ html {
 	border-left: 1px solid #d50000;
 }
 
-.collection a.collection-item{
+.collection a.collection-item {
 	color: #b71c1c;	
+}
+
+ul.section.table-of-contents.toc-pinned {
+	background-color: rgba(255,255,255,0.5);
+}
+
+.card .no-space-top {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.input-field input[type=text]:focus + label {
+	color: #212121 !important;
+}
+
+.input-field .prefix.active {
+	color: #f57f17 !important;
+}
+
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #212121 !important;
+	box-shadow: 0 1px 0 0 #212121 !important;
 }
 
 .material-icons.md-dark { color: #424242; }

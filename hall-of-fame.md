@@ -4,5 +4,15 @@ permalink: /hall-of-fame
 title: Hall of Fame
 ---
 
-<h3 class="my-4">Hall of Fame</h3>
-<h5>Under Construction</h5>
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <h3>Hall of Fame</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <h5>Under Construction</h5>
+        </div>
+    </div>
+</div>

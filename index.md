@@ -11,44 +11,49 @@ title: Defense Grid
       <h3 class="logo-text">Defense Grid</h3>
       <h3 class="logo-text flow-text">Conquer. Expand. Defend.</h3>
       <div class="divider"></div>
-      <p class="flow-text">
-      Welcome to our clan!<br><br>
-      We do not require anyone of the impossible.<br><br>
+      <h6>Welcome to our clan!</h6>
+      <p>
+      We do not require anyone of the impossible.<br>
       You can improve, contribute, and have fun in your own way.<br>
       </p>
     </div>
     <div id="rules" class="section scrollspy">
       <h4>Rules</h4>
       <div class="divider"></div>
-      <h5>What you can't do?</h5>
-      <p class="flow-text">
-      1. Disruption of activities<br>
-      2. Harrassment of members<br>
-      3. Dishonesty of any form<br>
-      </p>
-      <h5>What you can do?</h5>
-      <p class="flow-text">
-      Anything not mentioned above.<br><br>
-      To be specific:<br>
-      &emsp;1. Just a Humble Member<br>
-      &emsp;2. Your Very Skilled Player<br>
-      &emsp;3. The Clever Teacher<br>
-      &emsp;4. A Lively Host<br>
-      &emsp;5. Our Reliable Minister<br>
-      </p>
+      <div class="row">
+        <div class="col s12 m6 l3">
+          <h5>What you can't do?</h5>
+          <p>
+          &emsp;1. Disruption of activities<br>
+          &emsp;2. Harrassment of members<br>
+          &emsp;3. Dishonesty of any form<br>
+          </p>
+          <br>
+        </div>
+        <div class="col s12 m6 l3">
+          <h5>What you can do?</h5>
+          <p>
+          Anything not mentioned earlier.<br><br>
+          To be specific:<br>
+          &emsp;1. Just a Humble Member<br>
+          &emsp;2. Your Very Skilled Player<br>
+          &emsp;3. The Clever Teacher<br>
+          &emsp;4. A Lively Host<br>
+          &emsp;5. Our Reliable Minister<br>
+          </p>
+        </div>
+      </div>
     </div>
     <div id="nominations" class="section scrollspy">
       <h4>Promotions</h4>
       <div class="divider"></div>
       <h5>Democratic</h5>
-      <p class="flow-text">
-      Promotion through Nominations<br>
-      </p>
+      <h6>Promotion through Nominations</h6>
       <ul class="collapsible">
         <li>
           <div class="collapsible-header">Clash Royale</div>
           <div class="collapsible-body">
-            <p class="flow-text">
+            <p>
               <b>Member</b><br>
               Parties or Interacts with the clan<br><br>
               <b>Elder</b><br>
@@ -63,7 +68,7 @@ title: Defense Grid
         <li>
           <div class="collapsible-header">Brawl Stars</div>
           <div class="collapsible-body">
-            <p class="flow-text">
+            <p>
               <b>Member</b><br>
               Parties or Interacts with the club<br><br>
               <b>Senior</b><br>
@@ -78,14 +83,12 @@ title: Defense Grid
       </ul>
       <br>
       <h5>Meritocratic</h5>
-      <p class="flow-text">
-      Promotion through Achievements<br>
-      </p>
+      <h6>Promotion through Achievements</h6>
       <ul class="collapsible">
         <li>
           <div class="collapsible-header">Clash Royale</div>
           <div class="collapsible-body">
-            <p class="flow-text">
+            <p>
               <b>Member</b><br>
               100 Donations or Clan Trophy Requirement<br><br>
               <b>Elder</b><br>
@@ -100,7 +103,7 @@ title: Defense Grid
         <li>
           <div class="collapsible-header">Brawl Stars</div>
           <div class="collapsible-body">
-            <p class="flow-text">
+            <p>
               <b>Member</b><br>
               Club Trophy Requirement<br><br>
               <b>Senior</b><br>
@@ -133,7 +136,7 @@ title: Defense Grid
     <div class="col m2 l4 hide-on-small-only"></div>
     <div class="col s12 m10 l8">
       <div class="toc-wrapper pinned" style="bottom:5%;right:5%;">
-        <ul class="section table-of-contents">
+        <ul class="section table-of-contents toc-pinned">
           <li><a href="#home"><i class="material-icons md-dark">home</i></a></li>
           <li><a href="#rules"><i class="material-icons md-dark">gavel</i></a></li>
           <li><a href="#nominations"><i class="material-icons md-dark">how_to_vote</i></a></li>

@@ -1,0 +1,55 @@
+brawl-events:
+  - name: Template
+    description: A short intro for the brawl event or 'Description not available'
+    brawler: List of Brawlers
+    map: Specific map name or its features
+    gamemode: Official Brawl Stars Game Mode name
+    status: Choose draft or published
+
+  - name: Flipremo Fiesta
+    description: Flip 'em like pancakes, the punches have decided to take Breakfast instead of lunch. Who's hungry?
+    brawler: El Primo
+    map: Forsaken Falls
+    gamemode: Showdown
+    gameplay: Eliminate your opponents by using only El Primo's Suplex Supplement Gadget. Last Brawler or Team Standing wins
+    status: published
+
+  - name: Blind By Nature
+    description: Blinded by her own dark magic now. Remember the bushes have eyes, the walls have ears. Will you be able to deal the right cards?
+    brawler: Tara
+    map: Cavern Churn
+    gamemode: Showdown
+    gameplay: Last Brawler Standing wins, attack enemy brawlers without the use of Tara's Gadget & Super
+    status: draft
+
+  - name: Mortar Madness
+    description: Description not available
+    brawler: Penny
+    map: Map for Throwers
+    gamemode: Showdown
+    gameplay: Eliminate your opponents by only using Penny's Super. You can recharge your Super with your Attack but you can't kill opponents directly.
+    status: published
+
+  - name: Fragile or Agile?
+    description: Description not available
+    brawler: Bo
+    map: Map for Throwers
+    gamemode: Showdown
+    gameplay: Attacking is not allowed. Plant land mines and only use Bo's Gadget to recharge them. The Last  Brawler or Team Standing wins
+    status: published
+
+  - name: Hide and Seek
+    description: Description not available
+    brawler: Nita vs. El Primo
+    map: Map with Bushes
+    gamemode: Showdown
+    gameplay: No one can kill except for Nita's Bear. Primos can charge their Super but can only use it for escape. They can also use Suplex Supplement Gadget to eliminate the Bears. Nitas can charge their Super with each other but can only use the Super once. The Primos win if all Bears are eliminated. The Nitas win if all Primos are eliminated.
+    status: published
+
+  - name: Hide and Seek
+    description: Description not available
+    brawler: 8-Bit vs. Bo
+    map: Map with Bushes
+    gamemode: Showdown
+    gameplay: No one can kill except 8-Bit. Bos should take advantage of their Super for a wider vision. 8-Bit can use any skill to eliminate all Bos. The last Bo and the last 8-Bit standing wins.
+    status: published

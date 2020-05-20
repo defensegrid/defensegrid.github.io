@@ -49,12 +49,16 @@ ul.section.table-of-contents.toc-pinned {
 	padding-top: 0;
 }
 
+.input-field.col.s12 {
+	padding-left: 0;
+}
+
 .input-field input[type=text]:focus + label {
 	color: #212121 !important;
 }
 
 .input-field .prefix.active {
-	color: #f57f17 !important;
+	color: #e53935 !important;
 }
 
 .input-field input[type=text]:focus {

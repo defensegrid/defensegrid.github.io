@@ -1,55 +1,56 @@
 brawl-events:
-  - name: Template
-    description: A short intro for the brawl event or 'Description not available'
-    brawler: List of Brawlers
-    map: Specific map name or its features
-    gamemode: Official Brawl Stars Game Mode name
-    status: Choose draft or published
 
-  - name: Flipremo Fiesta
-    description: Flip 'em like pancakes, the punches have decided to take Breakfast instead of lunch. Who's hungry?
-    brawler: El Primo
-    map: Forsaken Falls
-    gamemode: Showdown
-    gameplay: Eliminate your opponents by using only El Primo's Suplex Supplement Gadget. Last Brawler or Team Standing wins
-    status: published
+- name: Template
+  description: A short intro for the brawl event or 'Description not available'
+  brawler: List of Brawlers
+  map: Specific map name or its features
+  gamemode: Official Brawl Stars Game Mode name
+  status: Choose draft or published
 
-  - name: Blind By Nature
-    description: Blinded by her own dark magic now. Remember the bushes have eyes, the walls have ears. Will you be able to deal the right cards?
-    brawler: Tara
-    map: Cavern Churn
-    gamemode: Showdown
-    gameplay: Last Brawler Standing wins, attack enemy brawlers without the use of Tara's Gadget & Super
-    status: draft
+- name: Flipremo Fiesta
+  description: The macho men have started to flex their muscle madness again yet in new fashion. Flip 'em like pancakes, the punches have decided to take breakfast instead of lunch. Who's hungry?
+  brawler: El Primo
+  map: Forsaken Falls
+  gamemode: Showdown
+  gameplay: Eliminate your opponents by using only El Primo's Suplex Supplement Gadget. Last Brawler or Team Standing wins
+  status: published
 
-  - name: Mortar Madness
-    description: Description not available
-    brawler: Penny
-    map: Map for Throwers
-    gamemode: Showdown
-    gameplay: Eliminate your opponents by only using Penny's Super. You can recharge your Super with your Attack but you can't kill opponents directly.
-    status: published
+- name: Blind By Nature
+  description: Blinded by her own dark magic now. Remember the bushes have eyes, the walls have ears. Will you be able to deal the right cards? With no fortune to seek, misfortune is expected! Shoot thrice, but only fate rolls the dice.
+  brawler: Tara
+  map: Cavern Churn
+  gamemode: Showdown
+  gameplay: Last Brawler Standing wins, attack enemy brawlers without the use of Tara's Gadget & Super
+  status: draft
 
-  - name: Fragile or Agile?
-    description: Description not available
-    brawler: Bo
-    map: Map for Throwers
-    gamemode: Showdown
-    gameplay: Attacking is not allowed. Plant land mines and only use Bo's Gadget to recharge them. The Last  Brawler or Team Standing wins
-    status: published
+- name: Mortar Madness
+  description: Ahoy me hearties! Tis time to see how ye measure up against Penny's Old Lobber! It would be a blunder to misuse to da Plunderbuss, so take heart to only use it to charge thy super and not kill ye mates, or ye be walking the plank! Mortarrrgh!
+  brawler: Penny
+  map: Map for Throwers
+  gamemode: Showdown
+  gameplay: Eliminate your opponents by only using Penny's Super. You canrecharge your Super with your Attack but you can't kill opponents directly.
+  status: published
 
-  - name: Hide and Seek
-    description: Description not available
-    brawler: Nita vs. El Primo
-    map: Map with Bushes
-    gamemode: Showdown
-    gameplay: No one can kill except for Nita's Bear. Primos can charge their Super but can only use it for escape. They can also use Suplex Supplement Gadget to eliminate the Bears. Nitas can charge their Super with each other but can only use the Super once. The Primos win if all Bears are eliminated. The Nitas win if all Primos are eliminated.
-    status: published
+- name: Fragile or Agile?
+  description: As the great eagle hunter once said, "One breath, one shot". Will you put your life on the line to expose and defuse the mines? With the fog closing in, who will overcome this mine craft? The hunters got their eyes on the prey, pray you do not fall to their traps.
+  brawler: Bo
+  map: Map for Throwers
+  gamemode: Showdown
+  gameplay: Attacking is not allowed. Plant land mines and only use Bo's Gadget to recharge them. The Last Brawler or Team Standing wins
+  status: published
 
-  - name: Hide and Seek
-    description: Description not available
-    brawler: 8-Bit vs. Bo
-    map: Map with Bushes
-    gamemode: Showdown
-    gameplay: No one can kill except 8-Bit. Bos should take advantage of their Super for a wider vision. 8-Bit can use any skill to eliminate all Bos. The last Bo and the last 8-Bit standing wins.
-    status: published
+- name: Bears no Punch
+  description: No bear hugs guaranteed, so stay away from those Bear Paws! With both bears out, this elimination chamber just went wild! Fellow Primo brethren will you be able to bear this pain? 
+  brawler: Nita vs. El Primo
+  map: Map with Bushes
+  gamemode: Showdown
+  gameplay: No one can kill except for Nita's Bear. Nita's can charge their Super with each other but can only use their Super once. Primo's can charge their Super but can only use it for escape. However, they can also use Suplex Supplement Gadget to eliminate the Bears. The Primo's win if all Bears are eliminated. The Nita's win if all Primos are eliminated.
+  status: published
+
+- name: Hidden Rites
+  description: An annual ritual is performed by the ancient tribe of the greatest eagle hunters to seek it's new leader. The spirits will take the form of an 8-bit arcade machine stripping them off all their abilities granting only superior vision. With the tribe in panic and survival at the test, only one Bo will live to soar over his slain brothers.
+  brawler: 8-Bit vs. Bo
+  map: Map with Bushes
+  gamemode: Showdown
+  gameplay: No one can kill except 8-Bit. Bos should take advantage of their Star Power for a wider vision. 8-Bit can use any skill to eliminate all Bo's. The last Bo and the last 8-Bit standing wins.
+  status: published

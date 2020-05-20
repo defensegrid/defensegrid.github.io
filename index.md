@@ -11,36 +11,29 @@ title: Defense Grid
       <h3 class="logo-text">Defense Grid</h3>
       <h3 class="logo-text flow-text">Conquer. Expand. Defend.</h3>
       <div class="divider"></div>
-      <h6>Welcome to our clan!</h6>
-      <p>
-      We do not require anyone of the impossible.<br>
-      You can improve, contribute, and have fun in your own way.<br>
-      </p>
+      <h5>Welcome to our clan!</h5><br>
+      <h6>We do not require anyone of the impossible.</h6>
+      <h6>You can improve, contribute, and have fun in your own way.</h6>      
     </div>
     <div id="rules" class="section scrollspy">
       <h4>Rules</h4>
       <div class="divider"></div>
       <div class="row">
-        <div class="col s12 m6 l3">
+        <div class="col s12 m6 l4">
           <h5>What you can't do?</h5>
-          <p>
-          &emsp;1. Disruption of activities<br>
-          &emsp;2. Harrassment of members<br>
-          &emsp;3. Dishonesty of any form<br>
-          </p>
-          <br>
+          <h6>1. Disruption of activities</h6>
+          <h6>2. Harrassment of members</h6>
+          <h6>3. Dishonesty of any form</h6>
         </div>
-        <div class="col s12 m6 l3">
+        <div class="col s12 m6 l4">
           <h5>What you can do?</h5>
-          <p>
-          Anything not mentioned earlier.<br><br>
-          To be specific:<br>
-          &emsp;1. Just a Humble Member<br>
-          &emsp;2. Your Very Skilled Player<br>
-          &emsp;3. The Clever Teacher<br>
-          &emsp;4. A Lively Host<br>
-          &emsp;5. Our Reliable Minister<br>
-          </p>
+          <h6>Anything not mentioned earlier.</h6><br>
+          <h6>To be specific:</h6>
+          <h6>1. Just a Humble Member</h6>
+          <h6>2. Your Very Skilled Player</h6>
+          <h6>3. The Clever Teacher</h6>
+          <h6>4. A Lively Host</h6>
+          <h6>5. Our Reliable Minister</h6>
         </div>
       </div>
     </div>

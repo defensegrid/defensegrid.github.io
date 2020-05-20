@@ -23,9 +23,9 @@ title: Events
         <div class="col s12">
             <p class="flow-text">
                 Events are a vital part of our clan.<br><br>
-                If it is to get better, we have the Seasonal Tournaments or Showdowns.<br><br>
-                If it is to have fun, we have Saturday Showdowns and many more.<br><br>
-                Go through the list of events and see if something fits you. If there aren't any, you can always chat us.<br>
+                If you want to get better, join our Seasonal Tournaments or Showdowns.<br><br>
+                If you want to have fun, join our Saturday Showdowns and many more.<br><br>
+                Go through our list of events and see if something fits you. If there aren't any, you can always chat us.<br>
             </p>
         </div>
     </div>
@@ -73,54 +73,14 @@ title: Events
     <br><br>
 </div>
 
+<script type="text/javascript" src="/assets/js/similarity-search.js"></script>
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.scrollspy');
     var options = {};
     var instances = M.ScrollSpy.init(elems, options);
     });
-
-
-    function editDistance(s1, s2) {
-      s1 = s1.toLowerCase();
-      s2 = s2.toLowerCase();
-
-      var costs = new Array();
-      for (var i = 0; i <= s1.length; i++) {
-        var lastValue = i;
-        for (var j = 0; j <= s2.length; j++) {
-          if (i == 0)
-            costs[j] = j;
-          else {
-            if (j > 0) {
-              var newValue = costs[j - 1];
-              if (s1.charAt(i - 1) != s2.charAt(j - 1))
-                newValue = Math.min(Math.min(newValue, lastValue),
-                  costs[j]) + 1;
-              costs[j - 1] = lastValue;
-              lastValue = newValue;
-            }
-          }
-        }
-        if (i > 0)
-          costs[s2.length] = lastValue;
-      }
-      return costs[s2.length];
-    }
-
-    function similarity(s1, s2) {
-      var longer = s1;
-      var shorter = s2;
-      if (s1.length < s2.length) {
-        longer = s2;
-        shorter = s1;
-      }
-      var longerLength = longer.length;
-      if (longerLength == 0) {
-        return 1.0;
-      }
-      return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
-    }
 
     var card_ids = $(".card-id").map(function() {return this.innerHTML;}).get();
     var event_names = $(".event-name").map(function() {return this.innerHTML;}).get();
@@ -133,20 +93,23 @@ title: Events
 
         $("#page_filler").hide();
 
-        var name_similarity = [];
-        var brawler_similarity = [];
+        var names_similarity = [];
+        var brawlers_similarity = [];
         var cards_to_show = [];
 
         for ( var i = 0, l = card_ids.length; i < l; i++ ) {
             $("#" + card_ids[i]).hide();
-            name_similarity.push(similarity(str, event_names[i]));
-            brawler_similarity.push(similarity(str, event_brawler[i]));
+            var name_similarity = similarity(str, event_names[i]) + keyword_reward(str, event_names[i]);
+            var brawler_similarity = similarity(str, event_brawler[i]) + keyword_reward(str, event_brawler[i]);
+
+            names_similarity.push(name_similarity);
+            brawlers_similarity.push(brawler_similarity);
         }
 
         var cards_shown = 0;
 
-        for ( var i = 0, l = name_similarity.length; i < l; i++) {
-            if(parseFloat(similarity_threshold) < parseFloat(name_similarity[i]) || parseFloat(similarity_threshold) < parseFloat(brawler_similarity[i]))
+        for ( var i = 0, l = names_similarity.length; i < l; i++) {
+            if(parseFloat(similarity_threshold) < parseFloat(names_similarity[i]) || parseFloat(similarity_threshold) < parseFloat(brawlers_similarity[i]))
             {
                 $("#" + card_ids[i]).show();
                 cards_shown++;

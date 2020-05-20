@@ -1,0 +1,46 @@
+brawl-of-fame:
+  - name: Template
+  - description: A short intro about the record or 'Description not available'
+  - category:
+      - N-win Challenge
+      - <Rarity> Challenge
+      - Unique Game Mode
+      - Clan Challenge
+      - etc.
+  - mechanics: Information about the challenge
+  - players:
+      - Player 1
+      - Player 2
+      - Player 1 + Player 2 (Team/Party)
+      - etc.
+  - status: Choose published or draft
+
+  - name: Best PvP Win Streaks
+  - description: Description not available
+  - category:
+      - PvP
+      - Clan Challenge
+  - mechanics: Beat the Top 3 Consecutive Win Streaks in PvP
+  - players:
+      - dhaggerfin (17 Win Streak)
+  - status: published
+
+  - name: PSG Cup
+  - description: Description not available
+  - category:
+      - 9-win Challenge
+  - mechanics: Complete the Challenge and get the PSG Shelly Skin for Free
+  - players:
+      - Shichi + AriKingKing
+  - status: published
+
+  - name: Championship Challenge
+  - description: Description not available
+  - category:
+      - 15-win Challenge
+  - mechanics: Complete the Challenge and be invited in the Online Qualifiers
+  - players:
+      - DEN-O
+      - lid3R(^_^*)
+  - status: published
+  

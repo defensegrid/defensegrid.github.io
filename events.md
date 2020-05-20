@@ -29,6 +29,14 @@ title: Events
             </p>
         </div>
     </div>
+    <div class="row" id="page_result_none">
+        <div class="col s12">
+            <p class="flow-text">
+                We found nothing related to your search.<br>
+                Please check the spelling and try again. <br>
+            </p>
+        </div>
+    </div>
     {% for event in site.data.brawl-events.brawl-events %}
         {% if event.name != "Template" and event.name != "template"%}
         {% if event.status == "published"%} 
@@ -146,10 +154,11 @@ title: Events
         console.log(cards_shown);
 
         $("#page_filler").hide();
+        $("#page_result_none").hide();
 
         if(cards_shown < 1)
         {
-            $("#page_filler").show();
+            $("#page_result_none").show();
         }
 
         $("#search_event").val('');

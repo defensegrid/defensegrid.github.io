@@ -6,7 +6,7 @@ title: Defense Grid
 
 <div class="row">
   <div class="container">
-  <div class="col s10 m11 l11">
+  <div class="col s12 m12 l12">
     <div id="home" class="section scrollspy">
       <h3 class="logo-text">Defense Grid</h3>
       <h3 class="logo-text flow-text">Conquer. Expand. Defend.</h3>
@@ -34,7 +34,7 @@ title: Defense Grid
       &emsp;2. Your Very Skilled Player<br>
       &emsp;3. The Clever Teacher<br>
       &emsp;4. A Lively Host<br>
-      &emsp;5. The Reliable Minister<br>
+      &emsp;5. Our Reliable Minister<br>
       </p>
     </div>
     <div id="nominations" class="section scrollspy">
@@ -76,6 +76,7 @@ title: Defense Grid
           </div>
         </li>
       </ul>
+      <br>
       <h5>Meritocratic</h5>
       <p class="flow-text">
       Promotion through Achievements<br>
@@ -128,18 +129,16 @@ title: Defense Grid
   </div>
   </div>
 
-  <div class="col s2 m1 l1">
-    <div class="row">
-      <div class="col m2 l4 hide-on-small-only"></div>
-      <div class="col s12 m10 l8">
-        <div class="toc-wrapper pinned" style="bottom:5%;">
-          <ul class="section table-of-contents">
-            <li><a href="#home"><i class="material-icons md-dark">home</i></a></li>
-            <li><a href="#rules"><i class="material-icons md-dark">gavel</i></a></li>
-            <li><a href="#nominations"><i class="material-icons md-dark">how_to_vote</i></a></li>
-            <li><a href="#chat"><i class="material-icons md-dark">chat</i></a></li>
-          </ul>
-        </div>
+  <div class="row">
+    <div class="col m2 l4 hide-on-small-only"></div>
+    <div class="col s12 m10 l8">
+      <div class="toc-wrapper pinned" style="bottom:5%;right:5%;">
+        <ul class="section table-of-contents">
+          <li><a href="#home"><i class="material-icons md-dark">home</i></a></li>
+          <li><a href="#rules"><i class="material-icons md-dark">gavel</i></a></li>
+          <li><a href="#nominations"><i class="material-icons md-dark">how_to_vote</i></a></li>
+          <li><a href="#chat"><i class="material-icons md-dark">chat</i></a></li>
+        </ul>
       </div>
     </div>
   </div>

@@ -38,11 +38,3 @@ exclude:
 
 sass:
   style: compressed
-  #sass_dir: css
-
-#sample: https://github.com/nicolas-van/bootstrap-4-github-pages
-#sample 2: https://medium.com/better-programming/an-introduction-to-using-jekyll-with-bootstrap-4-6f2433afeda9
-#assets: https://github.com/envygeeks/jekyll-assets/blob/master/README.md
-#jekyll: https://github.com/benbalter/jekyll-relative-links
-# https://medium.com/@kurtiskemple/setting-up-client-side-search-for-a-jekyll-github-pages-site-with-lunr-and-backbone-d644541d7260
-#https://github.com/readium/readium.github.io/wiki/Website-Structure-and-Construction

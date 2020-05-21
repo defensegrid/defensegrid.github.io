@@ -15,7 +15,7 @@ title: Events
             <div class="input-field col s12">
               <i class="material-icons prefix">search</i>
               <input id="search_event" type="text" class="validate">
-              <label for="search_event">Search using a Brawler or an Event</label>
+              <label for="search_event">Filter by Brawler or Event</label>
             </div>
         </form>
     </div>
@@ -23,8 +23,6 @@ title: Events
         <div class="col s12">
             <p class="flow-text">
                 Events are a vital part of our clan.<br><br>
-                If you want to get better, join our Seasonal Tournaments or Showdowns.<br><br>
-                If you want to have fun, join our Saturday Showdowns and many more.<br><br>
                 Go through our list of events and see if something fits you. If there aren't any, you can always chat us.<br>
             </p>
         </div>
@@ -37,13 +35,13 @@ title: Events
             </p>
         </div>
     </div>
+    <div class="row">
     {% for event in site.data.brawl-events.brawl-events %}
         {% if event.name != "Template" and event.name != "template"%}
-        {% if event.status == "published"%} 
-    <div class="row" id="row-{{forloop.index}}" hidden>
-        <div class="col s12">
+        {% if event.status == "published"%}
+        <div class="col s12 m6 l4" id="col-{{forloop.index}}">
             <div class="card-search" hidden>
-                <div class="card-id">row-{{forloop.index}}</div>
+                <div class="card-id">col-{{forloop.index}}</div>
                 <div class="event-name">{{event.name}}</div>
                 <div class="event-brawler">{{event.brawler}}</div>
             </div>
@@ -66,10 +64,10 @@ title: Events
                 </div>
             </div>
         </div>
-    </div>
         {%endif%}
         {%endif%}
     {% endfor %}
+    </div>
     <br><br>
 </div>
 
@@ -87,7 +85,7 @@ title: Events
     var event_brawler = $(".event-brawler").map(function() {return this.innerHTML;}).get();
 
     $( "#search_form" ).submit(function( event ) {
-        var similarity_threshold = 0.60;
+        var similarity_threshold = FORGIVING;
         var str = $("#search_event").val()
         event.preventDefault();
 
@@ -95,7 +93,6 @@ title: Events
 
         var names_similarity = [];
         var brawlers_similarity = [];
-        var cards_to_show = [];
 
         for ( var i = 0, l = card_ids.length; i < l; i++ ) {
             $("#" + card_ids[i]).hide();
@@ -108,7 +105,7 @@ title: Events
 
         var cards_shown = 0;
 
-        for ( var i = 0, l = names_similarity.length; i < l; i++) {
+        for ( var i = 0, l = card_ids.length; i < l; i++) {
             if(parseFloat(similarity_threshold) < parseFloat(names_similarity[i]) || parseFloat(similarity_threshold) < parseFloat(brawlers_similarity[i]))
             {
                 $("#" + card_ids[i]).show();

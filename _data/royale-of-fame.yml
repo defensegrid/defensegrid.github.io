@@ -1,243 +1,243 @@
 royale-of-fame:
   - name: Template
-  - description: A short intro about the record or 'Description not available'
-  - category:
+    description: A short intro about the record or 'Description not available'
+    category:
       - N-win Challenge
       - <Rarity> Challenge
       - Unique Game Mode
       - Clan Challenge
       - etc.
-  - mechanics: Information about the challenge
-  - players:
+    mechanics: Information about the challenge
+    players:
       - Player 1
       - Player 2
-      - Player 1 + Player 2 (Team/Party)
+      - Player 1 + Player 2 (Team/Party) #currently not supported
       - etc.
-  - status: Choose published or draft
+    status: Choose published or draft
 
   - name: War God
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 15-win Challenge
       - Clan Challenge
-  - mechanics: Achieve at least 15 Win Streaks in War
-  - players: 
+    mechanics: Achieve at least 15 Win Streaks in War
+    players: 
       - Seijuro
       - Stefan
-  - status: published
+    status: published
 
   - name: War Hero
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 10-win Challenge
       - Clan Challenge
-  - mechanics: Achieve at least 10 Win Streaks in War
-  - players: 
-      - Seijuro
-      - Stefan
+    mechanics: Achieve at least 10 Win Streaks in War
+    players:
       - Awko
       - LEWANDOWSKI
       - per
-  - status: published
+    status: published
 
   - name: Saint
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - Clan Challenge
-  - mechanics: Become one of the Top 3 Donators in 2 Consecutive Months
-  - players: 
+    mechanics: Become one of the Top 3 Donators in 2 Consecutive Months
+    players: 
       - kenjan
       - oredrock
       - dhaggerfin
       - kissjanice
-  - status: published
+    status: published
 
   - name: 9-win Three Crown Win Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 9-win Challenge
       - Clan Challenge
-  - mechanics: Complete the Challenge with only Three Crown Wins
-  - players: 
-      - _Chri$ti@n_10
-  - status: published
+    mechanics: Complete the Challenge with only Three Crown Wins
+    players: 
+      - Christian.10
+    status: published
 
   - name: 9-win Sweep 2v2 Challenge
-  - description: Description not available
-  - category:
+    description: Description not available
+    category:
       - 9-win Challenge
       - Clan Challenge
-  - mechanics: Complete a 2v2 Challenge with no losses
-  - players: 
-      - Tofu + Seijuro
-      - Awko + Seijuro
-  - status: published
+    mechanics: Complete a 2v2 Challenge with no losses
+    players: 
+      - Tofu
+      - Awko
+      - Seijuro
+    status: published
 
   - name: 10-win Sweep Challenge
-  - description: Description not available
-  - category:
+    description: Description not available
+    category:
       - 10-win Challenge
       - Clan Challenge
-  - mechanics: Complete the Challenge with no losses
-  - players: 
+    mechanics: Complete the Challenge with no losses
+    players: 
       - Seijuro
-  - status: published
+    status: published
 
   - name: 15-win Sweep Challenge
-  - description: Description not available
-  - category:
+    description: Description not available
+    category:
       - 15-win Challenge
       - Clan Challenge
-  - mechanics: Complete the Challenge with no losses
-  - players: 
+    mechanics: Complete the Challenge with no losses
+    players: 
       - Seijuro
-  - status: published
+    status: published
 
   - name: Electro Wizard Challenge
-  - description: Description not available
-  - category:
+    description: Description not available
+    category:
       - 12-win Challenge
       - Legendary Challenge
-  - mechanics: Complete the Challenge and get the Electro Wiz for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Electro Wiz for Free
+    players: 
       - Tofu
-  - status: published
+    status: published
 
   - name: Bandit Draft Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 12-win Challenge
       - Legendary Challenge
-  - mechanics: Complete the Challenge and get the Bandit for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Bandit for Free
+    players: 
       - Seijuro
-  - status: published
+    status: published
 
   - name: Heal Draft Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 12-win Challenge
       - Rare Challenge
-  - mechanics: Complete the Challenge and get the Heal Spell for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Heal Spell for Free
+    players: 
       - Seijuro
-  - status: published
+    status: published
 
   - name: Night Witch Draft Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 12-win Challenge
       - Legendary Challenge
-  - mechanics: Complete the Challenge and get the Night Witch for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Night Witch for Free
+    players: 
       - Awko
-  - status: published
+    status: published
 
   - name: Flying Machine Draft Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 12-win Challenge
       - Rare Challenge
-  - mechanics: Complete the Challenge and get the Flying Machine for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Flying Machine for Free
+    players: 
       - Seijuro
-  - status: published
+    status: published
 
   - name: Zappies vs Hunter Draft Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 12-win Challenge
       - Rare & Epic Challenge
-  - mechanics: Complete the Challenge and get the Night Witch for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Night Witch for Free
+    players: 
       - Seijuro
-  - status: published
+    status: published
 
   - name: Magic Archer Draft Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 12-win Challenge
       - Legendary Challenge
-  - mechanics: Complete the Challenge and get the Magic Archer for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Magic Archer for Free
+    players: 
       - Awko
       - Seijuro
-  - status: published
+    status: published
 
   - name: Rascals Draft Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 12-win Challenge
       - Common Challenge
-  - mechanics: Complete the Challenge and get the Rascals for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Rascals for Free
+    players: 
       - Awko
       - Seijuro
-  - status: published
+    status: published
 
   - name: Rage Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - Unique Game Mode
-  - mechanics: Complete the Challenge and get the Magic Archer for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Magic Archer for Free
+    players: 
       - kenjan
-  - status: published
+    status: published
 
   - name: Royal Recruits Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 12-win Challenge
       - Common Challenge
-  - mechanics: Complete the Challenge and get the Magic Archer for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Magic Archer for Free
+    players: 
       - Seijuro
-  - status: published
+    status: published
 
   - name: Goblin Giant Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 12-win Challenge
       - Epic Challenge
-  - mechanics: Complete the Challenge and get the Goblin Giant for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Goblin Giant for Free
+    players: 
       - Seijuro
-  - status: published
+    status: published
 
   - name: Goblin Cage Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 15-win Challenge
       - Rare Challenge
-  - mechanics: Complete the Challenge and get the Goblin Cage Emote for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Goblin Cage Emote for Free
+    players: 
       - Seijuro
-  - status: published
+    status: published
 
   - name: Elixir Golem Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 15-win Challenge
       - Rare Challenge
-  - mechanics: Complete the Challenge and get the Elixir Golem Emote for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Elixir Golem Emote for Free
+    players: 
       - Seijuro
-  - status: published
+    status: published
 
   - name: Modern Royale
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 10-win Challenge
-  - mechanics: Complete the Challenge and get the Royal Giant Legendary Emote for Free
-  - players: 
+    mechanics: Complete the Challenge and get the Royal Giant Legendary Emote for Free
+    players: 
       - Seijuro
-  - status: published
+    status: published
 
   - name: CRL 2v2 Challenge
-  - description: Description not available
-  - category: 
+    description: Description not available
+    category: 
       - 15-win Challenge
-  - mechanics: Complete the Challenge and get all the rewards for Free
-  - players: 
-      - Awko + Seijuro
-  - status: published
+    mechanics: Complete the Challenge and get all the rewards for Free
+    players: 
+      - Awko
+      - Seijuro
+    status: published

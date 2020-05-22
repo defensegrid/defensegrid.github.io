@@ -24,7 +24,7 @@ brawl-events:
   status: draft
 
 - name: Mortar Madness
-  description: Ahoy me hearties! Tis time to see how ye measure up against Penny's Old Lobber! It would be a blunder to misuse to da Plunderbuss, so take heart to only use it to charge thy super and not kill ye mates, or ye be walking the plank! Mortarrrgh!
+  description: Ahoy me hearties! Tis time to see how ye measure up against Penny's Old Lobber! It would be a blunder to misuse da Plunderbuss, so take heart to only use it to charge thy super and not kill ye mates, or ye be walking the plank! Mortarrrgh!
   brawler: Penny
   map: Map for Throwers
   gamemode: Showdown

@@ -22,7 +22,7 @@ title: Hall of Fame
   <div class="row" id="page_filler">
       <div class="col s12">
           <p class="flow-text">
-              Epic Moments from Notable Players and Teams in our Clan<br>
+              Epic Moments of Remarkable Players and Teams from our Clan<br>
           </p>
       </div>
   </div>

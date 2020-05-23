@@ -55,18 +55,18 @@ brawl-events:
   gameplay: No one can kill except 8-Bit. Bos should take advantage of their Star Power for a wider vision. 8-Bit can use any skill to eliminate all Bo's. The last Bo and the last 8-Bit standing wins.
   status: published
 
-- name: Mr.Bat wants to Play!
+- name: Mr. Bat wants to Play!
   description: Somebody order a knuckle sandwich? These arcade machines are just slow to understand the retrospective of getting knocked back to the good ol 70's by a baseball bat! Which 8-Bit will make a Home Run this season? Or will they all be shutdown for good by a Bat that breaks bricks? 
   brawler: Bibi vs 8-Bit
   map: Map with bushes
   gamemode: Showdown
-  gameplay: Bibi uses Bat knockback to push 8-Bit's out. 8-Bit's use gadget to escape, can recharge Super from other 8-Bit's, can destroy the Super of other 8-Bit's. No can kill anyone.
+  gameplay: Bibi uses Bat knockback to push 8-Bit's out. 8-Bit's use gadget to escape, can recharge Super from other 8-Bit's, can destroy the Super of other 8-Bit's. No one can kill anyone.
   status: Published
 
 - name: Dual Duel
   description: Throwers are here to troll and they've taken a toll! The big guns won't be riding shotgun so expect some melee mayhem! You can expect they'll be watching this drama unfold while the throwers on the other hand bash out at enemy Throwers calling it democracy! 
   brawler: Heavyweight & Thrower
-  map: Open map
-  gamemode: Showdown
+  map: Map for Sharpshooters
+  gamemode: Duo Showdown
   gameplay: Only Heavyweights can kill Heavyweights and only Throwers can kill Throwers. If a Melee is killed the Thrower can be killed and vice versa. First duo to accumulate 10 Power Cubes wins the Showdown.
   status: Published

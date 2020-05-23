@@ -60,7 +60,7 @@ brawl-events:
   brawler: Bibi vs 8-Bit
   map: Map with bushes
   gamemode: Showdown
-  gameplay: Bibi uses Bat knockback to push 8-Bit's out. 8-Bit's use gadget to escape, can recharge Super from other 8-Bit's, can destroy the Super of other 8-Bit's. No one can kill anyone.
+  gameplay: Bibi uses Bat knockback to push 8-Bit's out. 8-Bit's use gadget to escape, can recharge Super from other 8-Bit's, can destroy the Super of other 8-Bit's. No one can kill anyone. Last 8-bit standing wins gets to Home Run!
   status: published
 
 - name: Raze to Ten
@@ -68,5 +68,5 @@ brawl-events:
   brawler: Melee & Thrower
   map: Map for Sharpshooters
   gamemode: Duo Showdown
-  gameplay: Only Heavyweights can kill Heavyweights and only Throwers can kill Throwers. If a Melee is killed the Thrower can be killed and vice versa. First duo to accumulate 10 Power Cubes wins the Showdown.
+  gameplay: Only Melees can kill Melees and only Throwers can kill Throwers. If a Melee is killed the Thrower can be killed and vice versa. First duo to accumulate 10 Power Cubes wins the Showdown.
   status: published

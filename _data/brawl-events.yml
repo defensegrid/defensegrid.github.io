@@ -7,6 +7,30 @@ brawl-events:
   gamemode: Official Brawl Stars Game Mode name
   status: Choose draft or published
 
+- name: Battered Bits
+  description: Somebody order a knuckle sandwich? These arcade machines are just slow to understand the retrospective of getting knocked back to the good ol 70's by a baseball bat! Which 8-Bit will make a Home Run this season? Or will they all be shutdown for good by a Bat that breaks bricks? 
+  brawler: Bibi vs. 8-Bit
+  map: Map for Sharpshooters
+  gamemode: Showdown
+  gameplay: Two Bibi's coordinate Bat knockbacks to push 8-Bit's out. 8-Bit's use gadget to escape, can recharge Super from other 8-Bit's, can destroy the Super of other 8-Bit's. No one can kill anyone directly. Last 8-bit standing gets to Home Run!
+  status: published
+
+- name: Raze to Ten
+  description: Throwers are here to troll and they've taken a toll! The big guns won't be riding shotgun so expect some melee mayhem! You can expect they'll be watching this drama unfold while the throwers on the other hand bash out at enemy Throwers calling it democracy! 
+  brawler: Melee & Thrower
+  map: Map for Throwers
+  gamemode: Duo Showdown
+  gameplay: Only Melees can kill Melees and only Throwers can kill Throwers. If a Melee is killed the Thrower can be killed and vice versa. First team to accumulate 10 Power Cubes and reach the center wins the Showdown.
+  status: published
+
+- name: Damsels and De-stress
+  description: These ladies have been practicing social distancing to the best of their abilities. However their problem is unlikely to be resolved due to the constraints of long distanced relationships. The fog will intervene in time to end this cold war.
+  brawler: Piper vs. Rosa
+  map: Circular Canyon
+  gamemode: Showdown
+  gameplay: At the center of the map, Rosa's create a 9 x 9 section of bushes by using their Grow Light Gadget about 9 times. Piper's can start attacking after 1 minute. Rosa's can kill Piper's if reachable from the created bushes. Piper's can destroy bushes outside the 9x9 size requirement.
+  status: published
+
 - name: Flipremo Fiesta
   description: The macho men have started to flex their muscle madness again yet in new fashion. Flip 'em like pancakes, the punches have decided to take breakfast instead of lunch. Who's hungry?
   brawler: El Primo
@@ -45,30 +69,6 @@ brawl-events:
   map: Map with Bushes
   gamemode: Showdown
   gameplay: No one can kill except for Nita's Bear. Nita's can charge their Super with each other but can only use their Super once. Primo's can charge their Super but can only use it for escape. However, they can also use Suplex Supplement Gadget to eliminate the Bears. The Primo's win if all Bears are eliminated. The Nita's win if all Primos are eliminated.
-  status: published
-
-- name: Battered Bits
-  description: Somebody order a knuckle sandwich? These arcade machines are just slow to understand the retrospective of getting knocked back to the good ol 70's by a baseball bat! Which 8-Bit will make a Home Run this season? Or will they all be shutdown for good by a Bat that breaks bricks? 
-  brawler: Bibi vs. 8-Bit
-  map: Map for Sharpshooters
-  gamemode: Showdown
-  gameplay: Two Bibi's coordinate Bat knockbacks to push 8-Bit's out. 8-Bit's use gadget to escape, can recharge Super from other 8-Bit's, can destroy the Super of other 8-Bit's. No one can kill anyone directly. Last 8-bit standing gets to Home Run!
-  status: published
-
-- name: Raze to Ten
-  description: Throwers are here to troll and they've taken a toll! The big guns won't be riding shotgun so expect some melee mayhem! You can expect they'll be watching this drama unfold while the throwers on the other hand bash out at enemy Throwers calling it democracy! 
-  brawler: Melee & Thrower
-  map: Map for Throwers
-  gamemode: Duo Showdown
-  gameplay: Only Melees can kill Melees and only Throwers can kill Throwers. If a Melee is killed the Thrower can be killed and vice versa. First duo to accumulate 10 Power Cubes wins the Showdown.
-  status: published
-
-- name: Damsels and De-stress
-  description: These ladies have been practicing social distancing to the best of their abilities. However their problem is unlikely to be resolved due to the constraints of long distanced relationships. The fog will intervene in time to end this cold war.
-  brawler: Piper vs. Rosa
-  map: Circular Canyon
-  gamemode: Showdown
-  gameplay: At the center of the map, Rosa's create a 9 x 9 section of bushes by using their Grow Light Gadget about 9 times. Piper's can start attacking after 1 minute. Rosa's can kill Piper's if reachable from the created bushes. Piper's can destroy bushes outside the 9x9 size requirement.
   status: published
 
 - name: Hidden Rites

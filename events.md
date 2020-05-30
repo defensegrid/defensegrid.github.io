@@ -36,6 +36,21 @@ title: Events
         </div>
     </div>
     <div class="row">
+        <div class="col s12 m6 l4" id="col-1">
+            <div class="card-search" hidden>
+                <div class="card-id">col-1</div>
+                <div class="event-name">Defense Grid League</div>
+                <div class="event-brawler">Defense Grid League</div>
+            </div>
+            <div class="card">
+                <a class="activator" href="https://docs.google.com/forms/d/e/1FAIpQLSdy3F5o5QMvvbnCoZDHwuU4hyNA4k_6q09Q64Hodi4EzXPY4w/viewform">
+                <div class="card-content">
+                    <span class="card-title grey-text text-darken-4 logo-text">Defense Grid League</span>
+                    <h6 class="logo-text">Ambition & Glory</h6>
+                </div>
+                </a>
+            </div>
+        </div>
     {% for event in site.data.brawl-events.brawl-events %}
         {% if event.name != "Template" and event.name != "template"%}
         {% if event.status == "published"%}
@@ -55,11 +70,13 @@ title: Events
                         {{event.gameplay}}
                     </p>
                     <span class="badge">{{event.map}}</span>
+                    <br>
                 </div>
                 <div class="card-content waves-effect waves-block waves-light no-space-top">
                   <p class="activator">
                     {{event.description}}<br><br>
                     <span class="badge">{{event.gamemode}}</span>
+                    <br>
                   </p>
                 </div>
             </div>

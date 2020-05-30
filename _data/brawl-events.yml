@@ -26,7 +26,7 @@ brawl-events:
 - name: Damsels and De-stress
   description: These ladies have been practicing social distancing to the best of their abilities. However their problem is unlikely to be resolved due to the constraints of long distanced relationships. The fog will intervene in time to end this cold war.
   brawler: Piper vs. Rosa
-  map: Circular Canyon
+  map: Safety Center
   gamemode: Showdown
   gameplay: At the center of the map, Rosa's create a 9 x 9 section of bushes by using their Grow Light Gadget about 9 times. Piper's can start attacking after 1 minute. Rosa's can kill Piper's if reachable from the created bushes. Piper's can destroy bushes outside the 9x9 size requirement.
   status: published
@@ -68,7 +68,7 @@ brawl-events:
   brawler: Nita vs. El Primo
   map: Map with Bushes
   gamemode: Showdown
-  gameplay: No one can kill except for Nita's Bear. Nita's can charge their Super with each other but can only use their Super once. Primo's can charge their Super but can only use it for escape. However, they can also use Suplex Supplement Gadget to eliminate the Bears. The Primo's win if all Bears are eliminated. The Nita's win if all Primos are eliminated.
+  gameplay: No one can kill except for Nita's Bear. Nita's can charge their Super but can only use it once. Primo's can charge their Super but can only use it for escape. Suplex Supplement Gadget can be used to eliminate the Bears. The Primo's win if all Bears are eliminated. The Nita's win if all Primos are eliminated.
   status: published
 
 - name: Hidden Rites

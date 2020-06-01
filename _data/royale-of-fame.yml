@@ -147,7 +147,7 @@ royale-of-fame:
     category: 
       - 12-win Challenge
       - Rare & Epic Challenge
-    mechanics: Complete the Challenge and get the Night Witch for Free
+    mechanics: Complete the Challenge and get Zappies and Hunter for Free
     players: 
       - Seijuro
     status: published
@@ -178,7 +178,7 @@ royale-of-fame:
     description: Description not available
     category: 
       - Unique Game Mode
-    mechanics: Complete the Challenge and get the Magic Archer for Free
+    mechanics: Complete the Challenge and get the Rage Spell for Free
     players: 
       - kenjan
     status: published
@@ -188,7 +188,7 @@ royale-of-fame:
     category: 
       - 12-win Challenge
       - Common Challenge
-    mechanics: Complete the Challenge and get the Magic Archer for Free
+    mechanics: Complete the Challenge and get the Royal Recruits for Free
     players: 
       - Seijuro
     status: published

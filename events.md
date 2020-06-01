@@ -42,7 +42,7 @@ title: Events
                 <div class="event-name">Defense Grid League</div>
                 <div class="event-brawler">Defense Grid League</div>
             </div>
-            <div class="card">
+            <div class="card red-shadow">
                 <a class="activator" href="https://docs.google.com/forms/d/e/1FAIpQLSdy3F5o5QMvvbnCoZDHwuU4hyNA4k_6q09Q64Hodi4EzXPY4w/viewform">
                 <div class="card-content">
                     <span class="card-title grey-text text-darken-4 logo-text">Defense Grid League</span>

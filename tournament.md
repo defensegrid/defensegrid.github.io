@@ -56,7 +56,7 @@ title: Defense Grid League
                     <div class="row">
                     {% for restriction in submode.restrictions %}
                     <div class="col s4 m3 l2 center-align">
-                        <img class="responsive-img" style="max-width:100px" src="/assets/img/restrictions/{{restriction}}.png">
+                        <img class="responsive-img" style="max-width:90px" src="/assets/img/restrictions/{{restriction}}.png">
                     </div>
                     {% endfor %}
                     </div>

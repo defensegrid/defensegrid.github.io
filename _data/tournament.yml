@@ -8,9 +8,134 @@ teams:
   - name: Team 4
     captain: Captain 4
 modes:
-  - Gem Grab
-  - Bounty
-  - Heist
-  - Siege
-  - Brawl Ball
-  - Hot Zone
+  - name: Gem Grab
+    submodes:
+      - name: Minecart Madness
+        restrictions:
+          - Gene
+          - Penny
+          - Poco
+          - Tick
+          - Bo
+          - Sprout
+          - Sandy
+          - Jessie
+          - Rosa
+          - Jacky
+      - name: Bouncing Diner
+        restrictions:
+          - Piper
+          - Sprout
+          - Bo
+          - Brock
+          - Gene
+          - Pam
+          - Penny
+          - Jessie
+          - Poco
+          - Mr.P
+  - name: Bounty
+    submodes:
+      - name: Layer Cake
+        restrictions:
+          - Tick
+          - Piper
+          - Brock
+          - Dynamike
+          - Penny
+          - Barley
+          - Bo
+          - Sprout
+          - Jessie
+          - Mr.P
+      - name: Deep Danger
+        restrictions:
+          - Tick
+          - Shelly
+          - Bo
+          - Jacky
+          - Brock
+          - Penny
+          - Jessie
+          - Poco
+          - Rosa
+          - Sprout
+  - name: Heist
+    submodes:
+      - name: Pit Stop
+        restrictions:
+          - Bull
+          - Dynamike
+          - Nita
+          - Bibi
+          - Barley
+          - Brock
+          - Rico
+          - Daryll
+          - Spike
+          - Max
+      - name: Bandit Cove
+        restrictions:
+          - Bull
+          - Nita
+          - Colt
+          - Jessie
+          - Brock
+          - Bibi
+          - Daryll
+          - Spike
+          - Emz
+          - Barley
+  - name: Siege
+    submodes:
+      - name: Some Assembly Required
+        restrictions:
+          - Bibi
+          - Barley
+          - Penny
+          - Rosa
+          - Tick
+          - Jacky
+          - Jessie
+          - Gene
+          - Daryll
+          - Sandy
+      - name: Fenced In
+        restrictions:
+          - Penny
+          - Brock
+          - Sprout
+          - Tick
+          - Jessie
+          - Bibi
+          - Barley
+          - Gene
+          - Emz
+          - Gale
+  - name: Brawl Ball
+    submodes:
+      - name: Triple Dribble
+        restrictions:
+          - Nita
+          - Sandy
+          - Jacky
+          - Gene
+          - Frank
+          - Gale
+          - Rosa
+          - Mr.P
+          - Carl
+          - Poco
+      - name: Shoulder Bash
+        restrictions:
+          - Jacky
+          - Frank
+          - Rosa
+          - Sandy
+          - Emz
+          - Jessie
+          - Poco
+          - El-Primo
+          - Sprout
+          - Bea
+  # - name: Hot Zone

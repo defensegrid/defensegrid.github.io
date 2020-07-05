@@ -15,7 +15,7 @@ title: Defense Grid League
             <br>
         </div>
         <div class="col s12 m12 l12">
-            <h5>Teams</h5>
+            <h4>Teams</h4>
         </div>
         {% for team in site.data.tournament.teams %}
             <div class="col s6 m3 l2" id="col1-{{forloop.index}}">
@@ -30,7 +30,7 @@ title: Defense Grid League
         <div class="col s12 m12 l12">
             <br>
             <div class="divider"></div>
-            <h5>Mechanics</h5>
+            <h4>Mechanics</h4>
             <h6><b>1</b>. Elect Captains</h6><br>
             <h6><b>2</b>. Captains will build a 4-man team that should not exceed the recommended grouped elo</h6><br>
             <h6><b>3</b>. For each battle, Teams will be randomly assigned against another team</h6><br>
@@ -43,16 +43,29 @@ title: Defense Grid League
         <div class="col s12 m12 l12">
             <br>
             <div class="divider"></div>
-            <h5>Game Modes</h5>
+            <h4>Game Modes</h4>
         </div>
         {% for mode in site.data.tournament.modes %}
-            <div class="col s6 m3 l2" id="col2-{{forloop.index}}">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title grey-text text-darken-4 logo-text center-align">{{mode}}</span>
+        <div class="col s12 m12 l12" id="col2-{{forloop.index}}">
+            <h5><b>{{mode.name}}</b></h5>
+            {% for submode in mode.submodes %}
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title black-text text-darken-4 logo-text center-align">{{submode.name}}</span>
+                    <br>
+                    <div class="row">
+                    {% for restriction in submode.restrictions %}
+                    <div class="col s4 m3 l2 center-align">
+                        <img class="responsive-img" style="max-width:100px" src="/assets/img/restrictions/{{restriction}}.png">
+                    </div>
+                    {% endfor %}
                     </div>
                 </div>
             </div>
+            <br>
+            {% endfor %}
+        </div>
+        <br>
         {% endfor %}
     </div>
     <br><br>

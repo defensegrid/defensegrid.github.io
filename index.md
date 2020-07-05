@@ -8,27 +8,35 @@ title: Defense Grid
   <div class="container">
   <div class="col s12 m12 l12">
     <div id="home" class="section scrollspy">
-      <h3 class="logo-text">Defense Grid</h3>
-      <h3 class="logo-text flow-text">Conquer. Expand. Defend.</h3>
-      <div class="divider"></div>
-      <h5>Welcome to our clan!</h5><br>
-      <h6>We do not require anyone of the impossible.</h6>
-      <h6>You can improve, contribute, and have fun in your own way.</h6>      
+      <div class="col s12 m12 l12 center-align">
+            <img class="header-img responsive-img" id="logo" src="/assets/img/logo.png"/>
+            <h3 class="logo-text">Defense Grid</h3>
+            <h5 class="logo-text">Conquer. Expand. Defend.</h5>
+            <br>
+            <div class="divider red-shadow"></div>
+            <br>
+        </div>
     </div>
     <div id="rules" class="section scrollspy">
       <h4>Rules</h4>
-      <div class="divider"></div>
       <div class="row">
+        <div class="col s12">
+          <h6>We do not require anyone of the impossible.</h6>
+          <h6>You can improve, contribute, and have fun in your own way.</h6>
+          <br>
+        </div>
         <div class="col s12 m6 l4">
           <h5>What you can't do?</h5>
           <h6>1. Disruption of activities</h6>
           <h6>2. Harrassment of members</h6>
-          <h6>3. Dishonesty of any form</h6>
+          <h6>3. Dishonesty of any form</h6><br>
         </div>
         <div class="col s12 m6 l4">
           <h5>What you can do?</h5>
-          <h6>Anything not mentioned earlier.</h6><br>
-          <h6>To be specific:</h6>
+          <h6>Anything not mentioned earlier</h6><br>
+        </div>
+        <div class="col s12 m6 l4">
+          <h5>Specifically:</h5>
           <h6>1. Just a Humble Member</h6>
           <h6>2. Your Very Skilled Player</h6>
           <h6>3. The Clever Teacher</h6>
@@ -38,8 +46,8 @@ title: Defense Grid
       </div>
     </div>
     <div id="nominations" class="section scrollspy">
-      <h4>Promotions</h4>
       <div class="divider"></div>
+      <h4>Promotions</h4>
       <h5>Democratic</h5>
       <h6>Promotion through Nominations</h6>
       <ul class="collapsible">
@@ -50,11 +58,11 @@ title: Defense Grid
               <b>Member</b><br>
               Parties or Interacts with the clan<br><br>
               <b>Elder</b><br>
-              At least 1 Elder or At least 3 Members<br><br>
+              Nominated by at least 1 Elder or at least 3 Members<br><br>
               <b>Co-leader</b><br>
-              At least 1 Co-leader or At least 3 Elders<br><br>
+              Nominated by at least 1 Co-leader or at least 3 Elders<br><br>
               <b>Leader</b><br>
-              Everyone<br>
+              Nominated by at least 51% of the clan<br>
             </p>
           </div>
         </li>
@@ -65,11 +73,11 @@ title: Defense Grid
               <b>Member</b><br>
               Parties or Interacts with the club<br><br>
               <b>Senior</b><br>
-              At least 2 Seniors or At least 6 Members<br><br>
+              Nominated by at least 2 Seniors or at least 6 Members<br><br>
               <b>Vice President</b><br>
-              At least 2 Vice Presidents or At least 6 Seniors<br><br>
+              Nominated by at least 2 Vice Presidents or at least 6 Seniors<br><br>
               <b>President</b><br>
-              Everyone<br>
+              Nominated by at least 51% of the clan<br>
             </p>
           </div>
         </li>
@@ -89,7 +97,7 @@ title: Defense Grid
               <b>Co-leader</b><br>
               250 Donations or At least 100 War Wins<br><br>
               <b>Ace</b><br>
-              Win the Seasonal Clan Tournament<br><br>
+              Win the <a href="{{site.url}}/dgl">Defense Grid League</a><br><br>
             </p>
           </div>
         </li>
@@ -98,21 +106,21 @@ title: Defense Grid
           <div class="collapsible-body">
             <p>
               <b>Member</b><br>
-              Club Trophy Requirement<br><br>
+              Should meet the Club Trophy Requirement<br><br>
               <b>Senior</b><br>
-              2k Trophies above the Club Trophy Requirement<br><br>
+              Should be 2k Trophies above the Club Trophy Requirement<br><br>
               <b>Vice President</b><br>
-              Should have higher trophy than the lowest Vice President<br><br>
+              Should place higher than the lowest Vice President in trophies<br><br>
               <b>Ace</b><br>
-              Win the Seasonal Showdown<br>
+              Win the <a href="{{site.url}}/dgl">Defense Grid League</a><br>
             </p>
           </div>
         </li>
       </ul>
     </div>
     <div id="chat" class="section scrollspy">
-      <h4>Chat Us</h4>
       <div class="divider"></div>
+      <h4>Chat Us</h4>
       <br>
       <div class="collection">
         <a href="https://discordapp.com/invite/DGnjSqv" class="collection-item">Discord</a>

@@ -7,20 +7,20 @@ brawl-events:
   gamemode: Official Brawl Stars Game Mode name
   status: Choose draft or published
 
-- name: Battered Bits
-  description: Somebody order a knuckle sandwich? These arcade machines are just slow to understand the retrospective of getting knocked back to the good ol 70's by a baseball bat! Which 8-Bit will make a Home Run this season? Or will they all be shutdown for good by a Bat that breaks bricks? 
-  brawler: Bibi vs. 8-Bit
-  map: Map for Sharpshooters
-  gamemode: Showdown
-  gameplay: Two Bibi's coordinate Bat knockbacks to push 8-Bit's out. 8-Bit's use gadget to escape, can recharge Super from other 8-Bit's, can destroy the Super of other 8-Bit's. No one can kill anyone directly. Last 8-bit standing gets to Home Run!
-  status: published
-
 - name: Raze to Ten
   description: Throwers are here to troll and they've taken a toll! The big guns won't be riding shotgun so expect some melee mayhem! You can expect they'll be watching this drama unfold while the throwers on the other hand bash out at enemy Throwers calling it democracy! 
   brawler: Melee & Thrower
   map: Map for Throwers
   gamemode: Duo Showdown
   gameplay: Only Melees can kill Melees and only Throwers can kill Throwers. If a Melee is killed the Thrower can be killed and vice versa. First team to accumulate 10 Power Cubes and reach the center wins the Showdown.
+  status: published
+
+- name: Battered Bits
+  description: Somebody order a knuckle sandwich? These arcade machines are just slow to understand the retrospective of getting knocked back to the good ol 70's by a baseball bat! Which 8-Bit will make a Home Run this season? Or will they all be shutdown for good by a Bat that breaks bricks? 
+  brawler: Bibi vs. 8-Bit
+  map: Map for Sharpshooters
+  gamemode: Showdown
+  gameplay: Two Bibi's coordinate Bat knockbacks to push 8-Bit's out. 8-Bit's use gadget to escape, can recharge Super from other 8-Bit's, can destroy the Super of other 8-Bit's. No one can kill anyone directly. Last 8-bit standing gets to Home Run!
   status: published
 
 - name: Damsels and De-stress

@@ -22,8 +22,7 @@ title: Events
     <div class="row" id="page_filler">
         <div class="col s12">
             <p class="flow-text">
-                Events are a vital part of our clan.<br><br>
-                Go through our list of events and see if something fits you. If there aren't any, you can always chat us.<br>
+                Go through our list of unique events and see if something fits you. If there aren't any, you can always chat us<br>
             </p>
         </div>
     </div>
@@ -43,7 +42,7 @@ title: Events
                 <div class="event-brawler">Defense Grid League</div>
             </div>
             <div class="card red-shadow">
-                <a class="activator" href="https://docs.google.com/forms/d/e/1FAIpQLSdy3F5o5QMvvbnCoZDHwuU4hyNA4k_6q09Q64Hodi4EzXPY4w/viewform">
+                <a class="activator" href="{{site.url}}/dgl">
                 <div class="card-content">
                     <span class="card-title grey-text text-darken-4 logo-text">Defense Grid League</span>
                     <h6 class="logo-text">Ambition & Glory</h6>

@@ -51,12 +51,12 @@ title: Defense Grid League
             {% for submode in mode.submodes %}
             <div class="card">
                 <div class="card-content">
-                    <span class="card-title black-text text-darken-4 logo-text center-align">{{submode.name}}</span>
+                    <span class="card-title black-text text-darken-4 logo-text">{{submode.name}}</span>
                     <br>
                     <div class="row">
                     {% for restriction in submode.restrictions %}
-                    <div class="col s4 m3 l2 center-align">
-                        <img class="responsive-img" style="max-width:90px" src="/assets/img/restrictions/{{restriction}}.png">
+                    <div class="col s3 m2 l1">
+                        <img class="responsive-img" style="max-width:70px" src="/assets/img/restrictions/{{restriction}}.png">
                     </div>
                     {% endfor %}
                     </div>

@@ -32,10 +32,12 @@ title: Defense Grid League
             <div class="divider"></div>
             <h4>Mechanics</h4>
             <h6><b>1</b>. Elect Captains</h6><br>
-            <h6><b>2</b>. Captains will build a 4-man team that should not exceed the recommended grouped elo</h6><br>
+            <h6><b>2</b>. Captains will build a team with 3-5 members that should not exceed the recommended team elo</h6>
+            &emsp;<h7><b>a</b>. Check your team's elo in the <u><a href="{{site.url}}/team-creator">Team Creator</a></u>.</h7><br>
+            &emsp;<h7><b>b</b>. If successful, please take a screenshot and send it on <u><a href="{{site.url}}/#chat">Discord</a></u> in the #submissions channel.</h7><br><br>
             <h6><b>3</b>. For each battle, Teams will be randomly assigned against another team</h6><br>
-            <h6><b>4</b>. Game Modes are also randomly chosen for every battle and will have a pool of meta brawlers</h6>
-            &emsp;<h7><b>a</b>. <i>Draft</i> &ndash; Both teams choose 2-3 meta brawlers from the pool. The 3rd brawler can be any brawler.</h7><br>
+            <h6><b>4</b>. Game Modes are also randomly chosen for every battle and will have a pool meta brawlers.</h6>
+            &emsp;<h7><b>a</b>. <i>Draft</i> &ndash; Both teams choose 2-3 meta brawlers from the pool below. The 3rd brawler can be any brawler.</h7><br>
             &emsp;<h7><b>b</b>. <i>Mirror</i> &ndash; Both teams agree to pick the same set of brawlers from the pool</h7><br><br>
             <h6><b>5</b>. Both teams record the results of the battle and the winner shall submit the result on Discord</h6><br>
             <h6><b>6</b>. Hosts will verify the results by checking the brawlers used and the agreements of both teams</h6><br>

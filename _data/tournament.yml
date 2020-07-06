@@ -1,12 +1,16 @@
 teams:
   - name: Team 1
-    captain: Captain 1
+    captain: remi
   - name: Team 2
-    captain: Captain 2
+    captain: BopperDopper
   - name: Team 3
-    captain: Captain 3
+    captain: CryAlphaST
   - name: Team 4
-    captain: Captain 4
+    captain: ButterMilk
+  - name: Team 5
+    captain: Ichiro
+  - name: Team 6
+    captain: Seijuro
 modes:
   - name: Gem Grab
     submodes:

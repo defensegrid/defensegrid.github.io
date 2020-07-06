@@ -25,7 +25,7 @@ title: Team Creator
             <p class="flow-text">
                 We value fairness in every competition. That is why we ensure balanced teams by calculating it from relevant views<br>
                 <br>
-                Please enter the tag of each member of your team separated by a comma<i>(,)</i> in the input field above, so we can start the calculation<br>
+                Please enter the tag of each member of your team separated by a comma<i>(,)</i> in the input field above so we can start the calculation<br>
                 &emsp;<small>e.g.&ensp;#TAG_1, #TAG_2, #TAG_3 </small><br>
                 <br>
                 <i>Tags should be located below your profile name</i>

@@ -75,6 +75,7 @@ title: Team Creator
             $("#result_rework").hide();
             $('#result_success').hide();
             $("#page_filler").hide();
+            return;
         }
 
         if(calculation == TOO_OP)
@@ -84,6 +85,7 @@ title: Team Creator
             $("#result_error").hide();
             $('#result_success').hide();
             $("#page_filler").hide();
+            return;
         }
         
         if(calculation == REWORK)
@@ -93,6 +95,7 @@ title: Team Creator
             $("#result_op").hide();
             $('#result_success').hide();
             $("#page_filler").hide();
+            return;
         }
 
         if(calculation == SUCCESS)

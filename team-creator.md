@@ -28,7 +28,7 @@ title: Team Creator
                 Please enter the tag of each member of your team separated by a comma<i>(,)</i> in the input field above so we can start the calculation<br>
                 &emsp;<small>e.g.&ensp;#TAG_1, #TAG_2, #TAG_3 </small><br>
                 <br>
-                <i>Tags should be located below your profile name</i>
+                <i>Tags are located below your profile name</i>
             </p>
         </div>
     </div>
@@ -53,8 +53,7 @@ title: Team Creator
     </div>
     <div class="row" id="result_error" hidden>
         <div class="col s12">
-            <h5>We have encountered an error!</h5>
-            <h5>Please check your input and try again.</h5><br>
+            <h5 id="error"></h5><br>
         </div>
     </div>
 </div>
@@ -71,6 +70,7 @@ title: Team Creator
         if(calculation == ERROR)
         {
             $("#result_error").show();
+            $("#error").text(ERROR_STRING);
             $("#result_op").hide();
             $("#result_rework").hide();
             $('#result_success').hide();

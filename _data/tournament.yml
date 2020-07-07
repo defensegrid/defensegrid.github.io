@@ -1,16 +1,22 @@
 teams:
   - name: Team 1
     captain: remi
+    ready: no
   - name: Team 2
     captain: BopperDopper
+    ready: no
   - name: Team 3
     captain: CryAlphaST
-  - name: Team 4
+    ready: no
+  - name: Tilt Squad
     captain: ButterMilk
+    ready: yes
   - name: Team 5
     captain: Ichiro
+    ready: no
   - name: Team 6
     captain: Seijuro
+    ready: no
 modes:
   - name: Gem Grab
     submodes:

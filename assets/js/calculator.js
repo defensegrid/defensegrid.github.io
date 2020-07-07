@@ -12,6 +12,7 @@ var TOO_OP = 2;
 var REWORK = 0;
 var SUCCESS = 1;
 var ERROR = 100;
+var ERROR_STRING = "There seems to be a problem... Please check your input and try again";
 
 function processData(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
@@ -33,6 +34,7 @@ function calculateTeamElo(team) {
     total_elo = 0;
     if (members.length < 3)
     {
+        ERROR_STRING = "Please recruit more members. Your current team size is " + members.length;
         return ERROR;
     }
 
@@ -42,6 +44,7 @@ function calculateTeamElo(team) {
         
         if(result == undefined)
         {
+            ERROR_STRING = "Please check for mistyped some characters. We can't find the player with tag: " + parsed;
             return ERROR;
         }
 

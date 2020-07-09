@@ -18,7 +18,7 @@ title: Defense Grid League
             <h4>Teams</h4>
         </div>
         {% for team in site.data.tournament.teams %}
-            <div class="col s6 m3 l2" id="col1-{{forloop.index}}">
+            <div class="col s12 m4 l3 center-align" id="col1-{{forloop.index}}">
             {% if team.ready == true or team.ready == 'yes' %}
                 <div class="card red-shadow">
             {% else %}
@@ -62,7 +62,7 @@ title: Defense Grid League
                     <br>
                     <div class="row">
                     {% for restriction in submode.restrictions %}
-                    <div class="col s3 m2 l1">
+                    <div class="col s4 m2 l1">
                         <img class="responsive-img" style="max-width:70px" src="/assets/img/restrictions/{{restriction}}.png">
                     </div>
                     {% endfor %}

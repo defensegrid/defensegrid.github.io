@@ -1,22 +1,16 @@
 teams:
-  - name: Team 1
-    captain: remi
-    ready: no
-  - name: Team 2
-    captain: BopperDopper
-    ready: no
   - name: Team 3
     captain: CryAlphaST
-    ready: no
+    ready: yes
   - name: Tilt Squad
     captain: ButterMilk
     ready: yes
-  - name: Team 5
+  - name: Blaze Walkers
     captain: Ichiro
-    ready: no
-  - name: Team 6
+    ready: yes
+  - name: Potentia Imperium
     captain: Seijuro
-    ready: no
+    ready: yes
 modes:
   - name: Gem Grab
     submodes:

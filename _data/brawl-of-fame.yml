@@ -33,6 +33,7 @@ brawl-of-fame:
     players:
       - Shichi
       - AriKingKing
+      - CryAlphaST
     status: published
 
   - name: Championship Challenge
@@ -43,4 +44,14 @@ brawl-of-fame:
     players:
       - DEN-O
       - lid3R(^_^*)
+      - CryAlphaST
+    status: published
+
+  - name: Regional Qualifiers I
+    description: Description not available
+    category:
+      - Championship
+    mechanics: Reach Round of 256 of the Regional Qualifiers of Brawl Stars Championship
+    players:
+      - CryAlphaST
     status: published

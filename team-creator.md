@@ -28,7 +28,9 @@ title: Team Creator
                 Please enter the tag of each member of your team separated by a comma<i>(,)</i> in the input field above so we can start the calculation<br>
                 &emsp;<small>e.g.&ensp;#TAG_1, #TAG_2, #TAG_3 </small><br>
                 <br>
-                <i>Tags are located below your profile name</i>
+                <i>Tags are located below the profile name</i>
+                <br>
+                <br>
             </p>
         </div>
     </div>
@@ -42,18 +44,18 @@ title: Team Creator
     <div class="row" id="result_op" hidden>
         <div class="col s12">
             <h4>Your team is TOO OP!</h4>
-            <h5>Consider teaming up with other participants.</h5><br>
+            <h5>Consider teaming up with other participants.</h5><br><br>
         </div>
     </div>
     <div class="row" id="result_rework" hidden>
         <div class="col s12">
             <h5>Your team needs more experienced players.</h5>
-            <h5>Consider teaming up with other participants.</h5><br>
+            <h5>Consider teaming up with other participants.</h5><br><br>
         </div>
     </div>
     <div class="row" id="result_error" hidden>
         <div class="col s12">
-            <h5 id="error"></h5><br>
+            <h5 id="error"></h5><br><br>
         </div>
     </div>
 </div>

@@ -79,7 +79,7 @@ title: Defense Grid League
             <br>
             <h5>Battle Mechanics</h5>
             <h6><b>1</b>. For each round, teams will do a best of three match in one map</h6><br>
-            <h6><b>2</b>. Matchups and Game Modes will be cycled</h6>
+            <h6><b>2</b>. Matchups and Game Modes are <i>cycled per round</i></h6>
             <h7><b>Cycle 1 </b></h7><br>
             &emsp;<h7><b>a</b>. Alpha Gang <i>vs.</i> Tilt Squad</h7><br>
             &emsp;<h7><b>b</b>. Blaze Walkers <i>vs.</i> Potentia Imperium</h7><br><br>
@@ -95,13 +95,13 @@ title: Defense Grid League
             {% endfor %}
             <br>
             <h6><b>3</b>. For each map, a team can choose from the list meta brawlers</h6><br>
-            <h6><b>4</b>. Pre-Finals (5 Rounds)</h6>
+            <h6><b>4</b>. Collection Stage (5 Rounds)</h6>
             &emsp;<h7><b>a</b>. <i>Match Winner</i> &ndash; The Winner gets 7 points while the Loser gets 2 points. For Draws, both teams gets 5 points</h7><br>
             &emsp;<h7><b>b</b>. <i>Meta Bonus</i> &ndash; A complete meta composition gives your team 3 more points; One brawler less is 1 point less</h7><br>
             &emsp;<h7><b>c</b>. <i>Non-Meta Bonus</i> &ndash; Not losing and having at least 1 non-meta brawler gives your team 5 more points</h7><br>
             &emsp;<h7><b>d</b>. <i>Round Score</i> &ndash; The highest score achieved in the whole round will be the one recorded. Max points is 10 points</h7><br><br>
-            <h6><b>5</b>. Finals</h6>
-            &emsp;<h7><b>a</b>. Initial placements will be ordered based on the sum of points gathered by a team from each round in the pre-finals</h7><br>
+            <h6><b>5</b>. Final Stage</h6>
+            &emsp;<h7><b>a</b>. Initial placements will be ordered based on the sum of points gathered by a team from each round in the collection stage</h7><br>
             &emsp;<h7><b>b</b>. A winning team can <i>steal the placement</i> from a matched team, if they are not 20 points ahead. Additionally, the winner steals the betted number points (3-10) from the loser, after deciding on their new placement</h7><br>
             &emsp;<h7><b>c</b>. A battle can only take place if both teams agreed on a bet. However, a team can't turn down a battle with the least bet (3), if they are not 10 points ahead</h7><br>
             &emsp;<h7><b>d</b>. <i>Finals will end after 2 rounds of no battle</i>. Matchup and Game Mode order will continue from the last cycle</h7><br><br>

@@ -103,8 +103,8 @@ title: Defense Grid League
             <h6><b>5</b>. Final Stage</h6>
             &emsp;<h7><b>a</b>. Initial placements will be ordered based on the sum of points gathered by a team from each round in the collection stage</h7><br>
             &emsp;<h7><b>b</b>. A winning team can <i>steal the placement</i> from a matched team, if they are not 20 points ahead. Additionally, the winner steals the betted number points (3-10) from the loser, after deciding on their new placement</h7><br>
-            &emsp;<h7><b>c</b>. A battle can only take place if both teams agreed on a bet. However, a team can't turn down a battle with the least bet (3), if they are not 10 points ahead</h7><br>
-            &emsp;<h7><b>d</b>. <i>Finals will end after 2 rounds of no battle</i>. Matchup and Game Mode order will continue from the last cycle</h7><br><br>
+            &emsp;<h7><b>c</b>. A battle can only take place if both teams agreed on a bet. Moreover, a team can't turn down a battle with the least bet (3), if they are not 10 points ahead</h7><br>
+            &emsp;<h7><b>d</b>. <i>Finals can only end if no battles happened for 2 consecutive rounds</i>. Matchup and Game Mode order will continue from the last cycle</h7><br><br>
             <h6><b>6</b>. Unusual Scenarios</h6>
             &emsp;<h7><b>a</b>. <i>Sudden Game Interruption</i> &ndash; An interrupted match can be repeated if the both teams agree</h7><br>
             &emsp;<h7><b>b</b>. <i>No-Show</i> &ndash; A team that does not show up and has 2 or more strikes will lose by default</h7><br>

@@ -40,26 +40,27 @@ title: Defense Grid League
             &emsp;<h7><b>a</b>. Check your team's elo in the <u><a href="{{site.url}}/team-creator">Team Creator</a></u></h7><br>
             &emsp;<h7><b>b</b>. If successful, please take a screenshot and send it on <u><a href="{{site.url}}/#chat">Discord</a></u> in the #submissions channel</h7><br>
             &emsp;<h7><b>c</b>. Once everything is successful, your team name will be updated in this page</h7><br><br>
-            <h6><b>3</b>. Game Modes are chosen for every battle and will have a pool meta brawlers. More details below.</h6><br>
+            <h6><b>3</b>. Game Modes are chosen for every battle and will have restrictions. More details below.</h6><br>
             <h6><b>4</b>. Both teams record the results of the battle and the winner shall submit the result on Discord</h6><br>
             <h6><b>5</b>. Hosts will verify the results by checking the brawlers used and the agreements of both teams</h6><br>
             <h6><b>6</b>. Hall of Fame</h6>
             &emsp;<h7><b>a</b>. Champion Team</h7><br>
             &emsp;<h7><b>b</b>. Best Captain</h7><br>
             &emsp;<h7><b>c</b>. Most Valuable Player</h7><br>
+            &emsp;<h7><b>d</b>. Unrivaled Strategist</h7><br>
         </div>
         <div class="col s12 m12 l12">
             <br>
             <div class="divider"></div>
             <h4>Battle</h4>
             <h5>Score Board</h5>
-            <table class="responsive-table centered highlight">
+            <table class="responsive-table centered striped">
                 <thead>
                     <tr>
-                        <th></th>
+                        <td></td>
                         {% for team in site.data.tournament.teams %}
                         {% if team.ready == true or team.ready == 'yes' %}
-                        <th>{{team.name}}</th>
+                        <th><i><sup>{{team.placement}}</sup></i> {{team.name}}</th>
                         {% endif %}
                         {% endfor %}
                     </tr>
@@ -77,22 +78,37 @@ title: Defense Grid League
             </table>
             <br>
             <h5>Battle Mechanics</h5>
-            <h6><b>1</b>. For each game mode, teams will do a round-robin match that will last for 1 week</h6>
-            &emsp;<h7><b>a</b>. Team 1 vs Team 2</h7><br>
-            &emsp;<h7><b>b</b>. Team 3 vs Team 4</h7><br>
-            &emsp;<h7><b>c</b>. Team 1 vs Team 3</h7><br>
-            &emsp;<h7><b>d</b>. Team 2 vs Team 4</h7><br>
-            &emsp;<h7><b>e</b>. Team 1 vs Team 4</h7><br>
-            &emsp;<h7><b>f</b>. Team 2 vs Team 3</h7><br><br>
-            <h6><b>2</b>. Captains will agree on which map to use on the chosen game mode at least 1 day before the battle</h6><br>
-            <h6><b>3</b>. For each map, a team can choose from the list meta brawlers</h6>
-            &emsp;<h7><b>a</b>. <i>Draft</i> &ndash; Both teams choose 1-3 meta brawlers from the pool below. The 2nd and 3rd brawler can be any brawler</h7><br>
-            &emsp;<h7><b>b</b>. <i>Mirror</i> &ndash; Both teams agree to pick the same set of brawlers from the pool</h7><br><br>
-            <h6><b>4</b>. Pointing System</h6>
-            &emsp;<h7><b>a</b>. <i>Match Winner</i> &ndash; The Winner gets 5 points while the Loser gets 3 points</h7><br>
-            &emsp;<h7><b>b</b>. <i>Meta Bonus</i> &ndash; A complete meta composition gets you 5 points; One Brawler less is 1 point less</h7><br>
-            &emsp;<h7><b>c</b>. <i>Game Mode Score</i> &ndash; The highest score achieved in the round-robin will be the one recorded in the Score Board</h7><br><br>
-            <h6><b>5</b>. Hosts will verify the results by checking the brawlers used and the agreements of both teams</h6><br>
+            <h6><b>1</b>. For each round, teams will do a best of three match in one map</h6><br>
+            <h6><b>2</b>. Matchups and Game Modes will be cycled</h6>
+            <h7><b>Cycle 1 </b></h7><br>
+            &emsp;<h7><b>a</b>. Alpha Gang <i>vs.</i> Tilt Squad</h7><br>
+            &emsp;<h7><b>b</b>. Blaze Walkers <i>vs.</i> Potentia Imperium</h7><br><br>
+            <h7><b>Cycle 2</b></h7><br>
+            &emsp;<h7><b>a</b>. Alpha Gang <i>vs.</i> Blaze Walkers</h7><br>
+            &emsp;<h7><b>b</b>. Tilt Squad <i>vs.</i> Potentia Imperium</h7><br><br>
+            <h7><b>Cycle 3</b></h7><br>
+            &emsp;<h7><b>a</b>. Alpha Gang <i>vs.</i> Potentia Imperium</h7><br>
+            &emsp;<h7><b>b</b>. Tilt Squad <i>vs.</i> Blaze Walkers</h7><br><br>
+            <h6><b></b> Captains will agree on which map to use in the current game mode at least 2 days before the 1st battle</h6>
+            {% for mode in site.data.tournament.modes %}
+            &emsp;<h7><b>Cycle {{forloop.index}}</b>&emsp;{{mode.name}}</h7><br>
+            {% endfor %}
+            <br>
+            <h6><b>3</b>. For each map, a team can choose from the list meta brawlers</h6><br>
+            <h6><b>4</b>. Pre-Finals (5 Rounds)</h6>
+            &emsp;<h7><b>a</b>. <i>Match Winner</i> &ndash; The Winner gets 7 points while the Loser gets 2 points. For Draws, both teams gets 5 points</h7><br>
+            &emsp;<h7><b>b</b>. <i>Meta Bonus</i> &ndash; A complete meta composition gives your team 3 more points; One brawler less is 1 point less</h7><br>
+            &emsp;<h7><b>c</b>. <i>Non-Meta Bonus</i> &ndash; Not losing and having at least 1 non-meta brawler gives your team 5 more points</h7><br>
+            &emsp;<h7><b>d</b>. <i>Round Score</i> &ndash; The highest score achieved in the whole round will be the one recorded. Max points is 10 points</h7><br><br>
+            <h6><b>5</b>. Finals</h6>
+            &emsp;<h7><b>a</b>. Initial placements will be ordered based on the sum of points gathered by a team from each round in the pre-finals</h7><br>
+            &emsp;<h7><b>b</b>. A winning team can <i>steal the placement</i> from a matched team, if they are not 20 points ahead. Additionally, the winner steals the betted number points (3-10) from the loser, after deciding on their new placement</h7><br>
+            &emsp;<h7><b>c</b>. A battle can only take place if both teams agreed on a bet. However, a team can't turn down a battle with the least bet (3), if they are not 10 points ahead</h7><br>
+            &emsp;<h7><b>d</b>. <i>Finals will end after 2 rounds of no battle</i>. Matchup and Game Mode order will continue from the last cycle</h7><br><br>
+            <h6><b>6</b>. Unusual Scenarios</h6>
+            &emsp;<h7><b>a</b>. <i>Sudden Game Interruption</i> &ndash; An interrupted match can be repeated if the both teams agree</h7><br>
+            &emsp;<h7><b>b</b>. <i>No-Show</i> &ndash; A team that does not show up and has 2 or more strikes will lose by default</h7><br>
+            &emsp;<h7><b>c</b>. <i>Dishonest Acts</i> &ndash; Every dishonest act will penalize a team by 10 points</h7><br>
         </div>
         <div class="col s12 m12 l12">
             <br>

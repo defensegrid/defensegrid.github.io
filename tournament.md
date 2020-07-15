@@ -38,7 +38,7 @@ title: Defense Grid League
             <h6><b>1</b>. Elect Captains</h6><br>
             <h6><b>2</b>. Captains will build a team of 3-5 club members that should not exceed the recommended team elo</h6>
             &emsp;<h7><b>a</b>. Check your team's elo in the <u><a href="{{site.url}}/team-creator">Team Creator</a></u></h7><br>
-            &emsp;<h7><b>b</b>. If successful, please take a screenshot and send it on <u><a href="{{site.url}}/#chat">Discord</a></u> in the #submissions channel</h7><br>
+            &emsp;<h7><b>b</b>. If successful, please take a screenshot and send it on <u><a href="{{site.url}}/#chat">Discord</a></u> in the #events channel</h7><br>
             &emsp;<h7><b>c</b>. Once everything is successful, your team name will be updated in this page</h7><br><br>
             <h6><b>3</b>. Game Modes are chosen for every battle and will have restrictions. More details below.</h6><br>
             <h6><b>4</b>. Both teams record the results of the battle and the winner shall submit the result on Discord</h6><br>

@@ -1,27 +1,27 @@
 teams:
   - name: Alpha Gang
     captain: CryAlphaST
-    placement: 4th
+    placement: 1st
     ready: yes
   - name: Tilt Squad
     captain: ButterMilk
-    placement: 4th
+    placement: 2nd
     ready: yes
   - name: Blaze Walkers
     captain: Ichiro
-    placement: 4th
+    placement: 1st
     ready: yes
   - name: Potentia Imperium
     captain: Seijuro
-    placement: 4th
+    placement: 3rd
     ready: yes
 modes:
   - name: Gem Grab
     results:
-      - "-"
-      - "-"
-      - "-"
-      - "-"
+      - "10"
+      - "8"
+      - "10"
+      - "5"
     submodes:
       - name: Minecart Madness
         restrictions:

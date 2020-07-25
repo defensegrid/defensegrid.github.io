@@ -9,7 +9,7 @@ teams:
     ready: yes
   - name: Blaze Walkers
     captain: Ichiro
-    placement: 1st
+    placement: 3rd
     ready: yes
   - name: Potentia Imperium
     captain: Seijuro
@@ -49,10 +49,10 @@ modes:
           - Mr.P
   - name: Bounty
     results:
-      - "-"
-      - "-"
-      - "-"
-      - "-"
+      - "10"
+      - "10"
+      - "5"
+      - "10"
     submodes:
       - name: Layer Cake
         restrictions:

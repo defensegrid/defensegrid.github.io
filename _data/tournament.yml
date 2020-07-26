@@ -9,7 +9,7 @@ teams:
     ready: yes
   - name: Blaze Walkers
     captain: Ichiro
-    placement: 3rd
+    placement: 2nd
     ready: yes
   - name: Potentia Imperium
     captain: Seijuro
@@ -80,10 +80,10 @@ modes:
           - Sprout
   - name: Heist
     results:
-      - "-"
-      - "-"
-      - "-"
-      - "-"
+      - "10"
+      - "5"
+      - "10"
+      - "5"
     submodes:
       - name: Pit Stop
         restrictions:

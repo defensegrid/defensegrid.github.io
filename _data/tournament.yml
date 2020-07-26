@@ -5,7 +5,7 @@ teams:
     ready: yes
   - name: Tilt Squad
     captain: ButterMilk
-    placement: 2nd
+    placement: 3rd
     ready: yes
   - name: Blaze Walkers
     captain: Ichiro
@@ -13,7 +13,7 @@ teams:
     ready: yes
   - name: Potentia Imperium
     captain: Seijuro
-    placement: 3rd
+    placement: 4th
     ready: yes
 modes:
   - name: Gem Grab

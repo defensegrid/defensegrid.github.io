@@ -111,10 +111,10 @@ modes:
           - Barley
   - name: Siege
     results:
-      - "-"
-      - "-"
-      - "-"
-      - "-"
+      - "10"
+      - "5"
+      - "10"
+      - "5"
     submodes:
       - name: Some Assembly Required
         restrictions:
@@ -142,10 +142,10 @@ modes:
           - Gale
   - name: Brawl Ball
     results:
-      - "-"
-      - "-"
-      - "-"
-      - "-"
+      - "10"
+      - "10"
+      - "5"
+      - "5"
     submodes:
       - name: Triple Dribble
         restrictions:

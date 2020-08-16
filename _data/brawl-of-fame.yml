@@ -15,6 +15,64 @@ brawl-of-fame:
       - etc.
     status: Choose published or draft
 
+  - name: Compère
+    description: Description not available
+    category: 
+      - Club Challenge
+      - Distinction
+    mechanics: Host at least 2 unique events thrice or more
+    players:
+      - Ichiro
+    status: published
+
+  - name: Game Mode of the Year (2020)
+    description: Description not available
+    category:
+      - Distinction
+    mechanics: The Most Fun Game Mode as per nominations
+    players:
+    status: published
+
+  - name: Member of the Year (2020)
+    description: Description not available
+    category:
+      - Distinction
+    mechanics: Member of the Year as per nominations
+    players:
+    status: published
+
+  - name: Most Valuable Player (2020)
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: Get the Most MVPs in DGL Season 1
+    players:
+    status: published
+
+  - name: Champion Team (2020)
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: Win DGL Season 1
+    players:
+    status: published
+
+  - name: Best Captain (2020)
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: The Best Captain of DGL Season 1
+    players:
+    status: published
+
+  - name: Unrivaled Strategist (2020)
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: The Best Strategist of DGL Season 1
+    players:
+    status: published
+
   - name: Best PvP Win Streaks
     description: Description not available
     category:

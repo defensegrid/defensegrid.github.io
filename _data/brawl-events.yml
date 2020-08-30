@@ -19,7 +19,7 @@ brawl-events:
   status: published
 
 - name: Stop or Drop
-  description: She's quick...tempered. You can't outrun her. Follow her orders or she'll gun you down. Ohhh and please keep energy drinks away from Mike.
+  description: She's quick...tempered. You can't outrun her. Follow her orders or she'll gun you down. Ohhh and please keep the energy drinks away from Mike.
   brawler: Max vs. Dynamike
   map: Open Map with minimal bushes
   gamemode: Solo Showdown

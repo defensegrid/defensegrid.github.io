@@ -10,7 +10,7 @@ brawl-events:
   status: Choose draft or published
 
 - name: Pass the Bullet
-  description: You'll notice a fizzling sound when you load the rumored Dynamite Bullet. At that moment you have to shoot or you'll be taken you out.
+  description: You'll notice a fizzling sound when you load the rumored Dynamite Bullet. At that moment you have to shoot or you'll be taken out.
   brawler: Sharpshooters
   map: Map for Sharpshooters
   gamemode: Solo Showdown

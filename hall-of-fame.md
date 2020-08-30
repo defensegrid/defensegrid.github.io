@@ -41,20 +41,6 @@ title: Hall of Fame
       </div>
   </div>
   <div class="row">
-    <div class="col s12 m6 l4" id="brawl-col-0">
-        <div class="card-search" hidden>
-            <div class="card-id">brawl-col-0</div>
-            <div class="players">Vote</div>
-        </div>
-        <div class="card red-shadow">
-            <a class="activator" href="https://docs.google.com/forms/d/1Cx0oRJ_qcAwhWW4Q7jZbMNnetAwPSGkcXpzKACy6F90/">
-            <div class="card-content">
-                <span class="card-title grey-text text-darken-4 logo-text">Defense Grid Awards</span>
-                <h6 class="logo-text">Distinction & Service</h6>
-            </div>
-            </a>
-        </div>
-    </div>
   {% for achievement in site.data.brawl-of-fame.brawl-of-fame %}
       {% if achievement.name != "Template" and achievement.name != "template"%}
       {% if achievement.status == "published"%}
@@ -83,7 +69,7 @@ title: Hall of Fame
         </div>
         <div class="card">
           <div class="card-content">
-            <span class="card-title flow-text">{{achievement.name}}</span>
+            <span class="card-title">{{achievement.name}}</span>
             <p>{{achievement.mechanics}}</p>
           </div>
         </div>

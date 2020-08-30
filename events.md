@@ -35,7 +35,7 @@ title: Events
         </div>
     </div>
     <div class="row">
-        <div class="col s12 m6 l4" id="col-1">
+<!--         <div class="col s12 m6 l4" id="col-1">
             <div class="card-search" hidden>
                 <div class="card-id">col-1</div>
                 <div class="event-name">Defense Grid League</div>
@@ -49,7 +49,7 @@ title: Events
                 </div>
                 </a>
             </div>
-        </div>
+        </div> -->
     {% for event in site.data.brawl-events.brawl-events %}
         {% if event.name != "Template" and event.name != "template"%}
         {% if event.status == "published"%}
@@ -68,12 +68,16 @@ title: Events
                     <p>
                         {{event.gameplay}}
                     </p>
-                    <span class="badge">{{event.map}}</span>
+                    <span class="badge">by {{event.creator}}</span>
                     <br>
                 </div>
                 <div class="card-content waves-effect waves-block waves-light no-space-top">
                   <p class="activator">
+                    {% if event.description == "Description not available"%}
+                    {{event.gameplay}}<br><br>
+                    {% else %}
                     {{event.description}}<br><br>
+                    {%endif%}
                     <span class="badge">{{event.gamemode}}</span>
                     <br>
                   </p>

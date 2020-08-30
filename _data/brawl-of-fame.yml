@@ -15,6 +15,66 @@ brawl-of-fame:
       - etc.
     status: Choose published or draft
 
+  - name: Hidden Rites
+    description: Description not available
+    category:
+      - Distinction
+    mechanics: Game Mode of the Year (8-bit vs. Bo)
+    players:
+      - remi
+      - Ichiro
+    status: published
+
+  - name: Most Valuable Player
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: Most MVPs in Defense Grid League Season 1
+    players:
+      - CryAlphaST
+    status: published
+
+  - name: Member of the Year
+    description: Description not available
+    category:
+      - Distinction
+    mechanics: People perceived you as a role model
+    players:
+      - Ichiro
+    status: published
+
+  - name: Champion Team
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: Winner of Defense Grid League Season 1
+    players:
+      - CryAlphaST
+      - SuperakaayKT
+      - DMoney XD
+      - babidi
+    status: published
+
+  - name: Best Captain
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: Best Captain of Defense Grid League Season 1
+    players:
+      - CryAlphaST
+    status: published
+
+  - name: Unrivaled Strategy
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: Best Strategy in Defense Grid League Season 1
+    players:
+      - Ichiro
+      - SP|Speedy
+      - Bot 1
+    status: published
+
   - name: Compère
     description: Description not available
     category: 
@@ -23,54 +83,6 @@ brawl-of-fame:
     mechanics: Host at least 2 unique events thrice or more
     players:
       - Ichiro
-    status: published
-
-  - name: Game Mode of the Year (2020)
-    description: Description not available
-    category:
-      - Distinction
-    mechanics: The Most Fun Game Mode as per nominations
-    players:
-    status: published
-
-  - name: Member of the Year (2020)
-    description: Description not available
-    category:
-      - Distinction
-    mechanics: Member of the Year as per nominations
-    players:
-    status: published
-
-  - name: Most Valuable Player (2020)
-    description: Description not available
-    category:
-      - Club Challenge
-    mechanics: Get the Most MVPs in DGL Season 1
-    players:
-    status: published
-
-  - name: Champion Team (2020)
-    description: Description not available
-    category:
-      - Club Challenge
-    mechanics: Win DGL Season 1
-    players:
-    status: published
-
-  - name: Best Captain (2020)
-    description: Description not available
-    category:
-      - Club Challenge
-    mechanics: The Best Captain of DGL Season 1
-    players:
-    status: published
-
-  - name: Unrivaled Strategist (2020)
-    description: Description not available
-    category:
-      - Club Challenge
-    mechanics: The Best Strategist of DGL Season 1
-    players:
     status: published
 
   - name: Best PvP Win Streaks

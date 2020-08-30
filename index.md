@@ -39,7 +39,7 @@ title: Defense Grid
           <h5>Specifically:</h5>
           <h6>1. Just a Humble Member</h6>
           <h6>2. Your Very Skilled Player</h6>
-          <h6>3. The Clever Teacher</h6>
+          <h6>3. The Clever Mentor</h6>
           <h6>4. A Lively Host</h6>
           <h6>5. Our Reliable Minister</h6>
         </div>
@@ -48,89 +48,95 @@ title: Defense Grid
     <div id="nominations" class="section scrollspy">
       <div class="divider"></div>
       <h4>Promotions</h4>
-      <h5>Democratic</h5>
-      <h6>Promotion through Nominations</h6>
-      <ul class="collapsible">
-        <li>
-          <div class="collapsible-header">Clash Royale</div>
-          <div class="collapsible-body">
-            <p>
-              <b>Member</b><br>
-              Parties or Interacts with the clan<br><br>
-              <b>Elder</b><br>
-              Nominated by at least 1 Elder or at least 3 Members<br><br>
-              <b>Co-leader</b><br>
-              Nominated by at least 1 Co-leader or at least 3 Elders<br><br>
-              <b>Leader</b><br>
-              Nominated by at least 51% of the clan<br>
-            </p>
+        <div class="row">
+          <div class="col s12 m12 l6">
+            <h5>Democratic</h5>
+            <h6>Promotion through Nominations</h6>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header">Clash Royale</div>
+                <div class="collapsible-body">
+                  <p>
+                    <b>Member</b><br>
+                    Parties or Interacts with the clan<br><br>
+                    <b>Elder</b><br>
+                    Nominated by at least 1 Elder or at least 3 Members<br><br>
+                    <b>Co-leader</b><br>
+                    Nominated by at least 1 Co-leader or at least 3 Elders<br><br>
+                    <b>Leader</b><br>
+                    Nominated by at least 51% of the clan<br>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">Brawl Stars</div>
+                <div class="collapsible-body">
+                  <p>
+                    <b>Member</b><br>
+                    Parties or Interacts with the club<br><br>
+                    <b>Senior</b><br>
+                    Nominated by at least 2 Seniors or at least 6 Members<br><br>
+                    <b>Vice President</b><br>
+                    Nominated by at least 2 Vice Presidents or at least 6 Seniors<br><br>
+                    <b>President</b><br>
+                    Nominated by at least 51% of the clan<br>
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <br>
           </div>
-        </li>
-        <li>
-          <div class="collapsible-header">Brawl Stars</div>
-          <div class="collapsible-body">
-            <p>
-              <b>Member</b><br>
-              Parties or Interacts with the club<br><br>
-              <b>Senior</b><br>
-              Nominated by at least 2 Seniors or at least 6 Members<br><br>
-              <b>Vice President</b><br>
-              Nominated by at least 2 Vice Presidents or at least 6 Seniors<br><br>
-              <b>President</b><br>
-              Nominated by at least 51% of the clan<br>
-            </p>
+          <div class="col s12 m12 l6">
+            <h5>Meritocratic</h5>
+            <h6>Promotion through Achievements</h6>
+            <ul class="collapsible">
+              <li>
+                <div class="collapsible-header">Clash Royale</div>
+                <div class="collapsible-body">
+                  <p>
+                    <b>Member</b><br>
+                    100 Donations or Clan Trophy Requirement<br><br>
+                    <b>Elder</b><br>
+                    200 Donations or At least 50 War Wins<br><br>
+                    <b>Co-leader</b><br>
+                    250 Donations or At least 100 War Wins<br><br>
+                    <b>Ace</b><br>
+                    Win the <u><a href="{{site.url}}/dgl">Defense Grid League</a></u><br><br>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">Brawl Stars</div>
+                <div class="collapsible-body">
+                  <p>
+                    <b>Member</b><br>
+                    Should meet the Club Trophy Requirement<br><br>
+                    <b>Senior</b><br>
+                    Should be 2k Trophies above the Club Trophy Requirement<br><br>
+                    <b>Vice President</b><br>
+                    Should place higher than the lowest Vice President in trophies<br><br>
+                    <b>Ace</b><br>
+                    Win the <u><a href="{{site.url}}/dgl">Defense Grid League</a></u><br>
+                  </p>
+                </div>
+              </li>
+            </ul>
           </div>
-        </li>
-      </ul>
-      <br>
-      <h5>Meritocratic</h5>
-      <h6>Promotion through Achievements</h6>
-      <ul class="collapsible">
-        <li>
-          <div class="collapsible-header">Clash Royale</div>
-          <div class="collapsible-body">
-            <p>
-              <b>Member</b><br>
-              100 Donations or Clan Trophy Requirement<br><br>
-              <b>Elder</b><br>
-              200 Donations or At least 50 War Wins<br><br>
-              <b>Co-leader</b><br>
-              250 Donations or At least 100 War Wins<br><br>
-              <b>Ace</b><br>
-              Win the <a href="{{site.url}}/dgl">Defense Grid League</a><br><br>
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="collapsible-header">Brawl Stars</div>
-          <div class="collapsible-body">
-            <p>
-              <b>Member</b><br>
-              Should meet the Club Trophy Requirement<br><br>
-              <b>Senior</b><br>
-              Should be 2k Trophies above the Club Trophy Requirement<br><br>
-              <b>Vice President</b><br>
-              Should place higher than the lowest Vice President in trophies<br><br>
-              <b>Ace</b><br>
-              Win the <a href="{{site.url}}/dgl">Defense Grid League</a><br>
-            </p>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div id="chat" class="section scrollspy">
-      <div class="divider"></div>
-      <h4>Chat Us</h4>
-      <br>
-      <div class="collection">
-        <a href="https://discordapp.com/invite/DGnjSqv" class="collection-item">Discord</a>
-        <a class="collection-item">Clash Royale - #2PUYGP</a>
-        <a class="collection-item">Brawl Stars - #9RGV8L</a>
+        </div>
       </div>
-      <br>
-      <br>
+      <div id="chat" class="section scrollspy">
+        <div class="divider"></div>
+        <h4>Chat Us</h4>
+        <br>
+        <div class="collection">
+          <a href="https://discordapp.com/invite/DGnjSqv" class="collection-item">Discord</a>
+          <a class="collection-item">Clash Royale - #2PUYGP</a>
+          <a class="collection-item">Brawl Stars - #9RGV8L</a>
+        </div>
+        <br>
+        <br>
+      </div>
     </div>
-  </div>
   </div>
 
   <div class="row">

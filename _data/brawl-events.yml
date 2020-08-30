@@ -5,70 +5,71 @@ brawl-events:
   brawler: List of Brawlers
   map: Specific map name or its features
   gamemode: Official Brawl Stars Game Mode name
+  gameplay: mechanics
+  creator: Creator/s of the Mode
   status: Choose draft or published
 
-- name: Raze to Ten
-  description: Throwers are here to troll and they've taken a toll! The big guns won't be riding shotgun so expect some melee mayhem! You can expect they'll be watching this drama unfold while the throwers on the other hand bash out at enemy Throwers calling it democracy! 
-  brawler: Melee & Thrower
-  map: Map for Throwers
-  gamemode: Duo Showdown
-  gameplay: Only Melees can kill Melees and only Throwers can kill Throwers. If a Melee is killed the Thrower can be killed and vice versa. First team to accumulate 10 Power Cubes and reach the center wins the Showdown.
-  status: published
-
-- name: Battered Bits
-  description: Somebody order a knuckle sandwich? These arcade machines are just slow to understand the retrospective of getting knocked back to the good ol 70's by a baseball bat! Which 8-Bit will make a Home Run this season? Or will they all be shutdown for good by a Bat that breaks bricks? 
-  brawler: Bibi vs. 8-Bit
+- name: Pass the Bullet
+  description: You'll notice a fizzling sound when you load the rumored Dynamite Bullet. At that moment you have to shoot or you'll be taken you out.
+  brawler: Sharpshooters
   map: Map for Sharpshooters
-  gamemode: Showdown
-  gameplay: Two Bibi's coordinate Bat knockbacks to push 8-Bit's out. 8-Bit's use gadget to escape, can recharge Super from other 8-Bit's, can destroy the Super of other 8-Bit's. No one can kill anyone directly. Last 8-bit standing gets to Home Run!
+  gamemode: Solo Showdown
+  gameplay: When you are the passer, choose a target and use 'Angry Emote' before you pass the bullet. If you miss your shot, you will be eliminated by everyone. The person that eliminated you will be the new passer.
+  creator: Seijuro
   status: published
 
-- name: Damsels and De-stress
-  description: These ladies have been practicing social distancing to the best of their abilities. However their problem is unlikely to be resolved due to the constraints of long distanced relationships. The fog will intervene in time to end this cold war.
-  brawler: Piper vs. Rosa
-  map: Safety Center
-  gamemode: Showdown
-  gameplay: At the center of the map, Rosa's create a 9 x 9 section of bushes by using their Grow Light Gadget about 9 times. Piper's can start attacking after 1 minute. Rosa's can kill Piper's if reachable from the created bushes. Piper's can destroy bushes outside the 9x9 size requirement.
+- name: Stop or Drop
+  description: She's quick...tempered. You can't outrun her. Follow her orders or she'll gun you down. Ohhh and please keep energy drinks away from Mike.
+  brawler: Max vs. Dynamike
+  map: Open Map with minimal bushes
+  gamemode: Solo Showdown
+  gameplay: 1 Max 9 Dynamikes. When Max sends an 'Angry Emote' you have to stop. The last person to stop will be eliminated by Max. Any other movements done by Max is a signal to move.
+  creator: Seijuro & SP|Speedy
   status: published
 
-- name: Flipremo Fiesta
-  description: The macho men have started to flex their muscle madness again yet in new fashion. Flip 'em like pancakes, the punches have decided to take breakfast instead of lunch. Who's hungry?
-  brawler: El Primo
-  map: Forsaken Falls
-  gamemode: Showdown
-  gameplay: Eliminate your opponents by using only El Primo's Suplex Supplement Gadget. Last Brawler or Team Standing wins
+- name: Detonation Express
+  description: Meteors won't likely hit you but a big-ass rocket will.
+  brawler: Nani vs. Bibi
+  map: Specific map name or its features
+  gamemode: Solo Showdown
+  gameplay: Nani and a helper will charge her Super. Bibi's have to dodge Nani's Super. Last Bibi standing wins.
+  creator: Ichiro
   status: published
 
-- name: Blind By Nature
-  description: Blinded by her own dark magic now. Remember the bushes have eyes, the walls have ears. Will you be able to deal the right cards? With no fortune to seek, misfortune is expected! Shoot thrice, but only fate rolls the dice.
-  brawler: Tara
-  map: Cavern Churn
-  gamemode: Showdown
-  gameplay: Last Brawler Standing wins, attack enemy brawlers without the use of Tara's Gadget & Super
-  status: draft
-
-- name: Mortar Madness
-  description: Ahoy me hearties! Tis time to see how ye measure up against Penny's Old Lobber! It would be a blunder to misuse da Plunderbuss, so take heart to only use it to charge thy super and not kill ye mates, or ye be walking the plank! Mortarrrgh!
-  brawler: Penny
-  map: Map for Throwers
-  gamemode: Showdown
-  gameplay: Eliminate your opponents by only using Penny's Super. You canrecharge your Super with your Attack but you can't kill opponents directly.
+- name: Revenge of The Bots
+  description: The bots went out of control! This is not a drill! Buy enough time to find a way around JunkerNet.
+  brawler: Bot vs. Brawlers
+  map: Open Map with little to no Bushes
+  gamemode: Solo Showdown
+  gameplay: Pick a fragile brawler. Don't kill the bots and don't collect power ups until you're the last brawler standing. If you defeat the bots, you win. Else, humanity loses.
+  creator: Seijuro
   status: published
 
-- name: Fragile or Agile?
-  description: As the great eagle hunter once said, "One breath, one shot". Will you put your life on the line to expose and defuse the mines? With the fog closing in, who will overcome this mine craft? The hunters got their eyes on the prey, pray you do not fall to their traps.
-  brawler: Bo
-  map: Map for Throwers
-  gamemode: Showdown
-  gameplay: Attacking is not allowed. Plant land mines and only use Bo's Gadget to recharge them. The Last Brawler or Team Standing wins
-  status: published
-
-- name: Bears no Punch
-  description: No bear hugs guaranteed, so stay away from those Bear Paws! With both bears out, this elimination chamber just went wild! Fellow Primo brethren will you be able to bear this pain? 
-  brawler: Nita vs. El Primo
+- name: Useless Snipe
+  description: A true marksman does not rely on sight.
+  brawler: Piper vs. Piper
   map: Map with Bushes
+  gamemode: Solo Showdown
+  gameplay: In a map full of bushes the Last Piper Standing Wins.
+  creator: SP|Speedy
+  status: published
+
+- name: Turret Rampage
+  description: The Junker Family is renowned for their contraptions. The secret? Trial and Error. Construction and Destruction!
+  brawler: Jessie vs. Jessie
+  map: Map for Fighters with a center arena
+  gamemode: Solo Showdown
+  gameplay: 5 Jessie's Team Up. 1 Team will have a base at the top, another at the bottom. Jessie's have to deploy at least 1 turret at a time. The first team to destroy 5 turrets wins.
+  creator: Ichiro
+  status: published
+
+- name: Pixels and Bugs
+  description: Bee-ware of the swarming Bea's spreading Bugs to the Arcade Machines to slow and shut their systems down. A Revolution to Pollinate and Eliminate! The Pixel Pirates incarnated nature has posed a threat to Arcadia's democracy! War has dawned, who will claim power to govern over the new face of Arcadia?
+  brawler: Bea vs. 8-bit
+  map: Treasure Hunt or Walled Center Map
   gamemode: Showdown
-  gameplay: No one can kill except for Nita's Bear. Nita's can charge their Super but can only use it once. Primo's can charge their Super but can only use it for escape. Suplex Supplement Gadget can be used to eliminate the Bears. The Primo's win if all Bears are eliminated. The Nita's win if all Primos are eliminated.
+  gameplay: 8-Bits claim map center early game. 8-Bits can attack Bea's, they use the Extra Life Star Power. Bea's must work together to eliminate 8-Bits from the center, they use the Honey Coat Star Power. Both brawlers can use their Gadget and Super. Anyone can collect Power Cubes.
+  creator: Christian.10
   status: published
 
 - name: Hidden Rites
@@ -77,4 +78,77 @@ brawl-events:
   map: Map with Bushes
   gamemode: Showdown
   gameplay: No one can kill except 8-Bit. Bo's should take advantage of their Star Power for a wider vision. 8-Bit can use any skill to eliminate all Bo's. The last Bo and the last 8-Bit standing wins.
+  creator: remi & Ichiro
+  status: published
+
+- name: Raze to Ten
+  description: Throwers are here to troll and they've taken a toll! The big guns won't be riding shotgun so expect some melee mayhem! You can expect they'll be watching this drama unfold while the throwers on the other hand bash out at enemy Throwers calling it democracy! 
+  brawler: Melee & Thrower
+  map: Map for Throwers
+  gamemode: Duo Showdown
+  gameplay: Only Melees can kill Melees and only Throwers can kill Throwers. If a Melee is killed the Thrower can be killed and vice versa. First team to accumulate 10 Power Cubes and reach the center wins the Showdown.
+  creator: Christian.10 & Seijuro
+  status: published
+
+- name: Damsels and De-stress
+  description: These ladies have been practicing social distancing to the best of their abilities. However their problem is unlikely to be resolved due to the constraints of long distanced relationships. The fog will intervene in time to end this cold war.
+  brawler: Piper vs. Rosa
+  map: Safety Center
+  gamemode: Showdown
+  gameplay: At the center of the map, Rosa's create a 9 x 9 section of bushes by using their Grow Light Gadget about 9 times. Piper's can start attacking after 1 minute. Rosa's can kill Piper's if reachable from the created bushes. Piper's can destroy bushes outside the 9x9 size requirement.
+  creator: Christian.10 & Seijuro
+  status: published
+
+- name: Bears no Punch
+  description: No bear hugs guaranteed, so stay away from those Bear Paws! With both bears out, this elimination chamber just went wild! Fellow brethren will you be able to bear this pain? 
+  brawler: Nita vs. 8-Bit
+  map: Map with Bushes at the Center
+  gamemode: Showdown
+  gameplay: No one can kill except for Nita's Bear. Nita's respawn the bear when it dies. 8-Bit should always stay in the center bush and survive. Last 8-Bit standing wins.
+  creator: Seijuro & Ichiro
+  status: published
+
+- name: Mortar Madness
+  description: Ahoy me hearties! Tis time to see how ye measure up against Penny's Old Lobber! It would be a blunder to misuse da Plunderbuss, so take heart to only use it to charge thy super and not kill ye mates, or ye be walking the plank! Mortarrrgh!
+  brawler: Penny
+  map: Map for Throwers
+  gamemode: Showdown
+  gameplay: Eliminate your opponents by only using Penny's Super. You canrecharge your Super with your Attack but you can't kill opponents directly.
+  creator: Seijuro
+  status: published
+
+- name: Battered Bits
+  description: Somebody order a knuckle sandwich? These arcade machines are just slow to understand the retrospective of getting knocked back to the good ol 70's by a baseball bat! Which 8-Bit will make a Home Run this season? Or will they all be shutdown for good by a Bat that breaks bricks? 
+  brawler: Bibi vs. 8-Bit
+  map: Map for Sharpshooters
+  gamemode: Showdown
+  gameplay: Two Bibi's coordinate Bat knockbacks to push 8-Bit's out. 8-Bit's use gadget to escape, can recharge Super from other 8-Bit's, can destroy the Super of other 8-Bit's. No one can kill anyone directly. Last 8-bit standing gets to Home Run!
+  creator: Christian.10 & Seijuro
+  status: published
+
+- name: Flipremo Fiesta
+  description: The macho men have started to flex their muscle madness again yet in new fashion. Flip 'em like pancakes, the punches have decided to take breakfast instead of lunch. Who's hungry?
+  brawler: El Primo
+  map: Forsaken Falls
+  gamemode: Showdown
+  gameplay: Eliminate your opponents by using only El Primo's Suplex Supplement Gadget. Last Brawler or Team Standing wins
+  creator: Christian.10
+  status: published
+
+- name: Blind By Nature
+  description: Blinded by her own dark magic now. Remember the bushes have eyes, the walls have ears. Will you be able to deal the right cards? With no fortune to seek, misfortune is expected! Shoot thrice, but only fate rolls the dice.
+  brawler: Tara
+  map: Cavern Churn
+  gamemode: Showdown
+  gameplay: Last Brawler Standing wins, attack enemy brawlers without the use of Tara's Gadget & Super
+  creator: Christian.10
+  status: draft
+
+- name: Fragile or Agile?
+  description: As the great eagle hunter once said, "One breath, one shot". Will you put your life on the line to expose and defuse the mines? With the fog closing in, who will overcome this mine craft? The hunters got their eyes on the prey, pray you do not fall to their traps.
+  brawler: Bo
+  map: Map for Throwers
+  gamemode: Showdown
+  gameplay: Attacking is not allowed. Plant land mines and only use Bo's Gadget to recharge them. The Last Brawler or Team Standing wins
+  creator: Seijuro
   status: published

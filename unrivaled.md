@@ -36,30 +36,27 @@ title: Unrivaled Strategy
             <br>
             <h4>Mechanics</h4>
             <h6><b>1</b>. Choose a Game Mode and a Map</h6><br>
-            <h6><b>2</b>. Form a Team and a Strategy</h6>  
-            &emsp;<h7><b>a</b>. A Team is a set of brawlers that will be used in the chosen Game Mode and Map</h7><br>
-            &emsp;<h7><b>b</b>. A Strategy is an idea that can be executed by a Team</h7><br><br>
-            <h6><b>3</b>. Battle another Team and Strategy</h6>
-            <h7><b>Friendly Battle</b></h7><br>
-            &emsp;<h7><b>a</b>. The first Team and Strategy to reach 2 wins becomes a Candidate</h7><br>
-            &emsp;<h7><b>b</b>. The Team and Strategy that did not reach 2 wins becomes the Losing Strategy</h7><br><br>
-            <h7><b>PvP</b></h7><br>
-            &emsp;<h7><b>a</b>. Results in this mode can only affect Unique Wins. More details below</h7><br><br>
-            <h6><b>4</b>. Submit the results on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>
-            <h6><b>5</b>. Hosts will verify the results</h6><br>
+            <h6><b>2</b>. Form a Strategy</h6>  
+            &emsp;<h7><b>a</b>. Build your Team Composition</h7><br>
+            &emsp;<h7><b>b</b>. Choose the Skills and Roles of each Brawler</h7><br>
+            &emsp;<h7><b>c</b>. Practice your Plan</h7><br><br>
+            <h6><b>3</b>. Test your Strategy</h6>
+            <h7><b>In PvP or Friendly Battle</b></h7><br>
+            &emsp;<h7><b>a</b>. Fight against any Strategy</h7><br>
+            &emsp;<h7><b>b</b>. Record 5-10 consecutive matches of your Strategy</h7><br><br>
+            <h6><b>4</b>. Submit the best result on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>
+            <h6><b>5</b>. Hosts will verify and declare the Win Rate of the Strategy or the New Unrivaled Strategy</h6>
+            &emsp;<h7><b>a</b>. The formula that will be used is (Number of Wins)÷(Total Matches)</h7><br>
+            &emsp;<h7><b>b</b>. Teams can improve the win rate by submitting another match record from Step 3</h7><br><br>
             <a href="{{site.url}}/hall-of-fame"><h6><b>6</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
             <h7><b>Title Holder</b></h7><br>
-            &emsp;<h7><b>a</b>. The current Title Holder is the Unrivaled Strategy of the Game Mode and Map</h7><br>
-            &emsp;<h7><b>b</b>. The strategy with the most titles is the Truly Unrivaled Strategy</h7><br>
-            &emsp;<h7><b>c</b>. Titles are awarded to the creators of the strategy and the players that executed it</h7><br><br>
-            <h7><b>Candidate</b></h7><br>
-            &emsp;<h7><b>a</b>. If there's no Title Holder, then the Candidate automatically becomes the Title Holder</h7><br>
-            &emsp;<h7><b>b</b>. If the Losing Strategy is the current Title Holder, then the Candidate becomes the new Title Holder</h7><br>
-            &emsp;<h7><b>c</b>. If a Candidate surpasses the current Title Holder's number of Unique Wins, then it becomes the new Title Holder</h7><br><br>
-            <h7><b>Unique Wins</b></h7><br>
-            &emsp;<h7><b>a</b>. A Unique Win is gained from a unique combination of a Team and a Strategy in a given Game Mode and Map</h7><br>
-            &emsp;<h7><b>b</b>. Max Unique Wins is 10 wins; Reaching this means surpassing the current Title Holder of the Game Mode and Map</h7><br>
-            &emsp;<h7><b>c</b>. The number of Unique Wins of a Strategy will be reduced by 1 for every loss</h7><br><br>
+            &emsp;<h7><b>a</b>. For 1 Game Mode and Map, the Strategy with the Highest Win Rate is the Unrivaled Strategy</h7><br>
+            &emsp;<h7><b>b</b>. For Multiple Game Modes and Maps, the Strategy with the most number of Highest Win Rates is the Truly Unrivaled Strategy</h7><br>
+            &emsp;<h7><b>c</b>. The Achievement is awarded to the creators of the strategy and the players that executed the Strategy</h7><br><br>
+            <h7><b>Tie Breakers</b></h7><br>
+            &emsp;<h7><b>a</b>. If the Win Rate difference of a New Strategy and the Current Unrivaled Strategy is only 2.5%, a Tie Breaker can be requested</h7><br>
+            &emsp;<h7><b>b</b>. The Tie Breaking Match should be a Best of 5 Match between the said Strategies</h7><br>
+            &emsp;<h7><b>c</b>. The Winning Strategy becomes the Unrivaled Strategy and takes the Win Rate of the Losing Strategy</h7><br><br>
         </div>
     </div>
     <br><br><br>

@@ -94,7 +94,7 @@ title: Defense Grid
                     <b>Co-leader</b><br>
                     250 Donations or At least 100 War Wins<br><br>
                     <b>Ace</b><br>
-                    Win the <u><a href="{{site.url}}/dgl">Defense Grid League</a></u><br><br>
+                    Win the <a href="{{site.url}}/dgl">Defense Grid League<i class="material-icons tiny">north_east</i></a><br><br>
                   </p>
                 </div>
               </li>
@@ -109,7 +109,7 @@ title: Defense Grid
                     <b>Vice President</b><br>
                     Should place higher than the lowest Vice President in trophies<br><br>
                     <b>Ace</b><br>
-                    Win the <u><a href="{{site.url}}/dgl">Defense Grid League</a></u><br>
+                    Win the <a href="{{site.url}}/dgl">Defense Grid League<i class="material-icons tiny">north_east</i></a><br>
                   </p>
                 </div>
               </li>

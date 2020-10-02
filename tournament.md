@@ -9,9 +9,9 @@ title: Defense Grid League
         <div class="col s12 m12 l12 center-align">
             <img class="header-img responsive-img" id="logo" src="/assets/img/DGL_Logo.png"/>
             <h4 class="logo-text">Defense Grid League</h4>
-            <h6 class="logo-text">Ambition & Glory</h6>
+            <h6 class="logo-sub-text">Ambition & Glory</h6>
             <br>
-            <div class="divider red-shadow"></div>
+            <div class="divider full-width red-shadow"></div>
             <br>
         </div>
         <div class="col s12 m12 l12">
@@ -26,24 +26,51 @@ title: Defense Grid League
             {% endif %}
                     <div class="card-content">
                         <span class="card-title grey-text text-darken-4 logo-text">{{team.name}}</span>
-                        <h6 class="logo-text">{{team.captain}}</h6>
+                        <h6 class="logo-sub-text">{{team.captain}}</h6>
                     </div>
                 </div>
             </div>
         {% endfor %}
         <div class="col s12 m12 l12">
             <br>
-            <div class="divider"></div>
+            <div class="divider full-width"></div>
+            <h4>Game Modes</h4>
+        </div>
+        {% for mode in site.data.tournament.modes %}
+        <div class="col s12 m12 l12" id="col2-{{forloop.index}}">
+            <h5><b>{{mode.name}}</b></h5>
+            {% for submode in mode.submodes %}
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title black-text text-darken-4 logo-text">{{submode.name}}</span>
+                    <br>
+                    <div class="row">
+                    {% for restriction in submode.restrictions %}
+                    <div class="col s4 m2 l1">
+                        <img class="responsive-img" style="max-width:70px" src="/assets/img/restrictions/{{restriction}}.png" alt="{{restriction}}">
+                    </div>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <br>
+            {% endfor %}
+        </div>
+        <br>
+        {% endfor %}
+        <div class="col s12 m12 l12">
+            <br>
+            <div class="divider full-width"></div>
             <h4>Mechanics</h4>
             <h6><b>1</b>. Elect Captains</h6><br>
             <h6><b>2</b>. Captains will build a team of 3-5 club members that should not exceed the recommended team elo</h6>
             &emsp;<h7><b>a</b>. Check your team's elo in the <u><a href="{{site.url}}/team-creator">Team Creator</a></u></h7><br>
             &emsp;<h7><b>b</b>. If successful, please take a screenshot and send it on <u><a href="{{site.url}}/#chat">Discord</a></u> in the #events channel</h7><br>
             &emsp;<h7><b>c</b>. Once everything is successful, your team name will be updated in this page</h7><br><br>
-            <h6><b>3</b>. Game Modes are chosen for every battle and will have restrictions. More details below.</h6><br>
+            <h6><b>3</b>. Game Modes are chosen for every battle and will have restrictions</h6><br>
             <h6><b>4</b>. Both teams record the results of the battle and the winner shall submit the result on Discord</h6><br>
             <h6><b>5</b>. Hosts will verify the results by checking the brawlers used and the agreements of both teams</h6><br>
-            <h6><b>6</b>. Hall of Fame</h6>
+            <a href="{{site.url}}/hall-of-fame"><h6><b>6</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
             &emsp;<h7><b>a</b>. Champion Team</h7><br>
             &emsp;<h7><b>b</b>. Best Captain</h7><br>
             &emsp;<h7><b>c</b>. Most Valuable Player</h7><br>
@@ -51,7 +78,7 @@ title: Defense Grid League
         </div>
         <div class="col s12 m12 l12">
             <br>
-            <div class="divider"></div>
+            <div class="divider full-width"></div>
             <h4>Battle</h4>
             <h5>Score Board</h5>
             <table class="responsive-table centered striped">
@@ -110,33 +137,6 @@ title: Defense Grid League
             &emsp;<h7><b>b</b>. <i>No-Show</i> &ndash; A team that does not show up and has 2 or more strikes will lose by default</h7><br>
             &emsp;<h7><b>c</b>. <i>Dishonest Acts</i> &ndash; Every dishonest act will penalize a team by 10 points</h7><br>
         </div>
-        <div class="col s12 m12 l12">
-            <br>
-            <div class="divider"></div>
-            <h4>Game Modes</h4>
-        </div>
-        {% for mode in site.data.tournament.modes %}
-        <div class="col s12 m12 l12" id="col2-{{forloop.index}}">
-            <h5><b>{{mode.name}}</b></h5>
-            {% for submode in mode.submodes %}
-            <div class="card">
-                <div class="card-content">
-                    <span class="card-title black-text text-darken-4 logo-text">{{submode.name}}</span>
-                    <br>
-                    <div class="row">
-                    {% for restriction in submode.restrictions %}
-                    <div class="col s4 m2 l1">
-                        <img class="responsive-img" style="max-width:70px" src="/assets/img/restrictions/{{restriction}}.png" alt="{{restriction}}">
-                    </div>
-                    {% endfor %}
-                    </div>
-                </div>
-            </div>
-            <br>
-            {% endfor %}
-        </div>
-        <br>
-        {% endfor %}
     </div>
     <br><br>
 </div>

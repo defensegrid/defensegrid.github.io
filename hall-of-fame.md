@@ -31,7 +31,7 @@ title: Hall of Fame
           <p class="flow-text">
               It seems that your name is still not on the list.<br><br>
               You can learn more from us and make a name for yourself!<br><br>
-              If you have an entry, send it in our chat ASAP!<br>
+              If you have an entry, send it in our <a href="{{site.url}}/#chat">chat<i class="material-icons tiny valign-top">north_east</i></a> ASAP!<br>
           </p>
       </div>
   </div>
@@ -139,7 +139,15 @@ title: Hall of Fame
         {
             $("#page_search_none").hide();
             $("#search_key_container").show();
-            $("#search_key_content").text(str);
+
+            if(str == "")
+            {
+              $("#search_key_content").text("To Be Achieved");
+            }
+            else
+            {
+              $("#search_key_content").text(str);
+            }
         }
 
         $("#search_event").val('');

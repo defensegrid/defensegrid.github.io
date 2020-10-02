@@ -7,8 +7,8 @@ title: Team Creator
 <div class="container">
     <div class="row">
         <div class="col s12">
-            <h3 class="logo-text">Team Creator</h3>
-            <h6 class="logo-text">Relevance & Balance</h6>
+            <h4 class="logo-text">Team Creator</h4>
+            <h6 class="logo-sub-text">Relevance & Balance</h6>
         </div>
     </div>
     <div class="row">

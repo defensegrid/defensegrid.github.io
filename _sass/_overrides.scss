@@ -16,16 +16,43 @@ nav .nav-wrapper {
     margin-bottom: -5%;
 }
 
+.card .header-slim{
+	padding-top: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-bottom: 2px;
+	border-radius: 0.25rem;
+	margin-bottom: 0px;
+}
+
+.card .content-slim{
+	color: white;
+}
+
+img.logo-img {
+	max-height: 36px;
+}
+
 nav i.logo {
 	display: inline-block;
 }
 
 .logo-text {
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+.logo-sub-text{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+.brawl-text {
+	font-family: 'Lilita One', cursive;
 }
 
 html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .table-of-contents a.active {
@@ -37,7 +64,7 @@ html {
 }
 
 .collection a.collection-item {
-	color: #b71c1c;	
+	color: black;	
 }
 
 ul.section.table-of-contents.toc-pinned {
@@ -74,14 +101,48 @@ a {
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(230,0,0,0.12),0 1px 5px 0 rgba(230,0,0,0.2);
 }
 
+.card.yellow-shadow {
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(230,172,0,0.12),0 1px 5px 0 rgba(230,172,0,0.2);
+}
+
+.card.gray-shadow {
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(161,161,161,0.12),0 1px 5px 0 rgba(161,161,161,0.2);
+}
+
 .divider.red-shadow{
-	background-color: rgba(230,0,0,0.12);
+	background-color: rgba(230,0,0,0.07);
+	height: 2px;
+}
+
+.divider.yellow-shadow{
+	background-color: rgba(230,172,0,0.12);
+	height: 2px;
+}
+
+.divider.gray-shadow{
+	background-color: rgba(161,161,161,0.12);
+	height: 2px;
+}
+
+.full-width {
 }
 
 img.header-img{
 	max-width: 250px;
 	width: 100%;
 	height: auto;
+}
+
+.center-header{
+	justify-content: center;
+}
+
+.bg-light-gray{
+	background-color: rgba(40,38,40,0.95) !important;
+}
+
+.dirty-white{
+	color: rgba(234, 243, 247, 0.95);
 }
 
 .material-icons.md-dark { color: #424242; }

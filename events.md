@@ -22,7 +22,7 @@ title: Events
     <div class="row" id="page_filler">
         <div class="col s12">
             <p class="flow-text">
-                Go through our list of unique events and see if something fits you. If there aren't any, you can always chat us<br>
+                Challenging Exciting Thrilling Electrifying Inspiring Fun<br>
             </p>
         </div>
     </div>
@@ -35,21 +35,6 @@ title: Events
         </div>
     </div>
     <div class="row">
-<!--         <div class="col s12 m6 l4" id="col-1">
-            <div class="card-search" hidden>
-                <div class="card-id">col-1</div>
-                <div class="event-name">Defense Grid League</div>
-                <div class="event-brawler">Defense Grid League</div>
-            </div>
-            <div class="card red-shadow">
-                <a class="activator" href="{{site.url}}/dgl">
-                <div class="card-content">
-                    <span class="card-title grey-text text-darken-4 logo-text">Defense Grid League</span>
-                    <h6 class="logo-text">Ambition & Glory</h6>
-                </div>
-                </a>
-            </div>
-        </div> -->
     {% for event in site.data.brawl-events.brawl-events %}
         {% if event.name != "Template" and event.name != "template"%}
         {% if event.status == "published"%}
@@ -59,6 +44,7 @@ title: Events
                 <div class="event-name">{{event.name}}</div>
                 <div class="event-brawler">{{event.brawler}}</div>
             </div>
+            {% if event.gamemode == "Showdown"%}
             <div class="card">
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">{{event.name}}<i class="material-icons right">expand_less</i></span>
@@ -83,6 +69,27 @@ title: Events
                   </p>
                 </div>
             </div>
+            {%endif%}
+            {% if event.gamemode == "Challenge"%}
+            <div class="card yellow-shadow">
+                <a class="activator" href="{{site.url}}/{{event.link}}">
+                <div class="card-content">
+                    <span class="card-title logo-text grey-text text-darken-4">{{event.name}}</span>
+                    <h6 class="logo-sub-text">{{event.description}}</h6>
+                </div>
+                </a>
+            </div>
+            {%endif%}
+            {% if event.gamemode == "Tournament"%}
+            <div class="card red-shadow">
+                <a class="activator" href="{{site.url}}/{{event.link}}">
+                <div class="card-content">
+                    <span class="card-title logo-text grey-text text-darken-4">{{event.name}}</span>
+                    <h6 class="logo-sub-text">{{event.description}}</h6>
+                </div>
+                </a>
+            </div>
+            {%endif%}
         </div>
         {%endif%}
         {%endif%}
@@ -114,13 +121,26 @@ title: Events
         var names_similarity = [];
         var brawlers_similarity = [];
 
-        for ( var i = 0, l = card_ids.length; i < l; i++ ) {
-            $("#" + card_ids[i]).hide();
-            var name_similarity = similarity(str, event_names[i]) + keyword_reward(str, event_names[i]);
-            var brawler_similarity = similarity(str, event_brawler[i]) + keyword_reward(str, event_brawler[i]);
+        if(str != ""){
+            for ( var i = 0, l = card_ids.length; i < l; i++ ) {
+                $("#" + card_ids[i]).hide();
+                var name_similarity = similarity(str, event_names[i]) + keyword_reward(str, event_names[i]);
+                var brawler_similarity = similarity(str, event_brawler[i]) + keyword_reward(str, event_brawler[i]);
 
-            names_similarity.push(name_similarity);
-            brawlers_similarity.push(brawler_similarity);
+                names_similarity.push(name_similarity);
+                brawlers_similarity.push(brawler_similarity);
+            }
+        }
+
+        if(str == ""){
+            for ( var i = 0, l = card_ids.length; i < l; i++ ) {
+                $("#" + card_ids[i]).hide();
+                var name_similarity = FORGIVING + 1;
+                var brawler_similarity = FORGIVING + 1;
+
+                names_similarity.push(name_similarity);
+                brawlers_similarity.push(brawler_similarity);
+            }
         }
 
         var cards_shown = 0;

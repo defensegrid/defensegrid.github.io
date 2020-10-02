@@ -8,12 +8,45 @@ brawl-of-fame:
       - Clan Challenge
       - etc.
     mechanics: Information about the challenge
-    players:
+    players: # Can be left blank to indicate that it is yet to be achieved
       - Player 1
       - Player 2
       - Player 1 + Player 2 (Team/Party) #currently not supported
       - etc.
     status: Choose published or draft
+
+  - name: Legendary Odyssey # BS 50k Trophies
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: A True Master of the Game
+    players:
+    status: published
+
+  - name: Mythic Voyage # BS - 37.5k Trophies
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: Unquestionably an Expert of the Game
+    players: 
+    status: published
+
+  - name: Epic Journey #CR: 6k - 6.3k Trophies or 160+ War Wins, BS - 25k Trophies
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: Highly Proficient in the Game
+    players:
+      - CryAlphaST
+      - DudemanReborn
+      - Awko
+      - Kmie974
+      - kenjan
+      - King Léo
+      - oredrock
+      - Stefan
+      - Seijuro
+    status: published
 
   - name: Hidden Rites
     description: Description not available
@@ -29,7 +62,7 @@ brawl-of-fame:
     description: Description not available
     category:
       - Club Challenge
-    mechanics: Most MVPs in Defense Grid League Season 1
+    mechanics: Defense Grid League Season 1
     players:
       - CryAlphaST
     status: published
@@ -47,7 +80,7 @@ brawl-of-fame:
     description: Description not available
     category:
       - Club Challenge
-    mechanics: Winner of Defense Grid League Season 1
+    mechanics: Defense Grid League Season 1
     players:
       - CryAlphaST
       - SuperakaayKT
@@ -59,7 +92,7 @@ brawl-of-fame:
     description: Description not available
     category:
       - Club Challenge
-    mechanics: Best Captain of Defense Grid League Season 1
+    mechanics: Defense Grid League Season 1
     players:
       - CryAlphaST
     status: published
@@ -68,7 +101,19 @@ brawl-of-fame:
     description: Description not available
     category:
       - Club Challenge
-    mechanics: Best Strategy in Defense Grid League Season 1
+    mechanics: Defense Grid League Season 1
+    players:
+      - CryAlphaST
+      - SuperakaayKT
+      - DMoney XD
+      - babidi
+    status: published
+
+  - name: Unorthodox Scheme
+    description: Description not available
+    category:
+      - Club Challenge
+    mechanics: Defense Grid League Season 1
     players:
       - Ichiro
       - SP|Speedy

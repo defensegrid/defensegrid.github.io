@@ -11,50 +11,43 @@ title: Defense Grid
       <div class="col s12 m12 l12 center-align">
             <img class="header-img responsive-img" id="logo" src="/assets/img/logo.png"/>
             <h3 class="logo-text">Defense Grid</h3>
-            <h5 class="logo-text">Conquer. Expand. Defend.</h5>
+            <h5 class="logo-sub-text">Conquer. Expand. Defend.</h5>
             <br>
-            <div class="divider red-shadow"></div>
+            <div class="divider full-width red-shadow"></div>
             <br>
         </div>
     </div>
     <div id="rules" class="section scrollspy">
-      <h4>Rules</h4>
+      <h4 class="center-align">Rules</h4>
       <div class="row">
-        <div class="col s12">
-          <h6>We do not require anyone of the impossible.</h6>
-          <h6>You can improve, contribute, and have fun in your own way.</h6>
+        <div class="col s10 offset-s1 center-align">
+          <h6>We do not require anyone of the impossible. You can improve, contribute, and have fun in your own way.</h6>
           <br>
         </div>
-        <div class="col s12 m6 l4">
-          <h5>What you can't do?</h5>
-          <h6>1. Disruption of activities</h6>
-          <h6>2. Harrassment of members</h6>
-          <h6>3. Dishonesty of any form</h6><br>
+        <div class="col s12 m6 l4 offset-l2 center-align">
+          <h5>What you can't do</h5>
+          <h6>Dishonesty of any form</h6>
+          <h6>Harrassment of members</h6>
+          <h6>Disruption of activities</h6><br>
         </div>
-        <div class="col s12 m6 l4">
-          <h5>What you can do?</h5>
-          <h6>Anything not mentioned earlier</h6><br>
-        </div>
-        <div class="col s12 m6 l4">
-          <h5>Specifically:</h5>
-          <h6>1. Just a Humble Member</h6>
-          <h6>2. Your Very Skilled Player</h6>
-          <h6>3. The Clever Mentor</h6>
-          <h6>4. A Lively Host</h6>
-          <h6>5. Our Reliable Minister</h6>
+        <div class="col s12 m6 l4 center-align">
+          <h5>What you can do</h5>
+          <h6>Your Very Skilled Player</h6>
+          <h6>Just a Humble Member</h6>
+          <h6>Our Lively Host</h6>
         </div>
       </div>
     </div>
     <div id="nominations" class="section scrollspy">
-      <div class="divider"></div>
-      <h4>Promotions</h4>
+      <div class="divider gray-shadow full-width"></div>
+      <h4 class="center-align">Promotions</h4>
         <div class="row">
-          <div class="col s12 m12 l6">
+          <div class="col s12 m10 offset-m1 l6 center-align">
             <h5>Democratic</h5>
             <h6>Promotion through Nominations</h6>
             <ul class="collapsible">
               <li>
-                <div class="collapsible-header">Clash Royale</div>
+                <div class="collapsible-header center-header">Clash Royale</div>
                 <div class="collapsible-body">
                   <p>
                     <b>Member</b><br>
@@ -69,7 +62,7 @@ title: Defense Grid
                 </div>
               </li>
               <li>
-                <div class="collapsible-header">Brawl Stars</div>
+                <div class="collapsible-header center-header">Brawl Stars</div>
                 <div class="collapsible-body">
                   <p>
                     <b>Member</b><br>
@@ -86,12 +79,12 @@ title: Defense Grid
             </ul>
             <br>
           </div>
-          <div class="col s12 m12 l6">
+          <div class="col s12 m10 offset-m1 l6 center-align">
             <h5>Meritocratic</h5>
             <h6>Promotion through Achievements</h6>
             <ul class="collapsible">
               <li>
-                <div class="collapsible-header">Clash Royale</div>
+                <div class="collapsible-header center-header">Clash Royale</div>
                 <div class="collapsible-body">
                   <p>
                     <b>Member</b><br>
@@ -106,7 +99,7 @@ title: Defense Grid
                 </div>
               </li>
               <li>
-                <div class="collapsible-header">Brawl Stars</div>
+                <div class="collapsible-header center-header">Brawl Stars</div>
                 <div class="collapsible-body">
                   <p>
                     <b>Member</b><br>
@@ -125,13 +118,17 @@ title: Defense Grid
         </div>
       </div>
       <div id="chat" class="section scrollspy">
-        <div class="divider"></div>
-        <h4>Chat Us</h4>
+        <div class="divider gray-shadow full-width"></div>
+        <h4 class="center-align">Chat Us</h4>
         <br>
-        <div class="collection">
-          <a href="https://discordapp.com/invite/DGnjSqv" class="collection-item">Discord</a>
-          <a class="collection-item">Clash Royale - #2PUYGP</a>
-          <a class="collection-item">Brawl Stars - #9RGV8L</a>
+        <div class="row">
+          <div class="col s12 m10 offset-m1 l6 offset-l3 center-align">
+            <div class="collection center-align">
+              <a href="https://discordapp.com/invite/DGnjSqv" class="collection-item">Discord<i class="material-icons tiny">north_east</i></a>
+              <a class="collection-item">Clash Royale #2PUYGP</a>
+              <a class="collection-item">Brawl Stars #9RGV8L</a>
+            </div>
+          </div>
         </div>
         <br>
         <br>

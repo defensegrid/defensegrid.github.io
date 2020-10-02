@@ -40,8 +40,11 @@ title: Unrivaled Strategy
             &emsp;<h7><b>a</b>. A Team is a set of brawlers that will be used in the chosen Game Mode and Map</h7><br>
             &emsp;<h7><b>b</b>. A Strategy is an idea that can be executed by a Team</h7><br><br>
             <h6><b>3</b>. Battle another Team and Strategy</h6>
+            <h7><b>Friendly Battle</b></h7><br>
             &emsp;<h7><b>a</b>. The first Team and Strategy to reach 2 wins becomes a Candidate</h7><br>
             &emsp;<h7><b>b</b>. The Team and Strategy that did not reach 2 wins becomes the Losing Strategy</h7><br><br>
+            <h7><b>PvP</b></h7><br>
+            &emsp;<h7><b>a</b>. Results in this mode can only affect Unique Wins. More details below</h7><br><br>
             <h6><b>4</b>. Submit the results on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>
             <h6><b>5</b>. Hosts will verify the results</h6><br>
             <a href="{{site.url}}/hall-of-fame"><h6><b>6</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>

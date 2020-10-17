@@ -42,10 +42,12 @@ title: Duel
             <h6><b>2</b>. Duel</h6>
             <h7><i>Balanced Battle</i></h7><br>
             &emsp;<h7><b>a</b>. In your chosen map</h7><br>
-            &emsp;<h7><b>b</b>. And in your opponent's chosen map</h7><br><br>
+            &emsp;<h7><b>b</b>. And in your opponent's chosen map</h7><br>
+            &emsp;<h7><b>c</b>. Set the map to 1v1</h7><br><br>
             <h7><i>Risked Battle</i></h7><br>
             &emsp;<h7><b>a</b>. In your chosen map</h7><br>
-            &emsp;<h7><b>b</b>. Or in your opponent's chosen map</h7><br><br>
+            &emsp;<h7><b>b</b>. Or in your opponent's chosen map</h7><br>
+            &emsp;<h7><b>c</b>. Set the map to 1v1</h7><br><br>
             <h6><b>3</b>. Submit the results on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>
             <h6><b>4</b>. Hosts will verify and declare the Win Rate each player for their chosen brawler</h6>
             &emsp;<h7><b>a</b>. The formula that will be used is (Number of Wins)÷(Total Matches)</h7><br>
@@ -58,7 +60,7 @@ title: Duel
             &emsp;<h7><b>b</b>. The Player with the most number of Highest Win Rate in Multiple Brawlers is the 'King of Duels'</h7><br>
             &emsp;<h7><b>c</b>. The Achievement is awarded to the Player</h7><br><br>
             <h7><b>Tie Breakers</b></h7><br>
-            &emsp;<h7><b>a</b>. If two players are tied in win rates, a tie breaker should be done/h7><br>
+            &emsp;<h7><b>a</b>. If two players are tied in win rates, a tie breaker should be done</h7><br>
             &emsp;<h7><b>b</b>. A tie breaker is done in a Risked Battle</h7><br><br>
         </div>
     </div>

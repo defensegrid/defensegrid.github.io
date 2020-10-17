@@ -28,3 +28,26 @@ unrivaled:
       resource: Hot-Zone-Icon
       background: Hot-Zone
       color: e33752
+
+duel:
+  modes:
+    - name: Showdown
+      resource: Showdown-Icon
+      background: Showdown
+      color: 339900
+    - name: Gem Grab
+      resource: Gem-Grab-Icon
+      background: Gem-Grab
+      color: 660066
+    - name: Brawl Ball
+      resource: Brawl-Ball-Icon
+      background: Brawl-Ball
+      color: 8ca0e0
+    - name: Bounty
+      resource: Bounty-Icon
+      background: Bounty
+      color: 10b2b7
+    - name: Heist
+      resource: Heist-Icon
+      background: Heist
+      color: cc33cc

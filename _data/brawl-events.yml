@@ -10,14 +10,24 @@ brawl-events:
   link: N/A or Actual Link
   status: Choose draft or published
 
-- name: Unrivaled Strategy
+- name: Duel
+  description: Valor & Wit
+  brawler: Any
+  map: N/A
+  gamemode: Challenge
+  gameplay: N/A
+  creator: Seijuro
+  link: duel
+  status: draft
+
+- name: Synergy
   description: Vision & Execution
   brawler: Any
   map: N/A
   gamemode: Challenge
   gameplay: N/A
   creator: Seijuro
-  link: unrivaled
+  link: synergy
   status: published
 
 - name: Defense Grid League

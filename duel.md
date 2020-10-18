@@ -41,11 +41,11 @@ title: Duel
             &emsp;<h7><b>b</b>. 1 Brawler Each</h7><br><br>
             <h6><b>2</b>. Duel</h6>
             <h7><i>Balanced Battle</i></h7><br>
-            &emsp;<h7><b>a</b>. In your chosen map</h7><br>
+            &emsp;<h7><b>a</b>. Battle in your chosen map</h7><br>
             &emsp;<h7><b>b</b>. And in your opponent's chosen map</h7><br>
             &emsp;<h7><b>c</b>. Set the map to 1v1</h7><br><br>
             <h7><i>Risked Battle</i></h7><br>
-            &emsp;<h7><b>a</b>. In your chosen map</h7><br>
+            &emsp;<h7><b>a</b>. Battle in your chosen map</h7><br>
             &emsp;<h7><b>b</b>. Or in your opponent's chosen map</h7><br>
             &emsp;<h7><b>c</b>. Set the map to 1v1</h7><br><br>
             <h6><b>3</b>. Submit the results on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>

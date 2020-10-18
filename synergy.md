@@ -37,7 +37,7 @@ title: Synergy
             <h4>Mechanics</h4>
             <h6><b>1</b>. Choose a Game Mode</h6><br>
             <h6><b>2</b>. Form a Synergy</h6>  
-            &emsp;<h7><b>a</b>. Build your Team Composition</h7><br>
+            &emsp;<h7><b>a</b>. Build your Team Composition (Duo or Trio)</h7><br>
             &emsp;<h7><b>b</b>. Choose the Skills and Roles of each Brawler</h7><br>
             &emsp;<h7><b>c</b>. Practice your Plan</h7><br><br>
             <h6><b>3</b>. Challenge another Synergy</h6>

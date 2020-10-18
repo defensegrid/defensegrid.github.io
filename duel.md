@@ -52,8 +52,69 @@ title: Duel
             <h6><b>4</b>. Hosts will verify and declare the Win Rate each player for their chosen brawler</h6>
             &emsp;<h7><b>a</b>. The formula that will be used is (Number of Wins)÷(Total Matches)</h7><br>
             &emsp;<h7><b>b</b>. In a Balanced Battle, winning in both maps counts as 1 win, losing in both counts as 1 loss, else it doesn't count</h7><br>
-            &emsp;<h7><b>c</b>. In a Risk Battle, if you win in your opponent's chosen map, you get 2 wins and your opponent gets 2 losses</h7><br>
-            &emsp;<h7><b>d</b>. In a Risk Battle, if you win in your chosen map, you get 0 wins and your opponent gets 1 loss</h7><br><br>
+            &emsp;<h7><b>c</b>. In a Risked Battle, if you win in your opponent's chosen map, you get 2 wins and your opponent gets 2 losses</h7><br>
+            &emsp;<h7><b>d</b>. In a Risked Battle, if you win in your chosen map, you get 0 wins and your opponent gets 1 loss</h7><br><br>
+            <div class="row">
+                <div class="col s12 m6 l4 center-align">
+                    <h5>Balanced Battle</h5>
+                    <table class="responsive-table centered striped">
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th>Home</th>
+                                <th>Away</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Win</th>
+                                <td>+0.5</td>
+                                <td>+0.5</td>
+                            </tr>
+                            <tr>
+                                <th>Loss</th>
+                                <td>-0.5</td>
+                                <td>-0.5</td>
+                            </tr>
+                            <tr>
+                                <th>Draw</th>
+                                <td>±0.5</td>
+                                <td>±0.5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col s12 m6 l4 center-align">
+                    <h5>Risked Battle</h5>
+                    <table class="responsive-table centered striped">
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th>Home</th>
+                                <th>Away</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Win</th>
+                                <td>±0</td>
+                                <td>+2</td>
+                            </tr>
+                            <tr>
+                                <th>Loss</th>
+                                <td>-2</td>
+                                <td>-1</td>
+                            </tr>
+                            <tr>
+                                <th>Draw</th>
+                                <td>±0</td>
+                                <td>±0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <br>
             <a href="{{site.url}}/hall-of-fame"><h6><b>6</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
             <h7><b>Title Holder</b></h7><br>
             &emsp;<h7><b>a</b>. The Player and Brawler with the Highest Win Rate is the 'Best [Brawler Name]'</h7><br>
@@ -61,7 +122,7 @@ title: Duel
             &emsp;<h7><b>c</b>. The Achievement is awarded to the Player</h7><br><br>
             <h7><b>Tie Breakers</b></h7><br>
             &emsp;<h7><b>a</b>. If two players are tied in win rates, a tie breaker should be done</h7><br>
-            &emsp;<h7><b>b</b>. A tie breaker is done in a Risked Battle</h7><br><br>
+            &emsp;<h7><b>b</b>. A tie breaker is done in a Risked Battle but the winner gains 1 win and the loser gains 1 loss</h7><br><br>
         </div>
     </div>
     <br><br><br>

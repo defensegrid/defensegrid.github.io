@@ -5,7 +5,7 @@ title: Hall of Fame
 ---
 
 <div class="row">
-  <div class="col s12 bg-gray center-align">
+  <div class="col s12 bg-dark-gray center-align">
     <h3 class="logo-text">Hall of Fame</h3>
   </div>
 </div>

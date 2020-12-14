@@ -5,7 +5,7 @@ title: Defense Grid League
 ---
 
 <div class="row">
-    <div class="col s12 m12 l12 center-align bg-gray">
+    <div class="col s12 m12 l12 center-align bg-dark-gray">
         <img class="header-img responsive-img" id="logo" src="/assets/img/DGL_Logo.png"/>
         <h4 class="logo-text">Defense Grid League</h4>
         <h6 class="logo-sub-text">Ambition & Glory</h6>

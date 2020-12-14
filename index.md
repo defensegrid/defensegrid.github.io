@@ -5,7 +5,7 @@ title: Defense Grid
 ---
 
 <div class="row">
-  <div id="home" class="section scrollspy center-align bg-gray">
+  <div id="home" class="section scrollspy center-align bg-dark-gray">
     <img class="header-img responsive-img" id="logo" src="/assets/img/logo.png"/>
     <h3 class="logo-text">Defense Grid</h3>
     <h5 class="logo-sub-text">Conquer. Expand. Defend.</h5>

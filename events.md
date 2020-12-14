@@ -3,11 +3,17 @@ layout: default
 permalink: /events
 title: Events
 ---
-
+<div class="row">
+    <div class="col s12 bg-gray center-align">
+        <h3 class="logo-text">Events</h3>
+    </div>
+</div>
 <div class="container">
-    <div class="row">
+    <div class="row center-align" id="page_filler">
         <div class="col s12">
-            <h3 class="logo-text">Events</h3>
+            <p class="flow-text">
+                Challenging Exciting Thrilling Electrifying Inspiring Fun<br>
+            </p>
         </div>
     </div>
     <div class="row">
@@ -18,13 +24,6 @@ title: Events
               <label for="search_event">Filter by Brawler or Event</label>
             </div>
         </form>
-    </div>
-    <div class="row" id="page_filler">
-        <div class="col s12">
-            <p class="flow-text">
-                Challenging Exciting Thrilling Electrifying Inspiring Fun<br>
-            </p>
-        </div>
     </div>
     <div class="row" id="page_search_none" hidden>
         <div class="col s12">

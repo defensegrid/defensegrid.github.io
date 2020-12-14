@@ -5,18 +5,15 @@ title: Defense Grid
 ---
 
 <div class="row">
+  <div id="home" class="section scrollspy center-align bg-gray">
+    <img class="header-img responsive-img" id="logo" src="/assets/img/logo.png"/>
+    <h3 class="logo-text">Defense Grid</h3>
+    <h5 class="logo-sub-text">Conquer. Expand. Defend.</h5>
+    <br>
+    <br>
+  </div>
   <div class="container">
   <div class="col s12 m12 l12">
-    <div id="home" class="section scrollspy">
-      <div class="col s12 m12 l12 center-align">
-            <img class="header-img responsive-img" id="logo" src="/assets/img/logo.png"/>
-            <h3 class="logo-text">Defense Grid</h3>
-            <h5 class="logo-sub-text">Conquer. Expand. Defend.</h5>
-            <br>
-            <div class="divider full-width red-shadow"></div>
-            <br>
-        </div>
-    </div>
     <div id="rules" class="section scrollspy">
       <h4 class="center-align">Rules</h4>
       <div class="row">
@@ -40,6 +37,7 @@ title: Defense Grid
     </div>
     <div id="nominations" class="section scrollspy">
       <div class="divider gray-shadow full-width"></div>
+      <br>
       <h4 class="center-align">Promotions</h4>
         <div class="row">
           <div class="col s12 m10 offset-m1 l6 center-align">
@@ -119,6 +117,7 @@ title: Defense Grid
       </div>
       <div id="chat" class="section scrollspy">
         <div class="divider gray-shadow full-width"></div>
+        <br>
         <h4 class="center-align">Chat Us</h4>
         <br>
         <div class="row">

@@ -68,7 +68,7 @@ html {
 }
 
 ul.section.table-of-contents.toc-pinned {
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.45);
 }
 
 .card .no-space-top {
@@ -139,6 +139,12 @@ img.header-img{
 
 .bg-light-gray{
 	background-color: rgba(40,38,40,0.95) !important;
+	color: white
+}
+
+.bg-gray{
+	background-color: rgba(40,38,40,1) !important;
+	color: white
 }
 
 .dirty-white{

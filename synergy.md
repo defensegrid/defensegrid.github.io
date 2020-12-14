@@ -4,13 +4,14 @@ permalink: /synergy
 title: Synergy
 ---
 
-<div class="container"> 
-    <div class="center-align">
+<div class="row">
+    <div class="col s12 center-align bg-gray">
         <h4 class="logo-text">Synergy</h4>
         <h6 class="logo-sub-text">Vision & Execution</h6>
         <br>
-        <div class="divider full-width gray-shadow"></div>
     </div>
+</div>
+<div class="container"> 
     <div class="row">
         <div class="col s12 m12 l12">
             <br>

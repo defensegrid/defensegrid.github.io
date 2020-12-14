@@ -4,11 +4,18 @@ permalink: /hall-of-fame
 title: Hall of Fame
 ---
 
+<div class="row">
+  <div class="col s12 bg-gray center-align">
+    <h3 class="logo-text">Hall of Fame</h3>
+  </div>
+</div>
 <div class="container">
-  <div class="row">
-    <div class="col s12">
-      <h3 class="logo-text">Hall of Fame</h3>
-    </div>
+  <div class="row center-align" id="page_filler">
+      <div class="col s12">
+          <p class="flow-text">
+              Epic Moments of Players and Teams from our Clan<br>
+          </p>
+      </div>
   </div>
   <div class="row">
     <form id="search_form" class="col s12">
@@ -18,13 +25,6 @@ title: Hall of Fame
         <label for="search_event">Search your Name</label>
       </div>
     </form>
-  </div>
-  <div class="row" id="page_filler">
-      <div class="col s12">
-          <p class="flow-text">
-              Epic Moments of Players and Teams from our Clan<br>
-          </p>
-      </div>
   </div>
   <div class="row" id="page_search_none" hidden>
       <div class="col s12">
@@ -37,7 +37,7 @@ title: Hall of Fame
   </div>
   <div class="row" id="search_key_container" hidden>
       <div class="col s12">
-          <h4 class="logo-text" id="search_key_content"></h4>
+          <h4 class="logo-text center-align" id="search_key_content"></h4>
       </div>
   </div>
   <div class="row">
@@ -139,6 +139,7 @@ title: Hall of Fame
         {
             $("#page_search_none").hide();
             $("#search_key_container").show();
+            $("#search_form").hide();
 
             if(str == "")
             {

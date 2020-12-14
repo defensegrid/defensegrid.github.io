@@ -10,6 +10,16 @@ brawl-events:
   link: N/A or Actual Link
   status: Choose draft or published
 
+- name: Defense Grid League
+  description: Ambition & Glory
+  brawler: Any
+  map: N/A
+  gamemode: Tournament
+  gameplay: N/A
+  creator: Seijuro
+  link: dgl
+  status: published
+
 - name: Duel
   description: Valor & Wit
   brawler: Any

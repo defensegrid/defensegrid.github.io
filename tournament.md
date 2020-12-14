@@ -4,16 +4,17 @@ permalink: /dgl
 title: Defense Grid League
 ---
 
-<div class="container"> 
+<div class="row">
+    <div class="col s12 m12 l12 center-align bg-gray">
+        <img class="header-img responsive-img" id="logo" src="/assets/img/DGL_Logo.png"/>
+        <h4 class="logo-text">Defense Grid League</h4>
+        <h6 class="logo-sub-text">Ambition & Glory</h6>
+        <br>
+        <br>
+    </div>
+</div>
+<div class="container">
     <div class="row">
-        <div class="col s12 m12 l12 center-align">
-            <img class="header-img responsive-img" id="logo" src="/assets/img/DGL_Logo.png"/>
-            <h4 class="logo-text">Defense Grid League</h4>
-            <h6 class="logo-sub-text">Ambition & Glory</h6>
-            <br>
-            <div class="divider full-width red-shadow"></div>
-            <br>
-        </div>
         <div class="col s12 m12 l12">
             <h4>Teams</h4>
         </div>
@@ -33,7 +34,8 @@ title: Defense Grid League
         {% endfor %}
         <div class="col s12 m12 l12">
             <br>
-            <div class="divider full-width"></div>
+            <div class="divider gray-shadow full-width"></div>
+            <br>
             <h4>Game Modes</h4>
         </div>
         {% for mode in site.data.tournament.modes %}
@@ -60,7 +62,8 @@ title: Defense Grid League
         {% endfor %}
         <div class="col s12 m12 l12">
             <br>
-            <div class="divider full-width"></div>
+            <div class="divider gray-shadow full-width"></div>
+            <br>
             <h4>Mechanics</h4>
             <h6><b>1</b>. Elect Captains</h6><br>
             <h6><b>2</b>. Captains will build a team of 3-5 club members that should not exceed the recommended team elo</h6>
@@ -78,7 +81,8 @@ title: Defense Grid League
         </div>
         <div class="col s12 m12 l12">
             <br>
-            <div class="divider full-width"></div>
+            <div class="divider gray-shadow full-width"></div>
+            <br>
             <h4>Battle</h4>
             <h5>Score Board</h5>
             <table class="responsive-table centered striped">

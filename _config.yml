@@ -38,3 +38,8 @@ exclude:
 
 sass:
   style: compressed
+
+# Render pages
+collections:
+  events:
+    output: true

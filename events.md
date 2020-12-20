@@ -89,6 +89,16 @@ title: Events
                 </a>
             </div>
             {%endif%}
+            {% if event.gamemode == "Winter"%}
+            <div class="card blue-shadow">
+                <a class="activator" href="{{site.url}}/{{event.link}}">
+                <div class="card-content">
+                    <span class="card-title logo-text grey-text text-darken-4">{{event.name}}</span>
+                    <h6 class="logo-sub-text">{{event.description}}</h6>
+                </div>
+                </a>
+            </div>
+            {%endif%}
         </div>
         {%endif%}
         {%endif%}

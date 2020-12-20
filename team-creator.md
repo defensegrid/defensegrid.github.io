@@ -4,13 +4,14 @@ permalink: /team-creator
 title: Team Creator
 ---
 
-<div class="container">
-    <div class="row">
-        <div class="col s12">
-            <h4 class="logo-text">Team Creator</h4>
-            <h6 class="logo-sub-text">Relevance & Balance</h6>
-        </div>
+<div class="row">
+    <div class="col s12 center-align bg-dark-gray">
+        <h4 class="logo-text">Team Creator</h4>
+        <h6 class="logo-sub-text">Relevance & Balance</h6>
+        <br>
     </div>
+</div>
+<div class="container">
     <div class="row">
         <form id="search_form" class="col s12">
             <div class="input-field col s12">

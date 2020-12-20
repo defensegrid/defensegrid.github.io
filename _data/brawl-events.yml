@@ -4,7 +4,7 @@ brawl-events:
   description: A short intro for the brawl event or 'Description not available'
   brawler: List of Brawlers
   map: Specific map name or its features
-  gamemode: Official Brawl Stars Game Mode name
+  gamemode: Challenge (yellow), Tournament (red), Winter (blue), Showdown (white)
   gameplay: mechanics
   creator: Creator/s of the Mode
   link: N/A or Actual Link
@@ -16,8 +16,18 @@ brawl-events:
   map: N/A
   gamemode: Tournament
   gameplay: N/A
-  creator: Seijuro
+  creator: Seijuro, Christian.10, CryAlphaST, Ichiro, remi
   link: dgl
+  status: unpublished
+
+- name: Winter Brawl
+  description: Icy Dicey Spicy
+  brawler: Any
+  map: N/A
+  gamemode: Winter
+  gameplay: N/A
+  creator: Defense Grid
+  link: winter-brawl
   status: published
 
 - name: Duel
@@ -39,16 +49,6 @@ brawl-events:
   creator: Seijuro
   link: synergy
   status: published
-
-- name: Defense Grid League
-  description: Ambition & Glory
-  brawler: N/A
-  map: N/A
-  gamemode: Tournament
-  gameplay: N/A
-  creator: Seijuro & Christian.10
-  link: dgl
-  status: unpublished
 
 - name: Pass the Bullet
   description: You'll notice a fizzling sound when you load the rumored Dynamite Bullet. At that moment you have to shoot or it'll take you out.

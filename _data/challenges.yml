@@ -51,3 +51,34 @@ duel:
       resource: Heist-Icon
       background: Heist
       color: cc33cc
+
+winter-brawl:
+  modes:
+    - name: Icy Canyon
+      resource: DG-Icon
+      background: None
+      color: 353235
+    - name: Spicy Showdown
+      resource: DG-Icon
+      background: None
+      color: 353235
+    - name: Last Sanctuary
+      resource: DG-Icon
+      background: None
+      color: 353235
+    - name: Spring in Winter
+      resource: DG-Icon
+      background: None
+      color: 353235
+    - name: Dicey Brawl
+      resource: DG-Icon
+      background: None
+      color: 353235
+    - name: Winter Wind
+      resource: DG-Icon
+      background: None
+      color: 353235
+    - name: Snowball
+      resource: DG-Icon
+      background: None
+      color: 353235

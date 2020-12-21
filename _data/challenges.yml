@@ -73,11 +73,13 @@ winter-brawl:
           substeps:
             - Charge your Super but don't kill
         - step: Spin
+
     - name: Spicy Showdown
       resource: DG-Icon
       background: None
       color: 353235
       url: #
+
     - name: Last Sanctuary
       resource: DG-Icon
       background: None

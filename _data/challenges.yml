@@ -55,30 +55,52 @@ duel:
 winter-brawl:
   modes:
     - name: Icy Canyon
-      resource: DG-Icon
-      background: None
-      color: 353235
+      resource: Showdown-Icon
+      background: bg-dark-ice
+      color: 0096b3
+      url: events/skull-canyon
+      map: icy-canyon.png
+      description: In winter, you may encounter an unfamiliar turquoise street. Wanderers who unknowingly tread it get caught in its strong and cold currents beneath its thin ice. 
+      restrictions: 
+        - Nani
+        - Daryll
+        - Dynamike
+      mechanics:
+        - step: Choose your brawler
+          substeps:
+            - The host can also limit the choice to only 1 brawler
+        - step: Participants divided into groups of 2 or more randomly
+        - step: Coordinate with your group to reach the center
+          substeps:
+            - Charge your Super but don't kill
+        - step: Eliminate other teams that reached the center
     - name: Spicy Showdown
       resource: DG-Icon
       background: None
       color: 353235
+      url: #
     - name: Last Sanctuary
       resource: DG-Icon
       background: None
       color: 353235
+      url: #
     - name: Spring in Winter
       resource: DG-Icon
       background: None
       color: 353235
+      url: #
     - name: Dicey Brawl
       resource: DG-Icon
       background: None
       color: 353235
+      url: #
     - name: Winter Wind
       resource: DG-Icon
       background: None
       color: 353235
+      url: #
     - name: Snowball
       resource: DG-Icon
       background: None
       color: 353235
+      url: #

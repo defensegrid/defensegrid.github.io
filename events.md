@@ -4,7 +4,7 @@ permalink: /events
 title: Events
 ---
 <div class="row">
-    <div class="col s12 bg-dark-gray center-align">
+    <div class="col s12 bg-dark-gray-upper center-align">
         <h3 class="logo-text">Events</h3>
     </div>
 </div>
@@ -70,10 +70,10 @@ title: Events
             </div>
             {%endif%}
             {% if event.gamemode == "Challenge"%}
-            <div class="card yellow-shadow">
+            <div class="card yellow-card">
                 <a class="activator" href="{{site.url}}/{{event.link}}">
                 <div class="card-content">
-                    <span class="card-title logo-text grey-text text-darken-4">{{event.name}}</span>
+                    <span class="card-title logo-text">{{event.name}}</span>
                     <h6 class="logo-sub-text">{{event.description}}</h6>
                 </div>
                 </a>
@@ -90,10 +90,10 @@ title: Events
             </div>
             {%endif%}
             {% if event.gamemode == "Winter"%}
-            <div class="card blue-shadow">
+            <div class="card blue-card">
                 <a class="activator" href="{{site.url}}/{{event.link}}">
                 <div class="card-content">
-                    <span class="card-title logo-text grey-text text-darken-4">{{event.name}}</span>
+                    <span class="card-title logo-text">{{event.name}}</span>
                     <h6 class="logo-sub-text">{{event.description}}</h6>
                 </div>
                 </a>

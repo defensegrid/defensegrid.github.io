@@ -67,18 +67,52 @@ winter-brawl:
       mechanics:
         - step: Choose your brawler
           substeps:
-            - The host can also limit the choice to only 1 brawler
-        - step: Participants are randomly divided into groups of 2 or more
-        - step: Coordinate with your group to reach the center
+            - Host can limit the choice to only 1 brawler
+        - step: Participants will be randomly divided into teams of 2 or more
+        - step: Coordinate with your team to reach the center
           substeps:
             - Charge your Super but don't kill
         - step: Spin
 
     - name: Spicy Showdown
-      resource: DG-Icon
-      background: None
-      color: 353235
-      url: #
+      resource: Showdown-Icon
+      background: bg-semi-dark-red
+      color: B31D00
+      url: events/for-the-worthy
+      map: for-the-worthy-wide.png
+      description: Any weapon is allowed. Any martial art uncontained. You only need to bring out your true strength. Are you worthy to be in the arena?
+      restrictions:
+        - Edgar
+        - Rosa
+        - Jacky
+        - 8-Bit
+        - Rico
+        - Bea
+        - Amber
+        - Crow
+        - Max
+        - Surge
+        - Colette
+      mechanics:
+        - step: Choose any brawler
+          substeps: 
+            - Host can restrict the choice to only the brawlers above
+            - Host can restrict the choice to at least 2 brawlers
+        - step: Participants will be randomly divided into teams of 5
+        - step: 5v5 Tag Team
+          substeps:
+            - During Battle Phase, a player can leave the arena using the <b>Spring Trap</b>
+            - When a player leaves, another player from the same team shall enter the arena
+        - step: Battle Phase
+          substeps:
+            - 1 Player from each team should enter the arena using the <b>Teleporters</b>
+            - Only players in the arena can eliminate or damage each other
+            - Players outside the arena cannot eliminate or kill anyone
+            - When a player gets eliminated, his/her team shall send another player
+        - step: Win Condition
+          substeps:
+            - The last team standing wins
+            - When a team is not in the arena for <b>10 seconds</b>, the opposing team automatically wins
 
     - name: Last Sanctuary
       resource: DG-Icon

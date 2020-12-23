@@ -15,7 +15,7 @@ title: Winter Brawl
     <div class="row">
         <div class="col s12 m12 l12 center-align">
             <br>
-            <h4>Games</h4>
+            <h4 class="logo-text">Games</h4>
         </div>
         {% for mode in site.data.challenges.winter-brawl.modes %}
         <div class="col s12 m8 offset-m2 l6">

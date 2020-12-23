@@ -14,10 +14,10 @@ url: death-canyon
         </div>
     </div>
     <div class="row {{mode.background}} padding-bottom-small center-align">
-        <div class="col s12 m4 offset-m2 l5 offset-l1">
+        <div class="col s12 m5 offset-m1 l4 offset-l2">
             <img class="responsive-img small-img" src="/assets/img/maps/{{mode.map}}">
         </div>
-        <div class="col s12 m4 l5 left-align">
+        <div class="col s12 m5 l4 left-align">
             <p class="flow-text">{{mode.description}}</p>
         </div>
     </div>

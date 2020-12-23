@@ -114,17 +114,19 @@ a {
 }
 
 .card.yellow-card {
-	background-image: linear-gradient(to bottom right, rgba(255,202,0,1), rgba(214,181,51,1));
-	color: black !important;
+	text-align: center;
+	background-image: linear-gradient(to bottom right, rgba(255,213,51,1), rgba(255,202,0,1), rgba(255,202,0,1), rgba(255,202,0,1), rgba(255,213,51,1));
+	color: rgb(70,59,17) !important;
 	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.14),0 6px 2px -4px rgba(230,172,0,0.12),0 2px 10px 0 rgba(230,172,0,0.2);
 }
 
 .card.yellow-card > a {
-	color: black;
+	color: rgb(70,59,17);
 }
 
 .card.blue-card {
-	background-image: linear-gradient(to bottom right, rgba(153,176,245,1), rgba(189,205,249,1));
+	text-align: center;
+	background-image: linear-gradient(to bottom right, rgba(153,176,245,1), rgba(153,176,245,1), rgba(189,205,249,1));
 	color: white !important;
 	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.14),0 6px 2px -4px rgba(230,172,0,0.12),0 2px 10px 0 rgba(0, 58, 230,0.3);
 }
@@ -203,7 +205,7 @@ img.header-img{
 
 .bg-dark-ice{
 	background-color: rgba(0,129,154,1) !important;
-	color: white
+	color: #DDEDF1
 }
 
 .bg-darker-ice{
@@ -213,7 +215,17 @@ img.header-img{
 
 .bg-semi-dark-red{
 	background-color: rgba(174,71,51,1) !important;
-	color: white
+	color: #F4E7E4
+}
+
+.bg-semi-dark-green{
+	background-color: rgba(67,104,73,1) !important;
+	color: #E5EAE7
+}
+
+.bg-semi-dark-flax{
+	background-color: rgba(183,164,70,1) !important;
+	color: #FBF8E9
 }
 
 .small-img {

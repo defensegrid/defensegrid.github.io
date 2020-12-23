@@ -55,11 +55,11 @@ duel:
 winter-brawl:
   modes:
     - name: Icy Canyon
-      resource: Showdown-Icon
+      resource: Brawl-Ball-Icon
       background: bg-dark-ice
       color: 0096b3
       url: events/skull-canyon
-      map: icy-canyon.png
+      map: skull-canyon-wide.png
       description: In winter, you may encounter an unfamiliar turquoise street. Wanderers who unknowingly tread it get caught in its strong and cold currents beneath its thin ice. 
       restrictions: 
         - Daryll
@@ -75,7 +75,7 @@ winter-brawl:
         - step: Spin
 
     - name: Spicy Showdown
-      resource: Showdown-Icon
+      resource: Bounty-Icon
       background: bg-semi-dark-red
       color: B31D00
       url: events/for-the-worthy
@@ -113,17 +113,83 @@ winter-brawl:
           substeps:
             - The last team standing wins
             - When a team is not in the arena for <b>10 seconds</b>, the opposing team automatically wins
+            - If rule was broken the opposing side automatically wins
 
     - name: Last Sanctuary
-      resource: DG-Icon
-      background: None
-      color: 353235
-      url: #
+      resource: Hot-Zone-Icon
+      background: bg-semi-dark-green
+      color: 33763E
+      url: events/last-sanctuary
+      map: last-sanctuary.png
+      description: No matter the season famine is ever-present in this realm. We would even fight over spoilt food just to sate our hunger. But now that a new sanctuary was found, we may be able to bring providence to our people.
+      restrictions: 
+        - Rosa
+        - Bull
+        - Shelly
+        - Bo
+        - Amber
+        - Sandy
+        - Piper
+        - Colt
+        - Brock
+        - Lou
+        - Tara
+        - Poco
+      mechanics:
+        - step: Choose a side
+          substeps:
+            - Defenders should have at least 5 members
+            - Invaders should have at least 4 members
+            - Host decides the distribution of both sides
+        - step: Pick a brawler
+          substeps:
+            - <b>Defenders</b> are Rosa, Bull, Shelly, Bo, Amber, and Sandy
+            - <b>Invaders</b> are Piper, Colt, Brock, Lou, Tara, and Poco
+            - Both sides <b>can have duplicate brawlers</b>
+            - To allow healing, Host can switch to Duo Showdown
+        - step: Preparation Phase
+          substeps:
+            - Defenders go to the Sanctuary (Center Bush Area)
+            - <b>Invaders can't attack until the poison gas appears</b>
+            - Both sides can charge their super while waiting
+        - step: Battle Phase
+          substeps:
+            - All players can eliminate or kill each other
+            - Invaders can break the walls and bushes of the Defenders
+            - Invaders <b>cannot break fences until all walls are broken</b>
+            - Defenders <b>cannot kill outside the bushes until all walls are broken</b>
+        - step: Win Condition
+          substeps:
+            - Invaders win if they managed to break all walls and fences, or eliminate all Defenders
+            - Defenders win if they managed to eliminate all Invaders
+            - If rule was broken the opposing side automatically wins
+        - step: Extra
+          substeps:
+            - Classic Mode — Rosa vs Piper (Damsels and De-stress)
+
     - name: Spring in Winter
-      resource: DG-Icon
-      background: None
-      color: 353235
-      url: #
+      resource: Showdown-Icon
+      background: bg-semi-dark-flax
+      color: E5CD57
+      url: events/jump-park
+      map: jump-park-wide.png
+      description: It might be chilly, but it won't stop us from popping. Hop in and keep jumping or become one with these half-frozen relics.
+      restrictions:
+        - Dynamike
+      mechanics:
+        - step: Choose a brawler
+        - step: Complete the race
+          substeps:
+            - Keep Jumping
+            - Clear obstacles
+            - Stun opponents but don't kill
+            - Use the launch pad at the right end
+        - step: Win Condition
+          substeps:
+            - Reached the right end
+            - First to be eliminated by the poison cloud
+            - Did not kill anyone
+
     - name: Dicey Brawl
       resource: DG-Icon
       background: None

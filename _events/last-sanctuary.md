@@ -1,15 +1,15 @@
 ---
 layout: default
-title: For The Worthy
-url: for-the-worthy
+title: Last Sanctuary
+url: last-sanctuary
 ---
 
 {% for mode in site.data.challenges.winter-brawl.modes %}
-{% if mode.name == "Spicy Showdown"%}
+{% if mode.name == "Last Sanctuary"%}
 <div class="{{mode.background}}">
     <div class="row">
         <div class="col s12 center-align bg-dark-gray">
-            <h4 class="logo-text">For The Worthy</h4>
+            <h4 class="logo-text">Last Sanctuary</h4>
             <br>
         </div>
     </div>

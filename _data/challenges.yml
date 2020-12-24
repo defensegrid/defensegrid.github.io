@@ -250,7 +250,7 @@ winter-brawl:
       color: 5B29A3
       url: events/dash-park
       map: dash-park-wide.png
-      description: Keep dashing. Be dashing. But no slashing.
+      description: Keep dashing. Be dashing. No slashing.
       restrictions:
         - Mortis
       mechanics:

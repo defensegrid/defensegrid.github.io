@@ -42,6 +42,14 @@ nav i.logo {
 	font-weight: 500;
 }
 
+.winter-text {
+	color: rgba(153,176,245,1);
+}
+
+.dark-winter-text {
+	color: rgba(122,147,196,1);
+}
+
 .logo-sub-text{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
@@ -155,6 +163,11 @@ a {
 	height: 1px;
 }
 
+.divider.thin-winter-shadow{
+	background-color: rgba(122,147,196,0.24);
+	height: 1px;
+}
+
 .full-width {
 }
 
@@ -179,7 +192,7 @@ img.header-img{
 }
 
 .bg-light-ice{
-	background-image: linear-gradient(to bottom right, rgba(153,176,245,1), rgba(189,205,249,1)) !important;
+	background-image: linear-gradient(to bottom right, rgba(153,176,245,1), rgba(153,176,245,1), rgba(189,205,249,1));
 	color: white
 }
 
@@ -228,6 +241,16 @@ img.header-img{
 	color: #FBF8E9
 }
 
+.bg-semi-dark-purple{
+	background-color: rgba(134,72,134,1) !important;
+	color: #EEE7EE
+}
+
+.bg-dark-purple{
+	background-color: rgba(73,33,130,1) !important;
+	color: #E7E1EE
+}
+
 .small-img {
 	max-height: 300px;
 }
@@ -243,3 +266,32 @@ img.header-img{
 
 .material-icons.md-dark { color: #424242; }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+#clockdiv{
+	color: #fff;
+	display: inline-block;
+	font-family: 'Inconsolata', sans-serif;
+	font-weight: 100;
+	text-align: center;
+	font-size: 35px;
+}
+
+#clockdiv > div{
+	padding: 4px;
+	border-radius: 3px;
+	background-image: linear-gradient(to bottom right, rgba(153,176,245,1), rgba(189,205,249,1)) !important;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 10px;
+	border-radius: 3px;
+	background-image: linear-gradient(to bottom right, rgba(255,255,255, 0.7), rgba(255,255,255,1)) !important;
+	color: rgba(153,176,245,1);
+	display: inline-block;
+}
+
+.clocktext{
+	padding-top: 5px;
+	font-size: 16px;
+}

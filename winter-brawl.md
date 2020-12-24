@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: winter
 permalink: /winter-brawl
 title: Winter Brawl
 ---
 
 <div class="row">
-    <div class="col s12 center-align bg-dark-gray">
+    <div class="col s12 center-align bg-light-ice">
         <h4 class="logo-text">Winter Brawl</h4>
         <h6 class="logo-sub-text">Icy Dicey Spicy</h6>
         <br>
@@ -14,11 +14,34 @@ title: Winter Brawl
 <div class="container"> 
     <div class="row">
         <div class="col s12 m12 l12 center-align">
+            <script type="text/javascript" src="/assets/js/timer.js"></script>
+            <div id="clockdiv">
+              <div>
+                <span class="days"></span>
+              </div>
+              <div>
+                <span class="hours"></span>
+              </div>
+              <div>
+                <span class="minutes"></span>
+              </div>
+              <div class="">
+                <span class="seconds"></span>
+              </div>
+            </div>
+            <script>
+                var deadline = new Date("2020-12-26T13:00:00.000+00:00");
+                initializeClock('clockdiv', deadline);
+            </script>
+        </div>
+        <div class="col s12 m12 l12 center-align">
             <br>
-            <h4 class="logo-text">Games</h4>
+            <div class="divider thin-winter-shadow full-width"></div>
+            <h4 class="dark-winter-text logo-text">Games</h4>
         </div>
         {% for mode in site.data.challenges.winter-brawl.modes %}
-        <div class="col s12 m8 offset-m2 l6">
+        <div class="col s12 m8 offset-m2 l6 bg-light-ice" style="
+    border-radius: 3px;">
             <div class="card" style="background-color:#{{mode.color}};">
                 <a class="activator" href="{{site.url}}/{{mode.url}}">
                 <div class="card-content header-slim row valign-wrapper">

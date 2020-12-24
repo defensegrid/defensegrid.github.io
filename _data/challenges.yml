@@ -113,7 +113,7 @@ winter-brawl:
           substeps:
             - The last team standing wins
             - When a team is not in the arena for <b>10 seconds</b>, the opposing team automatically wins
-            - If rule was broken the opposing side automatically wins
+            - If a rule was broken, the opposing side automatically wins
 
     - name: Last Sanctuary
       resource: Hot-Zone-Icon
@@ -121,7 +121,7 @@ winter-brawl:
       color: 33763E
       url: events/last-sanctuary
       map: last-sanctuary.png
-      description: No matter the season famine is ever-present in this realm. We would even fight over spoilt food just to sate our hunger. But now that a new sanctuary was found, we may be able to bring providence to our people.
+      description: No matter the season, famine is ever-present in this realm. We would even fight over spoilt food just to sate our hunger. But now that a new sanctuary was found, we may be able to bring providence to our people.
       restrictions: 
         - Rosa
         - Bull
@@ -162,7 +162,7 @@ winter-brawl:
           substeps:
             - Invaders win if they managed to break all walls and fences, or eliminate all Defenders
             - Defenders win if they managed to eliminate all Invaders
-            - If rule was broken the opposing side automatically wins
+            - If a rule was broken, the opposing side automatically wins
         - step: Extra
           substeps:
             - Classic Mode — Rosa vs Piper (Damsels and De-stress)
@@ -191,17 +191,89 @@ winter-brawl:
             - Did not kill anyone
 
     - name: Dicey Brawl
-      resource: DG-Icon
-      background: None
-      color: 353235
-      url: #
+      resource: Heist-Icon
+      background: bg-semi-dark-purple
+      color: A329A3
+      url: events/dicey-brawl
+      map: dicey-brawl.png
+      description: A world perfectly balanced. Will it be ruined by greed? Maybe revenge? Hopefully not decadence.
+      restrictions:
+        - Piper
+        - Colt
+        - Dynamike
+        - Tick
+        - Nani
+        - Bull
+        - Shelly
+        - Tara
+        - Bo
+        - Mr.P
+        - Penny
+        - Jacky
+        - Bibi
+        - Leon
+        - Max
+      mechanics:
+        - step: Pick a brawler
+          substeps:
+            - Only the brawlers mentioned above can be chosen
+            - Both sides <b>can have duplicate brawlers</b>
+        - step: Distribution
+          substeps:
+            - There will be two teams with 5 members each
+            - One team will be on the left side, the other on the right
+        - step: Preparation Phase
+          substeps:
+            - <b>No one can eliminate or kill until the poison gas appears</b>
+            - Players can charge their super while waiting for the poison gas
+            - Both sides can send their scouts while waiting for the poison gas
+        - step: Battle Phase
+          substeps:
+            - <b>Players cannot always eliminate opponents</b> (more details below)
+            - Players can only eliminate opponents when they attack a cactus or an ally
+        - step: Tactical Retreat
+          substeps:
+            - To retreat is to move away from the cactus area or to go back to your respawn area
+            - Send a <i>Sad Emote</i> to let other players know that you are retreating
+            - <b>Retreating players cannot be eliminated</b>
+            - <b>Fake-retreating players</b>, or those who are retreating but suddenly attacked <b>can be eliminated</b>
+        - step: Win Condition
+          substeps:
+            - The first team that manages to destroy all 12 cactuses of the other side wins
+            - If no team managed to destroy all 12 cactuses, the one with the most cactuses standing wins
+            - <b>If all 24 cactuses are standing until the end, everyone wins</b>
+            - <b>If a rule was broken by a team, the opposing team automatically wins</b>
+
     - name: Winter Wind
-      resource: DG-Icon
-      background: None
-      color: 353235
-      url: #
+      resource: Showdown-Icon
+      background: bg-dark-purple
+      color: 5B29A3
+      url: events/dash-park
+      map: dash-park-wide.png
+      description: Keep dashing. Be dashing. But no slashing.
+      restrictions:
+        - Mortis
+      mechanics:
+        - step: Choose a brawler
+        - step: Complete the race
+          substeps:
+            - Keep Dashing
+            - Clear obstacles
+            - Reach the center
+            - Spin
+        - step: Win Condition
+          substeps:
+            - Reached the center
+            - Did not kill anyone
+
     - name: Snowball
       resource: DG-Icon
       background: None
       color: 353235
-      url: #
+      url: winter-brawl
+
+    - name: Final Hour
+      resource: DG-Icon
+      background: None
+      color: 353235
+      url: winter-brawl

@@ -167,8 +167,8 @@ winter-brawl:
             - Host decides the distribution of both sides
         - step: Pick a brawler
           substeps:
-            - <b>Invaders</b> are <i>Piper, Colt, Brock, Lou, Tara, and Poco</i>
-            - <b>Defenders</b> are <i>Rosa, Bull, Shelly, Bo, Amber, and Sandy</i>
+            - <b>Invaders</b> are - <b><i>Piper, Colt, Brock, Lou, Tara, and Poco</i></b>
+            - <b>Defenders</b> are - <b><i>Rosa, Bull, Shelly, Bo, Amber, and Sandy</i></b>
             - Both sides <b>can have duplicate brawlers</b>
             - To allow healing, Host can switch to Duo Showdown (in the future)
         - step: Preparation Phase
@@ -247,25 +247,20 @@ winter-brawl:
             - One team will be on the left side, the other on the right
         - step: Preparation Phase
           substeps:
-            - <b>No one can eliminate or kill until the poison gas appears</b>
+            - <b>No one can eliminate or kill anyone until the poison gas appears</b>
             - Players can charge their super while waiting for the poison gas
-            - Both sides can send their scouts while waiting for the poison gas
         - step: Battle Phase
           substeps:
-            - <b>Players cannot always eliminate opponents</b> (more details below)
-            - Players can only eliminate opponents when they attack a cactus or an ally
-        - step: Tactical Retreat
-          substeps:
-            - To retreat is to move away from the cactus area or to go back to your respawn area
-            - <b>Send a Sad Emote</b> to let other players know that you are retreating
-            - <b>Retreating players cannot be eliminated</b>
-            - <b>Fake-retreating players</b>, or those who are retreating but suddenly attacked <b>can be eliminated</b>
+            - Charge your Super with your Team
+            - Secure key positions
+            - Watch and support your allies
+            - Eliminate or control your enemies
         - step: Win Condition
           substeps:
             - <b>The first team that manages to destroy all 12 cactuses of the other side wins</b>
             - If no team managed to destroy all 12 cactuses, the one with the most cactuses standing wins
-            - <i>If all 24 cactuses are standing until the end, everyone wins</i>
-            - <b>If a rule was broken by a team, the opposing team automatically wins</b>
+            - <b>If all 24 cactuses are standing until the end, everyone wins</b>
+            - If a rule was broken by a team, the opposing team automatically wins
 
     - name: Snowball
       resource: Showdown-Icon
@@ -285,20 +280,20 @@ winter-brawl:
         - step: Players have to reach the Central Area
           substeps:
             - Clear obstacles
-            - Dodge the ball
+            - Dodge projectiles
             - Survive the Poison Gas
-            - Use the Bottom Jump Pad to enter the Central Area
-            - <b>Players cannot attack the Game Masters at this phase</b>
+            - Use the Jump Pad at the bottom of the map to enter the Central Area
+            - <b>Players cannot attack the Game Masters at this Phase</b>
         - step: Game Masters have to protect the Central Area
           substeps:
             - Prevent the players from reaching the Central Area
-            - The entrance to the Central Area is the Bottom Jump Pad
+            - The entrance to the Central Area is the Jump Pad located at the bottom of the map
             - <b>Game Masters can only damage or trap Players</b>
-        - step: The Hunter Hunted — Central Area Breached
+        - step: Central Area Breached
           substeps:
             - 1 Player has used the Bottom Jump Pad and reached the Central Area
-            - <b>Game Masters and Players can eliminate or kill each other</b>
-            - Players can use the Inner Jump Pad to go near the Game Masters
+            - <b>Game Masters and Players can eliminate or kill each other at this Phase</b>
+            - Everyone can use the Jump Pads and Teleporters
         - step: Win Condition
           substeps:
             - Last Team standing wins

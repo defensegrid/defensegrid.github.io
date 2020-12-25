@@ -275,8 +275,8 @@ winter-brawl:
         - step: Choose a brawler
         - step: Team Distribution
           substeps:
-            - 2 Sprouts will be chosen as Game Masters
-            - 8 Sprouts will be chosen as Players
+            - 2 Sprouts will be chosen as Game Masters and will spawn at a different location
+            - 8 Sprouts will be chosen as Players and will spawn at the same location
         - step: Players have to reach the Central Area
           substeps:
             - Clear obstacles

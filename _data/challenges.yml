@@ -98,22 +98,46 @@ winter-brawl:
           substeps: 
             - Host can restrict the choice to only the brawlers above
             - Host can restrict the choice to at least 2 brawlers
+            - Only brawlers that cannot break walls are allowed
         - step: Participants will be randomly divided into teams of 5
         - step: 5v5 Tag Team
           substeps:
-            - During Battle Phase, a player can leave the arena using the <b>Spring Trap</b>
+            - During Battle Phase, a player can <b>leave the arena using the Spring Trap</b>
             - When a player leaves, another player from the same team shall enter the arena
         - step: Battle Phase
           substeps:
-            - 1 Player from each team should enter the arena using the <b>Teleporters</b>
+            - 1 Player from each team can <b>enter the arena using the Teleporters</b>
             - Only players in the arena can eliminate or damage each other
             - Players outside the arena cannot eliminate or kill anyone
             - When a player gets eliminated, his/her team shall send another player
         - step: Win Condition
           substeps:
             - The last team standing wins
-            - When a team is not in the arena for <b>10 seconds</b>, the opposing team automatically wins
+            - <b>When a team is not in the arena for 10 seconds, the opposing team automatically wins</b>
             - If a rule was broken, the opposing side automatically wins
+
+    - name: Spring in Winter
+      resource: Showdown-Icon
+      background: bg-semi-dark-flax
+      color: E5CD57
+      url: events/jump-park
+      map: jump-park-wide.png
+      description: It might be chilly, but it won't stop us from popping. Hop in and keep jumping or become one with these half-frozen relics.
+      restrictions:
+        - Dynamike
+      mechanics:
+        - step: Choose a brawler
+        - step: Complete the race
+          substeps:
+            - Keep Jumping
+            - Clear obstacles
+            - Stun opponents but don't kill
+            - Use the launch pad at the right end
+        - step: Win Condition
+          substeps:
+            - Reached the right end
+            - First to be eliminated by the poison cloud
+            - Did not kill anyone
 
     - name: Last Sanctuary
       resource: Hot-Zone-Icon
@@ -138,56 +162,55 @@ winter-brawl:
       mechanics:
         - step: Choose a side
           substeps:
-            - Defenders should have at least 5 members
+            - Defenders should have at least 4 members
             - Invaders should have at least 4 members
             - Host decides the distribution of both sides
         - step: Pick a brawler
           substeps:
-            - <b>Defenders</b> are Rosa, Bull, Shelly, Bo, Amber, and Sandy
-            - <b>Invaders</b> are Piper, Colt, Brock, Lou, Tara, and Poco
+            - <b>Invaders</b> are <i>Piper, Colt, Brock, Lou, Tara, and Poco</i>
+            - <b>Defenders</b> are <i>Rosa, Bull, Shelly, Bo, Amber, and Sandy</i>
             - Both sides <b>can have duplicate brawlers</b>
-            - To allow healing, Host can switch to Duo Showdown
+            - To allow healing, Host can switch to Duo Showdown (in the future)
         - step: Preparation Phase
           substeps:
-            - Defenders go to the Sanctuary (Center Bush Area)
             - <b>Invaders can't attack until the poison gas appears</b>
+            - <b>Defenders go to the Sanctuary (Center Bush Area)</b>
             - Both sides can charge their super while waiting
         - step: Battle Phase
           substeps:
             - All players can eliminate or kill each other
             - Invaders can break the walls and bushes of the Defenders
-            - Invaders <b>cannot break fences until all walls are broken</b>
-            - Defenders <b>cannot kill outside the bushes until all walls are broken</b>
+            - <b>Invaders cannot break fences until all walls are broken</b>
+            - <b>Defenders cannot kill outside the bushes until all walls are broken</b>
         - step: Win Condition
           substeps:
-            - Invaders win if they managed to break all walls and fences, or eliminate all Defenders
-            - Defenders win if they managed to eliminate all Invaders
+            - <b>Invaders win if they managed to break all walls and fences, or eliminate all Defenders</b>
+            - <b>Defenders win if they managed to eliminate all Invaders</b>
             - If a rule was broken, the opposing side automatically wins
         - step: Extra
           substeps:
             - Classic Mode — Rosa vs Piper (Damsels and De-stress)
 
-    - name: Spring in Winter
+    - name: Winter Wind
       resource: Showdown-Icon
-      background: bg-semi-dark-flax
-      color: E5CD57
-      url: events/jump-park
-      map: jump-park-wide.png
-      description: It might be chilly, but it won't stop us from popping. Hop in and keep jumping or become one with these half-frozen relics.
+      background: bg-dark-purple
+      color: 5B29A3
+      url: events/dash-park
+      map: dash-park-wide.png
+      description: Keep dashing. Be dashing. No slashing.
       restrictions:
-        - Dynamike
+        - Mortis
       mechanics:
         - step: Choose a brawler
         - step: Complete the race
           substeps:
-            - Keep Jumping
+            - Keep Dashing
             - Clear obstacles
-            - Stun opponents but don't kill
-            - Use the launch pad at the right end
+            - Reach the center
+            - Spin
         - step: Win Condition
           substeps:
-            - Reached the right end
-            - First to be eliminated by the poison cloud
+            - Reached the center
             - Did not kill anyone
 
     - name: Dicey Brawl
@@ -234,46 +257,75 @@ winter-brawl:
         - step: Tactical Retreat
           substeps:
             - To retreat is to move away from the cactus area or to go back to your respawn area
-            - Send a <i>Sad Emote</i> to let other players know that you are retreating
+            - <b>Send a Sad Emote</b> to let other players know that you are retreating
             - <b>Retreating players cannot be eliminated</b>
             - <b>Fake-retreating players</b>, or those who are retreating but suddenly attacked <b>can be eliminated</b>
         - step: Win Condition
           substeps:
-            - The first team that manages to destroy all 12 cactuses of the other side wins
+            - <b>The first team that manages to destroy all 12 cactuses of the other side wins</b>
             - If no team managed to destroy all 12 cactuses, the one with the most cactuses standing wins
-            - <b>If all 24 cactuses are standing until the end, everyone wins</b>
+            - <i>If all 24 cactuses are standing until the end, everyone wins</i>
             - <b>If a rule was broken by a team, the opposing team automatically wins</b>
 
-    - name: Winter Wind
+    - name: Snowball
       resource: Showdown-Icon
-      background: bg-dark-purple
-      color: 5B29A3
-      url: events/dash-park
-      map: dash-park-wide.png
-      description: Keep dashing. Be dashing. No slashing.
+      background: bg-pale-blue
+      color: 84BFCF
+      url: events/dodgy-ball
+      map: dodgy-ball.png
+      description: Trust the Ball... See the Ball... Feel the Ball... Hear the Ball... Be the Ball.. Now throw the f*****' Ball!
       restrictions:
-        - Mortis
+        - Sprout
       mechanics:
         - step: Choose a brawler
-        - step: Complete the race
+        - step: Team Distribution
           substeps:
-            - Keep Dashing
+            - 2 Sprouts will be chosen as Game Masters
+            - 8 Sprouts will be chosen as Players
+        - step: Players have to reach the Central Area
+          substeps:
             - Clear obstacles
-            - Reach the center
-            - Spin
+            - Dodge the ball
+            - Survive the Poison Gas
+            - Use the Bottom Jump Pad to enter the Central Area
+            - <b>Players cannot attack the Game Masters at this phase</b>
+        - step: Game Masters have to protect the Central Area
+          substeps:
+            - Prevent the players from reaching the Central Area
+            - The entrance to the Central Area is the Bottom Jump Pad
+            - <b>Game Masters can only damage or trap Players</b>
+        - step: The Hunter Hunted — Central Area Breached
+          substeps:
+            - 1 Player has used the Bottom Jump Pad and reached the Central Area
+            - <b>Game Masters and Players can eliminate or kill each other</b>
+            - Players can use the Inner Jump Pad to go near the Game Masters
         - step: Win Condition
           substeps:
-            - Reached the center
-            - Did not kill anyone
-
-    - name: Snowball
-      resource: DG-Icon
-      background: None
-      color: 353235
-      url: winter-brawl
+            - Last Team standing wins
 
     - name: Final Hour
-      resource: DG-Icon
-      background: None
-      color: 353235
-      url: winter-brawl
+      resource: Bounty-Icon
+      background: bg-desert
+      color: CE7544
+      url: events/final-hour
+      map: final-hour.jpg
+      description: It's the eleventh hour. Don't let things go sour. Do everything in your power. Be brave and don't cower.
+      restrictions:
+        - Bea
+        - Brock
+        - Piper
+        - Colt
+        - Tick
+      mechanics:
+        - step: Choose a brawler
+        - step: Team Distribution
+          substeps: 
+            - There will be two teams with 5 members each
+        - step: 5v5 Deathmatch
+          substeps:
+            - Move around; Use Teleporters or Jump Pads
+            - Closely watch and support your allies
+            - Eliminate or kill the other team
+        - step: Win Condition
+          substeps:
+            - Last Team standing wins

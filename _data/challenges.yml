@@ -84,32 +84,37 @@ winter-brawl:
       restrictions:
         - Edgar
         - Rosa
+        - Daryll
+        - Nita
         - Jacky
+        - Tick
         - 8-Bit
+        - Carl
         - Rico
         - Bea
         - Amber
         - Crow
+        - Spike
+        - Sandy
         - Max
         - Surge
         - Colette
+        - Gale
       mechanics:
         - step: Choose any brawler
           substeps: 
             - Host can restrict the choice to only the brawlers above
             - Host can restrict the choice to at least 2 brawlers
-            - Only brawlers that cannot break walls are allowed
         - step: Participants will be randomly divided into teams of 5
-        - step: 5v5 Tag Team
+        - step: 1v1 Tag Team
           substeps:
-            - During Battle Phase, a player can <b>leave the arena using the Spring Trap</b>
-            - When a player leaves, another player from the same team shall enter the arena
+            - <b>Use the Spring Traps to switch with your Teammate</b>
         - step: Battle Phase
           substeps:
-            - 1 Player from each team can <b>enter the arena using the Teleporters</b>
-            - Only players in the arena can eliminate or damage each other
+            - <b>Only 1 Player from each team can enter the arena</b>
             - Players outside the arena cannot eliminate or kill anyone
-            - When a player gets eliminated, his/her team shall send another player
+            - Players outside the arena can search for hidden power cubes
+            - <b>Only players in the arena can eliminate or damage each other</b>
         - step: Win Condition
           substeps:
             - The last team standing wins
@@ -205,7 +210,7 @@ winter-brawl:
         - step: Complete the race
           substeps:
             - Keep Dashing
-            - Clear obstacles
+            - Clear obstacles for shortcuts
             - Reach the center
             - Spin
         - step: Win Condition
@@ -283,16 +288,16 @@ winter-brawl:
             - Dodge projectiles
             - Survive the Poison Gas
             - Use the Jump Pad at the bottom of the map to enter the Central Area
-            - <b>Players cannot attack the Game Masters at this Phase</b>
+            - <b>Players cannot attack the Game Masters when outside the Central Area</b>
         - step: Game Masters have to protect the Central Area
           substeps:
             - Prevent the players from reaching the Central Area
             - The entrance to the Central Area is the Jump Pad located at the bottom of the map
-            - <b>Game Masters can only damage or trap Players</b>
+            - <b>Game Masters can only damage or trap Players outside the Central Area</b>
         - step: Central Area Breached
           substeps:
             - 1 Player has used the Bottom Jump Pad and reached the Central Area
-            - <b>Game Masters and Players can eliminate or kill each other at this Phase</b>
+            - <b>Game Masters and Players can eliminate or kill each other in the Central Area</b>
             - Everyone can use the Jump Pads and Teleporters
         - step: Win Condition
           substeps:

@@ -228,11 +228,14 @@ winter-brawl:
       restrictions:
         - Piper
         - Colt
+        - Brock
+        - Emz
         - Dynamike
         - Tick
         - Nani
         - Bull
         - Shelly
+        - El-Primo
         - Tara
         - Bo
         - Mr.P
@@ -241,6 +244,8 @@ winter-brawl:
         - Bibi
         - Leon
         - Max
+        - Daryll
+        - Spike
       mechanics:
         - step: Pick a brawler
           substeps:

@@ -377,6 +377,7 @@ winter-brawl:
         - step: Deploy your mortars
           substeps: Use your gadget as needed
           substeps: Host may ban gadget usage
+        - step: Dodge like you mean it
         - step: Win Condition
           substeps:
             - Last Player standing wins

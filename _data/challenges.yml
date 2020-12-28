@@ -54,12 +54,15 @@ duel:
 
 winter-brawl:
   modes:
-    - name: Icy Canyon
+    - name: Skull Canyon
       resource: Brawl-Ball-Icon
       background: bg-dark-ice
       color: 0096b3
       url: events/skull-canyon
       map: skull-canyon-wide.png
+      show-map: skull-canyon-preview.jpg
+      map-creator: CryAlphaST
+      desc-creator: Seijuro
       description: In winter, you may encounter an unfamiliar turquoise street. Wanderers who unknowingly tread it get caught in its strong and cold currents beneath its thin ice. 
       restrictions: 
         - Daryll
@@ -74,12 +77,15 @@ winter-brawl:
             - Charge your Super but don't kill
         - step: Spin
 
-    - name: Spicy Showdown
+    - name: For The Worthy
       resource: Bounty-Icon
       background: bg-semi-dark-red
       color: B31D00
       url: events/for-the-worthy
       map: for-the-worthy-wide.png
+      show-map: for-the-worthy-preview.png
+      map-creator: Seijuro
+      desc-creator: Seijuro
       description: Any weapon is allowed. Any martial art uncontained. You only need to bring out your true strength. Are you worthy to be in the arena?
       restrictions:
         - Edgar
@@ -121,12 +127,15 @@ winter-brawl:
             - <b>When a team is not in the arena for 10 seconds, the opposing team automatically wins</b>
             - If a rule was broken, the opposing side automatically wins
 
-    - name: Spring in Winter
+    - name: Jump Park
       resource: Showdown-Icon
       background: bg-semi-dark-flax
       color: E5CD57
       url: events/jump-park
       map: jump-park-wide.png
+      show-map: jump-park-preview.jpg
+      map-creator: CryAlphaST
+      desc-creator: Seijuro
       description: It might be chilly, but it won't stop us from popping. Hop in and keep jumping or become one with these half-frozen relics.
       restrictions:
         - Dynamike
@@ -150,6 +159,9 @@ winter-brawl:
       color: 33763E
       url: events/last-sanctuary
       map: last-sanctuary.png
+      show-map: last-sanctuary-preview.png
+      map-creator: Seijuro
+      desc-creator: Seijuro
       description: No matter the season, famine is ever-present in this realm. We would even fight over spoilt food just to sate our hunger. But now that a new sanctuary was found, we may be able to bring providence to our people.
       restrictions: 
         - Rosa
@@ -196,12 +208,15 @@ winter-brawl:
           substeps:
             - Classic Mode — Rosa vs Piper (Damsels and De-stress)
 
-    - name: Winter Wind
+    - name: Dash Park
       resource: Showdown-Icon
       background: bg-dark-purple
       color: 5B29A3
       url: events/dash-park
       map: dash-park-wide.png
+      show-map: dash-park-preview.jpg
+      map-creator: CryAlphaST
+      desc-creator: Seijuro
       description: Keep dashing. Be dashing. No slashing.
       restrictions:
         - Mortis
@@ -224,6 +239,9 @@ winter-brawl:
       color: A329A3
       url: events/dicey-brawl
       map: dicey-brawl.png
+      show-map: dicey-brawl-preview.png
+      map-creator: Seijuro
+      desc-creator: Seijuro
       description: A world perfectly balanced. Will it be ruined by greed? Maybe revenge? Hopefully not decadence.
       restrictions:
         - Piper
@@ -272,12 +290,15 @@ winter-brawl:
             - <b>If all 24 cactuses are standing until the end, everyone wins</b>
             - If a rule was broken by a team, the opposing team automatically wins
 
-    - name: Snowball
+    - name: Dodgy Ball
       resource: Showdown-Icon
       background: bg-pale-blue
       color: 84BFCF
       url: events/dodgy-ball
       map: dodgy-ball.png
+      show-map: dodgy-ball-preview.png
+      map-creator: Seijuro
+      desc-creator: Seijuro
       description: Trust the Ball... See the Ball... Feel the Ball... Hear the Ball... Be the Ball.. Now throw the f*****' Ball!
       restrictions:
         - Sprout
@@ -314,6 +335,9 @@ winter-brawl:
       color: CE7544
       url: events/final-hour
       map: final-hour.jpg
+      show-map: final-hour-preview.jpg
+      map-creator: SP|Speedy
+      desc-creator: Seijuro
       description: It's the eleventh hour. Don't let things go sour. Do everything in your power. Be brave and don't cower.
       restrictions:
         - Bea
@@ -334,3 +358,25 @@ winter-brawl:
         - step: Win Condition
           substeps:
             - Last Team standing wins
+
+    - name: Mortar Madness
+      resource: Bounty-Icon
+      background: bg-dark-ice
+      color: 0096b3
+      url: events/mortar-madness
+      map: mortar-madness.jpg
+      show-map: mortar-madness-preview.jpg
+      map-creator: Seijuro & Ichiro
+      desc-creator: Christian.10
+      description: Ahoy me hearties! Tis time to see how ye measure up against Penny's Old Lobber! It would be a blunder to misuse da Plunderbuss, so take heart to only use it to charge thy super and not kill ye mates, or ye be walking the plank! Mortarrrgh!
+      restrictions:
+        - Penny
+      mechanics:
+        - step: Pick Penny
+        - step: Charge your super with other players
+        - step: Deploy your mortars
+          substeps: Use your gadget as needed
+          substeps: Host may ban gadget usage
+        - step: Win Condition
+          substeps:
+            - Last Player standing wins

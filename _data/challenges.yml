@@ -360,7 +360,7 @@ winter-brawl:
             - Last Team standing wins
 
     - name: Mortar Madness
-      resource: Bounty-Icon
+      resource: Showdown-Icon
       background: bg-dark-ice
       color: 0096b3
       url: events/mortar-madness
@@ -381,3 +381,26 @@ winter-brawl:
         - step: Win Condition
           substeps:
             - Last Player standing wins
+
+    - name: Death Canyon
+      resource: Showdown-Icon
+      background: bg-semi-dark-red
+      color: B31D00
+      url: events/death-canyon
+      map: death-canyon.png
+      show-map: death-canyon-preview.png
+      map-creator: CryAlphaST
+      desc-creator: N/A
+      description: A deadly sounding description would be nice
+      restrictions:
+        - Daryll
+        - Nani
+      mechanics:
+        - step: Choose your brawler
+          substeps:
+            - Host can limit the choice to only 1 brawler
+        - step: Participants will be randomly divided into teams of 3 or more
+        - step: Coordinate with your team to reach the center
+          substeps:
+            - Charge your Super but don't kill
+        - step: Spin

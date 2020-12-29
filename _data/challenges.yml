@@ -394,7 +394,6 @@ winter-brawl:
       description: A deadly sounding description would be nice
       restrictions:
         - Daryll
-        - Nani
       mechanics:
         - step: Choose your brawler
           substeps:

@@ -30,7 +30,7 @@ title: Winter Brawl
               </div>
             </div>
             <script>
-                var deadline = new Date("2020-12-29T13:00:00.000+00:00");
+                var deadline = new Date("2021-01-02T13:00:00.000+00:00");
                 initializeClock('clockdiv', deadline);
             </script>
         </div>

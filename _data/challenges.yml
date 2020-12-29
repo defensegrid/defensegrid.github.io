@@ -59,7 +59,7 @@ winter-brawl:
       background: bg-dark-ice
       color: 0096b3
       url: events/skull-canyon
-      map: skull-canyon-wide.png
+      map: skull-canyon.png
       show-map: skull-canyon-preview.jpg
       map-creator: CryAlphaST
       desc-creator: Seijuro
@@ -82,7 +82,7 @@ winter-brawl:
       background: bg-semi-dark-red
       color: B31D00
       url: events/for-the-worthy
-      map: for-the-worthy-wide.png
+      map: for-the-worthy.png
       show-map: for-the-worthy-preview.png
       map-creator: Seijuro
       desc-creator: Seijuro
@@ -132,7 +132,7 @@ winter-brawl:
       background: bg-semi-dark-flax
       color: E5CD57
       url: events/jump-park
-      map: jump-park-wide.png
+      map: jump-park.png
       show-map: jump-park-preview.jpg
       map-creator: CryAlphaST
       desc-creator: Seijuro
@@ -160,7 +160,7 @@ winter-brawl:
       url: events/last-sanctuary
       map: last-sanctuary.png
       show-map: last-sanctuary-preview.png
-      map-creator: Seijuro
+      map-creator: Seijuro & Christian.10
       desc-creator: Seijuro
       description: No matter the season, famine is ever-present in this realm. We would even fight over spoilt food just to sate our hunger. But now that a new sanctuary was found, we may be able to bring providence to our people.
       restrictions: 
@@ -213,7 +213,7 @@ winter-brawl:
       background: bg-dark-purple
       color: 5B29A3
       url: events/dash-park
-      map: dash-park-wide.png
+      map: dash-park.png
       show-map: dash-park-preview.jpg
       map-creator: CryAlphaST
       desc-creator: Seijuro
@@ -285,9 +285,9 @@ winter-brawl:
             - Eliminate or control your enemies
         - step: Win Condition
           substeps:
-            - <b>The first team that manages to destroy all 12 cactuses of the other side wins</b>
-            - If no team managed to destroy all 12 cactuses, the one with the most cactuses standing wins
-            - <b>If all 24 cactuses are standing until the end, everyone wins</b>
+            - <b>The first team that manages to destroy all cactuses of the other side wins</b>
+            - If no team managed to destroy all cactuses, the one with the most cactuses standing wins
+            - <b>If all cactuses from both sides are standing until the end, everyone wins</b>
             - If a rule was broken by a team, the opposing team automatically wins
 
     - name: Dodgy Ball
@@ -336,7 +336,7 @@ winter-brawl:
       url: events/final-hour
       map: final-hour.jpg
       show-map: final-hour-preview.jpg
-      map-creator: SP|Speedy
+      map-creator: SP | Speedy
       desc-creator: Seijuro
       description: It's the eleventh hour. Don't let things go sour. Do everything in your power. Be brave and don't cower.
       restrictions:

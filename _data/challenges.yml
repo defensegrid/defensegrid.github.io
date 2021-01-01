@@ -54,24 +54,23 @@ duel:
 
 winter-brawl:
   modes:
-    - name: Skull Canyon
-      resource: Brawl-Ball-Icon
+    - name: Death Canyon
+      resource: Showdown-Icon
       background: bg-dark-ice
       color: 0096b3
-      url: events/skull-canyon
-      map: skull-canyon.png
-      show-map: skull-canyon-preview.jpg
+      url: events/death-canyon
+      map: death-canyon.png
+      show-map: death-canyon-preview.png
       map-creator: CryAlphaST
-      desc-creator: Seijuro
-      description: In winter, you may encounter an unfamiliar turquoise street. Wanderers who unknowingly tread it get caught in its strong and cold currents beneath its thin ice. 
-      restrictions: 
+      desc-creator: N/A
+      description: A deadly sounding description would be nice
+      restrictions:
         - Daryll
-        - Nani
       mechanics:
         - step: Choose your brawler
           substeps:
             - Host can limit the choice to only 1 brawler
-        - step: Participants will be randomly divided into teams of 2 or more
+        - step: Participants will be randomly divided into teams of 3 or more
         - step: Coordinate with your team to reach the center
           substeps:
             - Charge your Super but don't kill
@@ -208,13 +207,13 @@ winter-brawl:
           substeps:
             - Classic Mode — Rosa vs Piper (Damsels and De-stress)
 
-    - name: Dash Park
+    - name: Dash Island
       resource: Showdown-Icon
       background: bg-dark-purple
       color: 5B29A3
-      url: events/dash-park
-      map: dash-park.png
-      show-map: dash-park-preview.jpg
+      url: events/dash-island
+      map: dash-island.png
+      show-map: dash-island-preview.png
       map-creator: CryAlphaST
       desc-creator: Seijuro
       description: Keep dashing. Be dashing. No slashing.
@@ -382,24 +381,70 @@ winter-brawl:
           substeps:
             - Last Player standing wins
 
-    - name: Death Canyon
+    - name: Dyna's Hell
       resource: Showdown-Icon
       background: bg-semi-dark-red
       color: B31D00
-      url: events/death-canyon
-      map: death-canyon.png
-      show-map: death-canyon-preview.png
-      map-creator: CryAlphaST
+      url: events/dynas-hell
+      map: dynas-hell.jpg
+      show-map: dynas-hell-preview.jpg
+      map-creator: Ichiro
       desc-creator: N/A
       description: A deadly sounding description would be nice
       restrictions:
-        - Daryll
+        - Dynamike
+        - Tick
       mechanics:
         - step: Choose your brawler
+        - step: Participants will be divided into 2 Dynamikes and 8 Ticks
+        - step: Ticks can't attack but Dynamikes can attack them
+        - step: Last Tick Wins
+
+    - name: Speed Relay
+      resource: Showdown-Icon
+      background: bg-semi-dark-flax
+      color: E5CD57
+      url: events/speed-relay
+      map: speed-relay.png
+      show-map: speed-relay-preview.png
+      map-creator: Seijuro
+      desc-creator: N/A
+      description: A quick sounding description would be nice
+      restrictions:
+        - Max
+      mechanics:
+        - step: Choose a brawler
+        - step: Run
           substeps:
-            - Host can limit the choice to only 1 brawler
-        - step: Participants will be randomly divided into teams of 3 or more
-        - step: Coordinate with your team to reach the center
+            - Dash smart
+            - Clear obstacles
+            - Find shortcuts
+        - step: Relay Race
           substeps:
-            - Charge your Super but don't kill
-        - step: Spin
+            - Wait for another max to arrive
+            - Charge your super while waiting
+            - Only the arriving max can break the skull that is blocking your way
+        - step: Win Condition
+          substeps:
+            - Reached the center
+            - First to break the Skulls at the Center 
+
+
+    - name: Useless Snipe
+      resource: Showdown-Icon
+      background: bg-semi-dark-green
+      color: 33763E
+      url: events/useless-snipe
+      map: useless-snipe.jpg
+      show-map: useless-snipe-preview.jpg
+      map-creator: SP|Speedy & Ichiro
+      desc-creator: N/A
+      description: A description that feels like hunting would be nice
+      restrictions: 
+        - Piper
+      mechanics:
+        - step: Pick a brawler
+        - step: Go to the bushes and Snipe
+        - step: Win Condition
+          substeps:
+            - Last Piper Standing Wins

@@ -1,4 +1,4 @@
 ---
 layout: event
-title: Dash Park
+title: Useless Snipe
 ---

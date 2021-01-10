@@ -1,4 +1,5 @@
 var VERY_ACCURATE = 0.95;
+var ACCURATE = 0.75;
 var FORGIVING = 0.60;
 
 function editDistance(s1, s2) {

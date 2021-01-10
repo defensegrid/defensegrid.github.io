@@ -96,13 +96,14 @@ title: Hall of Fame
     console.log(players);
 
     $( "#search_form" ).submit(function( event ) {
-        var similarity_threshold = VERY_ACCURATE;
+        var similarity_threshold = ACCURATE;
         var str = $("#search_event").val()
         event.preventDefault();
 
         $("#page_filler").hide();
 
         var player_similarity = [];
+        var player = "";
 
         for ( var i = 0, l = card_ids.length; i < l; i++ ) {
             $("#" + card_ids[i]).hide();
@@ -110,10 +111,14 @@ title: Hall of Fame
             var player_list = players[i].split(";");
             
             for( var j = 0; j < player_list.length; j++) {
-                similarty_score = similarity(str,player_list[j]);
-                if(similarity_tracker < similarty_score)
+                similarity_score = similarity(str,player_list[j]);
+                if(similarity_tracker < similarity_score)
                 {
-                  similarity_tracker = similarty_score;
+                  similarity_tracker = similarity_score;
+                  if(parseFloat(similarity_threshold) < similarity_score)
+                  {
+                      player = player_list[j]
+                  }
                 }
             }
 
@@ -147,7 +152,7 @@ title: Hall of Fame
             }
             else
             {
-              $("#search_key_content").text(str);
+              $("#search_key_content").text(player);
             }
         }
 

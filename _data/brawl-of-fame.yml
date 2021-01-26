@@ -50,6 +50,15 @@ brawl-of-fame:
       - Mortis Legend👏
     status: published
 
+  - name: Duo Challenge
+    description: Description not available
+    category:
+      - 12-win Challenge
+    mechanics: Complete the Challenge and get the Warrior Bo Skin for Free
+    players:
+      - SP|Speedy
+    status: published
+
   - name: Brawl-O-Ween
     description: Description not available
     category:

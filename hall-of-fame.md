@@ -16,15 +16,13 @@ title: Hall of Fame
               Epic Moments of Players and Teams from our Clan<br>
           </p>
       </div>
-  </div>
-  <div class="row">
-    <form id="search_form" class="col s12">
-      <div class="input-field col s12">
-        <i class="material-icons prefix">search</i>
-        <input id="search_event" type="text" class="validate">
-        <label for="search_event">Search your Name</label>
-      </div>
-    </form>
+      <form id="search_form" class="col s12">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">search</i>
+          <input id="search_event" type="text" class="validate">
+          <label for="search_event">Search your Name</label>
+        </div>
+      </form>
   </div>
   <div class="row" id="page_search_none" hidden>
       <div class="col s12">
@@ -41,36 +39,61 @@ title: Hall of Fame
       </div>
   </div>
   <div class="row">
-  {% for achievement in site.data.brawl-of-fame.brawl-of-fame %}
+  {% assign achievements = site.data.brawl-of-fame.brawl-of-fame | concat: site.data.royale-of-fame.royale-of-fame | sort: "difficulty" %}
+  {% for achievement in achievements %}
       {% if achievement.name != "Template" and achievement.name != "template"%}
       {% if achievement.status == "published"%}
-      <div class="col s12 m6 l4" id="brawl-{{forloop.index}}">
+      <div class="col s12 m6 l4" id="achievement-{{forloop.index}}">
         <div class="card-search" hidden>
-          <div class="card-id">brawl-{{forloop.index}}</div>
+          <div class="card-id">achievement-{{forloop.index}}</div>
           <div class="players">{{achievement.players | join: ";"}}</div>
         </div>
-        <div class="card">
+        <a class="modal-trigger" href="#show-achievement-{{forloop.index}}">
+        {% if achievement.difficulty <= 2 %}
+        <div class="card center-align yellow-shadow">
+        {% elsif  achievement.difficulty <= 5 %}
+        <div class="card center-align red-shadow">
+        {% elsif  achievement.difficulty <= 10 %}
+        <div class="card center-align purple-shadow">
+        {% elsif  achievement.difficulty > 10 %}
+        <div class="card center-align">
+        {% endif %}
           <div class="card-content">
-            <span class="card-title flow-text">{{achievement.name}}</span>
-            <p>{{achievement.mechanics}}</p>
+            <h5 class="logo-sub-text">{{achievement.name}}</h5>
           </div>
         </div>
-      </div>
-      {%endif%}
-      {%endif%}
-  {% endfor %}
-  {% for achievement in site.data.royale-of-fame.royale-of-fame %}
-      {% if achievement.name != "Template" and achievement.name != "template"%}
-      {% if achievement.status == "published"%}
-      <div class="col s12 m6 l4" id="royale-{{forloop.index}}">
-        <div class="card-search" hidden>
-          <div class="card-id">royale-{{forloop.index}}</div>
-          <div class="players">{{achievement.players | join: ";"}}</div>
-        </div>
-        <div class="card">
-          <div class="card-content">
-            <span class="card-title">{{achievement.name}}</span>
-            <p>{{achievement.mechanics}}</p>
+        </a>
+        <div id="show-achievement-{{forloop.index}}" class="modal center-modal" style="max-width: 1000px;">
+          <div class="modal-content center-align bg-dark-gray">
+            <h5 class="logo-text">{{achievement.name}}</h5>
+            <span class="logo-sub-text">{{achievement.mechanics}}</span><br><br>
+            {% if achievement.players.size == 1 %}
+            {% for player in achievement.players %}
+                <h6 class="logo-text">{{player}}</h6>
+            {% endfor %}
+            {% endif %}
+            {% if achievement.players.size == 2 %}
+            <div class="row">
+            {% for player in achievement.players %}
+              <div class="col s12 m6 l6">
+                <div class="card center-align" style="background:none;box-shadow:none">
+                  <h6 class="logo-text">{{player}}</h6>
+                </div>
+              </div>
+            {% endfor %}
+            </div>
+            {% endif %}
+            {% if achievement.players.size > 2 %}
+            <div class="row">
+            {% for player in achievement.players %}
+              <div class="col s12 m4 l4">
+                <div class="card center-align" style="background:none;box-shadow:none">
+                  <h6 class="logo-text">{{player}}</h6>
+                </div>
+              </div>
+            {% endfor %}
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>
@@ -158,5 +181,19 @@ title: Hall of Fame
 
         $("#search_event").val('');
         $("#search_event").blur();
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.modal');
+      var options = {
+      dismissible: true, // Allow modal to be dismissed by keyboard or overlay click
+      opacity: 0.93, // Opacity of modal background
+      inDuration: 1300, // Transition in duration
+      outDuration: 200, // Transition out duration
+      startingTop: '4%', // Starting top offset
+      endingTop: '10%', // Ending top offset
+      //ready: someFunction
+      };
+      var instances = M.Modal.init(elems, options);
     });
 </script>

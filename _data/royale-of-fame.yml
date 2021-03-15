@@ -13,6 +13,7 @@ royale-of-fame:
       - Player 2
       - Player 1 + Player 2 (Team/Party) #currently not supported
       - etc.
+    difficulty: #1-10; 1 Hardest (Legendary), 5 Hard (Mythic), 10 Notably Difficult; 11 Normal (Default);
     status: Choose published or draft
 
   - name: War God
@@ -20,10 +21,11 @@ royale-of-fame:
     category: 
       - 15-win Challenge
       - Clan Challenge
-    mechanics: Achieve at least 15 Win Streaks in War
+    mechanics: Achieve at least 15 War Win Streaks
     players: 
       - Seijuro
       - Stefan
+    difficulty: 4
     status: published
 
   - name: War Hero
@@ -31,11 +33,12 @@ royale-of-fame:
     category: 
       - 10-win Challenge
       - Clan Challenge
-    mechanics: Achieve at least 10 Win Streaks in War
+    mechanics: Achieve at least 10 War Win Streaks
     players:
       - Awko
       - LEWANDOWSKI
       - per
+    difficulty: 6
     status: published
 
   - name: Saint
@@ -48,19 +51,21 @@ royale-of-fame:
       - oredrock
       - dhaggerfin
       - kissjanice
+    difficulty: 8
     status: published
 
-  - name: 9-win Three Crown Win Challenge
+  - name: 9-win Three Crown<br>Challenge
     description: Description not available
     category: 
       - 9-win Challenge
       - Clan Challenge
-    mechanics: Complete the Challenge with only Three Crown Wins
+    mechanics: Complete a Challenge with only Three Crown Wins
     players: 
       - Christian.10
+    difficulty: 7
     status: published
 
-  - name: 9-win Sweep 2v2 Challenge
+  - name: 9-win Sweep<br>2v2 Challenge
     description: Description not available
     category:
       - 9-win Challenge
@@ -70,26 +75,29 @@ royale-of-fame:
       - Tofu
       - Awko
       - Seijuro
+    difficulty: 7
     status: published
 
-  - name: 10-win Sweep Challenge
+  - name: 10-win Sweep<br>Challenge
     description: Description not available
     category:
       - 10-win Challenge
       - Clan Challenge
-    mechanics: Complete the Challenge with no losses
+    mechanics: Complete a Challenge with no losses
     players: 
       - Seijuro
+    difficulty: 10
     status: published
 
-  - name: 15-win Sweep Challenge
+  - name: 15-win Sweep<br>Challenge
     description: Description not available
     category:
       - 15-win Challenge
       - Clan Challenge
-    mechanics: Complete the Challenge with no losses
+    mechanics: Complete a Challenge with no losses
     players: 
       - Seijuro
+    difficulty: 4
     status: published
 
   - name: Electro Wizard Challenge
@@ -100,6 +108,7 @@ royale-of-fame:
     mechanics: Complete the Challenge and get the Electro Wiz for Free
     players: 
       - Tofu
+    difficulty: 5
     status: published
 
   - name: Bandit Draft Challenge
@@ -110,6 +119,7 @@ royale-of-fame:
     mechanics: Complete the Challenge and get the Bandit for Free
     players: 
       - Seijuro
+    difficulty: 5
     status: published
 
   - name: Heal Draft Challenge
@@ -120,9 +130,10 @@ royale-of-fame:
     mechanics: Complete the Challenge and get the Heal Spell for Free
     players: 
       - Seijuro
+    difficulty: 11
     status: published
 
-  - name: Night Witch Draft Challenge
+  - name: Night Witch<br>Draft Challenge
     description: Description not available
     category: 
       - 12-win Challenge
@@ -130,9 +141,10 @@ royale-of-fame:
     mechanics: Complete the Challenge and get the Night Witch for Free
     players: 
       - Awko
+    difficulty: 5
     status: published
 
-  - name: Flying Machine Draft Challenge
+  - name: Flying Machine<br>Draft Challenge
     description: Description not available
     category: 
       - 12-win Challenge
@@ -140,9 +152,10 @@ royale-of-fame:
     mechanics: Complete the Challenge and get the Flying Machine for Free
     players: 
       - Seijuro
+    difficulty: 11
     status: published
 
-  - name: Zappies vs Hunter Draft Challenge
+  - name: Zappies vs Hunter<br>Draft Challenge
     description: Description not available
     category: 
       - 12-win Challenge
@@ -150,9 +163,10 @@ royale-of-fame:
     mechanics: Complete the Challenge and get Zappies and Hunter for Free
     players: 
       - Seijuro
+    difficulty: 11
     status: published
 
-  - name: Magic Archer Draft Challenge
+  - name: Magic Archer<br>Draft Challenge
     description: Description not available
     category: 
       - 12-win Challenge
@@ -161,6 +175,7 @@ royale-of-fame:
     players: 
       - Awko
       - Seijuro
+    difficulty: 5
     status: published
 
   - name: Rascals Draft Challenge
@@ -172,6 +187,7 @@ royale-of-fame:
     players: 
       - Awko
       - Seijuro
+    difficulty: 11
     status: published
 
   - name: Rage Challenge
@@ -181,9 +197,10 @@ royale-of-fame:
     mechanics: Complete the Challenge and get the Rage Spell for Free
     players: 
       - kenjan
+    difficulty: 11
     status: published
 
-  - name: Royal Recruits Challenge
+  - name: Royal Recruits<br>Challenge
     description: Description not available
     category: 
       - 12-win Challenge
@@ -191,9 +208,10 @@ royale-of-fame:
     mechanics: Complete the Challenge and get the Royal Recruits for Free
     players: 
       - Seijuro
+    difficulty: 11
     status: published
 
-  - name: Goblin Giant Challenge
+  - name: Goblin Giant<br>Challenge
     description: Description not available
     category: 
       - 12-win Challenge
@@ -201,9 +219,10 @@ royale-of-fame:
     mechanics: Complete the Challenge and get the Goblin Giant for Free
     players: 
       - Seijuro
+    difficulty: 11
     status: published
 
-  - name: Goblin Cage Challenge
+  - name: Goblin Cage<br>Challenge
     description: Description not available
     category: 
       - 15-win Challenge
@@ -211,9 +230,10 @@ royale-of-fame:
     mechanics: Complete the Challenge and get the Goblin Cage Emote for Free
     players: 
       - Seijuro
+    difficulty: 6
     status: published
 
-  - name: Elixir Golem Challenge
+  - name: Elixir Golem<br>Challenge
     description: Description not available
     category: 
       - 15-win Challenge
@@ -221,6 +241,7 @@ royale-of-fame:
     mechanics: Complete the Challenge and get the Elixir Golem Emote for Free
     players: 
       - Seijuro
+    difficulty: 6
     status: published
 
   - name: Modern Royale
@@ -230,6 +251,7 @@ royale-of-fame:
     mechanics: Complete the Challenge and get the Royal Giant Legendary Emote for Free
     players: 
       - Seijuro
+    difficulty: 11
     status: published
 
   - name: CRL 2v2 Challenge
@@ -240,4 +262,5 @@ royale-of-fame:
     players: 
       - Awko
       - Seijuro
+    difficulty: 4
     status: published

@@ -20,7 +20,7 @@ title: Hall of Fame
         <div class="input-field col s12">
           <i class="material-icons prefix">search</i>
           <input id="search_event" type="text" class="validate">
-          <label for="search_event">Search your Name</label>
+          <label for="search_event">Player Name</label>
         </div>
       </form>
   </div>

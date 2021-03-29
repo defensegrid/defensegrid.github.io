@@ -8,7 +8,7 @@ brawl-events:
   gameplay: mechanics
   creator: Creator/s of the Mode
   link: N/A or Actual Link
-  status: Choose draft or published
+  status: Choose draft or published or hidden
 
 - name: Defense Grid League
   description: Ambition & Glory
@@ -18,7 +18,7 @@ brawl-events:
   gameplay: N/A
   creator: Seijuro, Christian.10, CryAlphaST, Ichiro, remi
   link: dgl
-  status: unpublished
+  status: hidden
 
 - name: Winter Brawl
   description: Icy Dicey Spicy

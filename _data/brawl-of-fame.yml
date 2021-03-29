@@ -218,7 +218,7 @@ brawl-of-fame:
     difficulty: 10
     status: published
 
-  - name: PSG Cup
+  - name: PSG Cup 2020
     description: Description not available
     category:
       - 9-win Challenge
@@ -228,6 +228,31 @@ brawl-of-fame:
       - AriKingKing
       - CryAlphaST
     difficulty: 6
+    status: published
+
+  - name: PSG Cup 2021
+    description: Description not available
+    category:
+      - 9-win Challenge
+    mechanics: Complete the Challenge and get the PSG Dynamike Skin for Free
+    players:
+      - Megalodon
+      - Night Fury
+      - glumy
+      - master kurt
+      - ΔNi†πoFμn♪
+      - SP|Speedy
+      - Its Chriz
+      - Ichiro
+      - CryAlphaST
+      - gersh
+      - SuperakaayKT
+      - Chill
+      - TITAN
+      - Angel Gabriel
+      - BlackThunder
+      - DMoney XD
+    difficulty: 7
     status: published
 
   - name: Championship Challenge

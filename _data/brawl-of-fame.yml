@@ -227,7 +227,7 @@ brawl-of-fame:
       - Shichi
       - AriKingKing
       - CryAlphaST
-    difficulty: 6
+    difficulty: 7
     status: published
 
   - name: PSG Cup 2021
@@ -252,6 +252,7 @@ brawl-of-fame:
       - Angel Gabriel
       - BlackThunder
       - DMoney XD
+      - DEN-O
     difficulty: 7
     status: published
 

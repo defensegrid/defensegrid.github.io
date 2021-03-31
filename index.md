@@ -124,8 +124,9 @@ title: Defense Grid
           <div class="col s12 m10 offset-m1 l6 offset-l3 center-align">
             <div class="collection center-align">
               <a href="https://discordapp.com/invite/DGnjSqv" class="collection-item">Discord<i class="material-icons tiny">north_east</i></a>
-              <a class="collection-item">Clash Royale #2PUYGP</a>
-              <a class="collection-item">Brawl Stars #9RGV8L</a>
+              <a class="collection-item">Clash Royale <small>(Main)</small>&emsp;#2PUYGP</a>
+              <a class="collection-item">Brawl Stars <small>(Main)</small>&emsp;#9RGV8L</a>
+              <a class="collection-item">Brawl Stars <small>(Mini)</small>&emsp;#CL0J02UP</a>
             </div>
           </div>
         </div>

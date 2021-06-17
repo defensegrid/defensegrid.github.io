@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /new
+permalink: /3
 title: NEW
 ---
 

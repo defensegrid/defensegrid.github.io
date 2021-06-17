@@ -24,7 +24,7 @@ title: Defense Grid
         <div class="col s12 m6 l4 offset-l2 center-align">
           <h5>What you can't do</h5>
           <h6>Dishonesty of any form</h6>
-          <h6>Harrassment of members</h6>
+          <h6>Harassment of members</h6>
           <h6>Disruption of activities</h6><br>
         </div>
         <div class="col s12 m6 l4 center-align">

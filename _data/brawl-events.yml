@@ -17,8 +17,8 @@ brawl-events:
   gamemode: Tournament
   gameplay: N/A
   creator: Seijuro, Christian.10, CryAlphaST, Ichiro, remi
-  link: dgl
-  status: hidden
+  link: one
+  status: published
 
 - name: Winter Brawl
   description: Icy Dicey Spicy
@@ -48,6 +48,46 @@ brawl-events:
   gameplay: N/A
   creator: Seijuro
   link: synergy
+  status: published
+
+- name: Synergy 2
+  description: Team Battle
+  brawler: Any
+  map: N/A
+  gamemode: DGL Mode
+  gameplay: N/A
+  creator: Seijuro
+  link: synergy2
+  status: published
+
+- name: <i>To be revealed</i>
+  description: Team Showdown
+  brawler: Any
+  map: N/A
+  gamemode: Hidden DGL Mode
+  gameplay: N/A
+  creator: Seijuro
+  link: dgl 
+  status: published
+
+- name: <i>To be revealed</i>
+  description: Base Battle
+  brawler: Any
+  map: N/A
+  gamemode: Hidden DGL Mode
+  gameplay: N/A
+  creator: Seijuro
+  link: dgl 
+  status: published
+
+- name: <i>To be revealed</i>
+  description: Solo Duel
+  brawler: Any
+  map: N/A
+  gamemode: Hidden DGL Mode
+  gameplay: N/A
+  creator: Seijuro
+  link: dgl
   status: published
 
 - name: Pass the Bullet

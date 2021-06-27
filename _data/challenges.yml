@@ -4,7 +4,7 @@ unrivaled:
       resource: Gem-Grab-Icon
       background: Gem-Grab
       color: 660066
-    - name: Duo v Duo Showdown
+    - name: Showdown
       resource: Showdown-Icon
       background: Showdown
       color: 339900
@@ -28,6 +28,10 @@ unrivaled:
       resource: Hot-Zone-Icon
       background: Hot-Zone
       color: e33752
+    - name: Knockout
+      resource: Knockout-Icon
+      background: Knockout
+      color: ef9f3b 
 
 duel:
   modes:

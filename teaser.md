@@ -13,13 +13,13 @@ title: NEW
     <div class="row center-align">
         <form id="search_form">
             <div class="input-field col push-s3 s2 push-m3 m2 push-l3 l2">
-              <input id="char-1" class="logo-text center-align" type="text" maxLength="1" style="font-size: 2.92rem;text-transform: uppercase;">
+              <input id="char-1" class="logo-text center-align" type="text" maxLength="1" size="4" style="font-size: 2.92rem;text-transform: uppercase;">
             </div>
             <div class="input-field col push-s3 s2 push-m3 m2 push-l3 l2">
-              <input id="char-2" class="logo-text center-align" type="text" maxLength="1" style="font-size: 2.92rem;text-transform: uppercase;">
+              <input id="char-2" class="logo-text center-align" type="text" maxLength="1" size="4" style="font-size: 2.92rem;text-transform: uppercase;">
             </div>
             <div class="input-field col push-s3 s2 push-m3 m2 push-l3 l2">
-              <input id="char-3" class="logo-text center-align" type="text" maxLength="1" style="font-size: 2.92rem;text-transform: uppercase;">
+              <input id="char-3" class="logo-text center-align" type="text" maxLength="1" size="4" style="font-size: 2.92rem;text-transform: uppercase;">
             </div>
         </form>
     </div>

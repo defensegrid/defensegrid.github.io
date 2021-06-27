@@ -24,10 +24,10 @@ title: Team Creator
     <div class="row" id="page_filler">
         <div class="col s12">
             <p class="flow-text">
-                We value fairness in every competition. That is why we ensure balanced teams by calculating it from relevant views<br>
+                We value fairness in every competition. That is why we ensure balanced teams by using relevant stats<br>
                 <br>
                 Please enter the tag of each member of your team separated by a comma<i>(,)</i> in the input field above so we can start the calculation<br>
-                &emsp;<small>e.g.&ensp;#TAG_1, #TAG_2, #TAG_3 </small><br>
+                &emsp;<small>e.g.&ensp;#1U0G8VCR, #AVRV9CR2, #PPUQJ9C0 </small><br>
                 <br>
                 <i>Tags are located below the profile name</i>
                 <br>
@@ -59,9 +59,15 @@ title: Team Creator
             <h5 id="error"></h5><br><br>
         </div>
     </div>
+    <div class="row">
+        <div class="col s12">
+            <h5 id="code"></h5><br><br>
+        </div>
+    </div>
 </div>
 
 <script type="text/javascript" src="/assets/js/calculator.js"></script>
+<script type="text/javascript" src="/assets/js/bin/lz-string.js"></script>
 
 <script>
     $( "#search_form" ).submit(function( event ) {
@@ -69,6 +75,11 @@ title: Team Creator
         event.preventDefault();
 
         var calculation = calculateTeamElo(str);
+        var code = LZString.compressToEncodedURIComponent(str);
+        //var decode = LZString.decompressFromEncodedURIComponent(code);
+        const code_text = "YOUR TEAM CODE IS: "
+
+        $("#code").text(code_text + code + ":: " + decode);
 
         if(calculation == ERROR)
         {

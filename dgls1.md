@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /one
+permalink: /dgl1
 title: Defense Grid League
 ---
 
@@ -145,12 +145,5 @@ title: Defense Grid League
             &emsp;<h7><b>c</b>. <i>Dishonest Acts</i> &ndash; Every dishonest act will penalize a team by 10 points</h7><br>
         </div>
         <br>
-        <div class="col s12 m12 l12 center-align">
-            <br>
-            <div class="divider red-shadow full-width"></div>
-            <br>
-            <h4 class="logo-text"><a href="{{site.url}}/dgl">Go to Current Season<i class="material-icons">north_east</i></a></h4>
-            <br><br><br>
-        </div>
     </div>
 </div>

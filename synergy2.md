@@ -5,7 +5,7 @@ title: Synergy 2
 ---
 
 <div class="row">
-    <div class="col s12 center-align bg-dark-gray">
+    <div class="col s12 center-align bg-defense-grid">
         <h4 class="logo-text">Synergy 2</h4>
         <h6 class="logo-sub-text">Vision & Execution</h6>
         <br>

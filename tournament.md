@@ -5,8 +5,8 @@ title: Defense Grid League
 ---
 
 <div class="row">
-    <div class="col s12 m12 l12 center-align bg-dark-gray">
-        <img class="header-img responsive-img" id="logo" src="/assets/img/DGL2_Lean.png"/>
+    <div class="col s12 m12 l12 center-align bg-defense-grid">
+        <img class="header-img responsive-img" id="logo" src="/assets/img/DGL2_Circle.png"/>
         <h4 class="logo-text">Defense Grid League</h4>
         <h6 class="logo-sub-text">Ambition & Glory</h6>
         <br>
@@ -71,6 +71,9 @@ title: Defense Grid League
             <div class="divider red-shadow full-width"></div>
             <br>
             <h4 class="center-align"><a href="https://forms.gle/Xhq8QwxLKYeH4ypS6">Register Here<i class="material-icons">north_east</i></a></h4>
+        </div>
+        <div class="col s12 m12 l12 center-align">
+            <h6 class="logo-text"><a href="{{site.url}}/dgl1"><i class="material-icons tiny">north_west</i>Visit Previous Season</a></h6>
             <br><br><br>
         </div>
     </div>

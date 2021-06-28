@@ -66,7 +66,7 @@ title: Relay
             <h7><b>b</b>. Players cannot leave spawn points unless it's their turn to duel</h7><br>
             <h7><b>c</b>. Players cannot enter a Duel with a charged Super</h7><br>
             <h7><b>d</b>. Surviving players can save their charged Super</h7><br>
-            <h7><b>e</b>. Surviving players can lurk around the map</h7><br><br>
+            <h7><b>e</b>. Duelists can lurk around the map</h7><br><br>
             <h6><b>4</b>. Submit the results on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>
             <a href="{{site.url}}/hall-of-fame"><h6><b>5</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
             <h7><b>a</b>. The team with the highest points gets the award for <b>Best Relay</b></h7><br><br>

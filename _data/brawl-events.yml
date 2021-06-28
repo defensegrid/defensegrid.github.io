@@ -50,7 +50,7 @@ brawl-events:
   link: synergy
   status: published
 
-- name: Synergy 2
+- name: Synergy
   description: Team Battle
   brawler: Any
   map: N/A
@@ -60,14 +60,14 @@ brawl-events:
   link: synergy2
   status: published
 
-- name: <i>To be revealed</i>
+- name: Relay 
   description: Team Showdown
   brawler: Any
   map: N/A
-  gamemode: Hidden DGL Mode
+  gamemode: DGL Mode
   gameplay: N/A
   creator: Seijuro
-  link: dgl 
+  link: relay 
   status: published
 
 - name: <i>To be revealed</i>

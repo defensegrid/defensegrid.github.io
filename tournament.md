@@ -25,7 +25,17 @@ title: Defense Grid League
         {% if event.status == "published"%}
             {% if event.gamemode == "DGL Mode"%}
             <div class="col s12 m4 l3">
+                {% assign index = {{forloop.index}} | minus: 6 %}
+                {% assign switch = {{index}} | modulo: 4 %}
+                {% if {{switch}} == 0 %}
                 <div class="card dgl2-card">
+                {% elsif {{switch}} == 1 %}
+                <div class="card dgl2-card-var2">
+                {% elsif {{switch}} == 2 %}
+                <div class="card dgl2-card-var3">
+                {% elsif {{switch}} == 3 %}
+                <div class="card dgl2-card-var4">
+                {% endif %}
                     <a class="activator" href="{{site.url}}/{{event.link}}">
                     <div class="card-content">
                         <span class="card-title logo-text">{{event.name}}</span>
@@ -64,7 +74,7 @@ title: Defense Grid League
             &emsp;<h7><b>a</b>. Champion Team - highest overall points</h7><br>
             &emsp;<h7><b>b</b>. Best Captain - best captain according to all participants</h7><br>
             &emsp;<h7><b>c</b>. Most Valuable Player - best stats in the whole season</h7><br>
-            &emsp;<h7><b>d</b>. Game Mode Award - best performing team on a specific game mode</h7><br>
+            &emsp;<h7><b>d</b>. Game Mode Awards - best performing player or team on a specific game mode</h7><br>
         </div>
         <div class="col s12 m12 l12">
             <br>

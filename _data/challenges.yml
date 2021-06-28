@@ -56,6 +56,13 @@ duel:
       background: Heist
       color: cc33cc
 
+relay:
+  modes:
+    - name: Solo Showdown
+      resource: Showdown-Icon
+      background: Showdown
+      color: 339900
+
 winter-brawl:
   modes:
     - name: Death Canyon

@@ -142,7 +142,7 @@ title: Defense Grid League
             <h6><b>6</b>. Unusual Scenarios</h6>
             &emsp;<h7><b>a</b>. <i>Sudden Game Interruption</i> &ndash; An interrupted match can be repeated if the both teams agree</h7><br>
             &emsp;<h7><b>b</b>. <i>No-Show</i> &ndash; A team that does not show up and has 2 or more strikes will lose by default</h7><br>
-            &emsp;<h7><b>c</b>. <i>Dishonest Acts</i> &ndash; Every dishonest act will penalize a team by 10 points</h7><br>
+            &emsp;<h7><b>c</b>. <i>Dishonest Acts</i> &ndash; Every dishonest act will penalize a team by 10 points</h7><br><br><br>
         </div>
         <br>
     </div>

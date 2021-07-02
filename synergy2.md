@@ -49,7 +49,7 @@ title: Synergy
             <h7><b>b</b>. Choose the Skills and Roles of each Brawler</h7><br>
             <h7><b>c</b>. Practice your Plan, beware of Bans</h7><br><br>
             <h6><b>3</b>. Battle another Team</h6>
-            <h7><i>First 2 Battles</i></h7><br>
+            <h7><i>1st and 2nd Battle</i></h7><br>
             <h7><b>a</b>. One team uses their chosen Map in Step #2 once</h7><br>
             <h7><b>b</b>. The other team bans either 1 brawler or 2 star powers</h7><br>
             <h7><b>c</b>. Both teams alternatingly pick 1 brawler, starting with the team that chose the map</h7><br>

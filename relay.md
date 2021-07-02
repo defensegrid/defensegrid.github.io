@@ -48,14 +48,15 @@ title: Relay
             <h7><b>c</b>. Plan the Order at which 3 players will duel with the opposing team</h7><br>
             <h7><b>d</b>. Practice your Plan, beware of Bans</h7><br><br>
             <h6><b>3</b>. Battle another Team</h6>
-            <h7><i>First 2 Battles</i></h7><br>
+            <h7><i>1st and 2nd Battle</i></h7><br>
             <h7><b>a</b>. One team uses their chosen Map in Step #2 once</h7><br>
             <h7><b>b</b>. The other team bans either 1 brawler or 2 star powers</h7><br>
             <h7><b>c</b>. Both teams pick 3 players and submit the <i>Order of Duel</i> to a Host</h7><br>
             <h7> <small>ⓘ Only the Host can know and verify your team's Order of Duel</small></h7><br>
             <h7><b>d</b>. Each team will send 1 player based on the <i>Order of Duel</i> to 1v1 around the map</h7><br>
-            <h7><b>e</b>. Eliminated player gets replaced, surviving player stays</h7><br><br>
-            <h7><i>Final Battle</i></h7><br>
+            <h7><b>e</b>. Eliminated player gets replaced; the surviving player stays</h7><br>
+            <h7><b>f</b>. When all players of one team are eliminated, the teams switch roles</h7><br><br>
+            <h7><i>3rd Battle</i></h7><br>
             <h7><b>a</b>. Both Teams Fight in the <i>Map of the Day</i></h7><br>
             <h7><b>b</b>. Both Teams ban either 1 brawler or 2 star powers</h7><br>
             <h7><b>c</b>. Both teams pick 3 players and submit the <i>Order of Duel</i> to a Host</h7><br>

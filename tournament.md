@@ -25,15 +25,15 @@ title: Defense Grid League
         {% if event.status == "published"%}
             {% if event.gamemode == "DGL Mode"%}
             <div class="col s12 m4 l3">
-                {% assign index = {{forloop.index}} | minus: 6 %}
-                {% assign switch = {{index}} | modulo: 4 %}
-                {% if {{switch}} == 0 %}
+                {% assign index = forloop.index | minus: 6 %}
+                {% assign switch = index | modulo: 4 %}
+                {% if switch == 0 %}
                 <div class="card dgl2-card">
-                {% elsif {{switch}} == 1 %}
+                {% elsif switch == 1 %}
                 <div class="card dgl2-card-var2">
-                {% elsif {{switch}} == 2 %}
+                {% elsif switch == 2 %}
                 <div class="card dgl2-card-var3">
-                {% elsif {{switch}} == 3 %}
+                {% elsif switch == 3 %}
                 <div class="card dgl2-card-var4">
                 {% endif %}
                     <a class="activator" href="{{site.url}}/{{event.link}}">

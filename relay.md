@@ -43,7 +43,7 @@ title: Relay
             <h7><b>a</b>. Choose the <i>Map of the Day</i></h7><br><br>
             <h6><b>2</b>. Form a Relay with your team</h6>
             <h7><b>a</b>. Choose your Team's Map</h7><br>
-            <h7> <small>(Optional) Your team can use a symmetrical Custom Map.</small></h7><br>
+            <h7> <small>ⓘ Your team can use a symmetrical Custom Map.</small></h7><br>
             <h7><b>b</b>. Choose the Skills and Roles of each Brawler</h7><br>
             <h7><b>c</b>. Plan the Order at which 3 players will duel with the opposing team</h7><br>
             <h7><b>d</b>. Practice your Plan, beware of Bans</h7><br><br>
@@ -52,24 +52,22 @@ title: Relay
             <h7><b>a</b>. One team uses their chosen Map in Step #2 once</h7><br>
             <h7><b>b</b>. The other team bans either 1 brawler or 2 star powers</h7><br>
             <h7><b>c</b>. Both teams pick 3 players and submit the <i>Order of Duel</i> to a Host</h7><br>
-            <h7> <small>(i.e.) Only the Host can know and verify your team's Order of Duel</small></h7><br>
-            <h7><b>d</b>. Each team will send 1 player based on the <i>Order of Duel</i> to 1v1 at the center of the map</h7><br>
+            <h7> <small>ⓘ Only the Host can know and verify your team's Order of Duel</small></h7><br>
+            <h7><b>d</b>. Each team will send 1 player based on the <i>Order of Duel</i> to 1v1 around the map</h7><br>
             <h7><b>e</b>. Eliminated player gets replaced, surviving player stays</h7><br><br>
             <h7><i>Final Battle</i></h7><br>
             <h7><b>a</b>. Both Teams Fight in the <i>Map of the Day</i></h7><br>
             <h7><b>b</b>. Both Teams ban either 1 brawler or 2 star powers</h7><br>
             <h7><b>c</b>. Both teams pick 3 players and submit the <i>Order of Duel</i> to a Host</h7><br>
-            <h7><b>d</b>. Each team will send 1 player based on the <i>Order of Duel</i> to 1v1 at the center of the map</h7><br>
+            <h7><b>d</b>. Each team will send 1 player based on the <i>Order of Duel</i> to 1v1 around the map</h7><br>
             <h7><b>e</b>. Eliminated player gets replaced, surviving player stays</h7><br><br>
             <h7><i>Restrictions</i></h7><br>
             <h7><b>a</b>. Players that are not dueling cannot use their Attack, Gadget, and Star Power</h7><br>
-            <h7><b>b</b>. Players cannot leave spawn points unless it's their turn to duel</h7><br>
-            <h7><b>c</b>. Players cannot enter a Duel with a charged Super</h7><br>
-            <h7><b>d</b>. Surviving players can save their charged Super</h7><br>
-            <h7><b>e</b>. Duelists can lurk around the map</h7><br><br>
+            <h7><b>b</b>. Players that are not dueling should always move away from the duelists</h7><br><br>
             <h6><b>4</b>. Submit the results on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>
             <a href="{{site.url}}/hall-of-fame"><h6><b>5</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
-            <h7><b>a</b>. The team with the highest points gets the award for <b>Best Relay</b></h7><br><br>
+            <h7><b>a</b>. The team with the highest points gets the title <b>Battle-Hardened</b></h7><br>
+            <h7><b>b</b>. The player with the most eliminations gets the title <b>Dominator</b></h7><br><br>
         </div>
     </div>
     <br><br><br>

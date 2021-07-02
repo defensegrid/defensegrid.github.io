@@ -56,12 +56,42 @@ duel:
       background: Heist
       color: cc33cc
 
+synergy:
+  modes:
+    - name: Gem Grab
+      resource: Gem-Grab-Icon
+      background: Gem-Grab
+      color: 660066
+    - name: Brawl Ball
+      resource: Brawl-Ball-Icon
+      background: Brawl-Ball
+      color: 8ca0e0
+    - name: Bounty
+      resource: Bounty-Icon
+      background: Bounty
+      color: 10b2b7
+    - name: Siege
+      resource: Siege-Icon
+      background: Siege
+      color: f05031
+
 relay:
   modes:
     - name: Solo Showdown
       resource: Showdown-Icon
       background: Showdown
       color: 339900
+
+haven:
+  modes:
+    - name: Heist
+      resource: Heist-Icon
+      background: Heist
+      color: cc33cc
+    - name: Hot Zone
+      resource: Hot-Zone-Icon
+      background: Hot-Zone
+      color: e33752
 
 winter-brawl:
   modes:

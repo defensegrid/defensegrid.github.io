@@ -53,7 +53,8 @@ title: Haven
             <h7><b>b</b>. Choose 1 brawler or 2 star powers that cannot be used by the Attackers</h7><br>
             <h7><b>b</b>. Protect your base(s); Stall the Attackers</h7><br><br>
             <h7><i>Attackers</i></h7><br>
-            <h7><b>a</b>. Destroy or capture the base(s) of the Defenders</h7><br><br>
+            <h7><b>a</b>. Destroy or capture the base(s) of the Defenders</h7><br>
+            <h7><b>a</b>. When time runs out or the game ends, the teams switch sides</h7><br><br>
             <h7><i>Restrictions</i></h7><br>
             <h7><b>a</b>. Attackers and Defenders switch after 1 battle</h7><br>
             <h7><b>a</b>. There will only be 2 battles</h7><br>

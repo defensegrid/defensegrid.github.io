@@ -80,14 +80,14 @@ brawl-events:
   link: haven 
   status: published
 
-- name: <i>To be revealed</i>
-  description: Solo Duel
+- name: Blitz 
+  description: Solo Showdown
   brawler: Any
   map: N/A
-  gamemode: Hidden DGL Mode
+  gamemode: DGL Mode
   gameplay: N/A
   creator: Seijuro
-  link: dgl
+  link: blitz
   status: published
 
 - name: Pass the Bullet

@@ -7,7 +7,7 @@ title: Relay
 <div class="row">
     <div class="col s12 center-align bg-defense-grid">
         <h4 class="logo-text">Relay</h4>
-        <h6 class="logo-sub-text">Practical & Mechanical</h6>
+        <h6 class="logo-sub-text">Unwavering Belief</h6>
         <br>
     </div>
 </div>
@@ -59,8 +59,8 @@ title: Relay
             <h7><i>3rd Battle</i></h7><br>
             <h7><b>a</b>. Both Teams Fight in the <i>Map of the Day</i></h7><br>
             <h7><b>b</b>. Both Teams ban either 1 brawler or 2 star powers</h7><br>
-            <h7><b>c</b>. Both teams pick 3 players and submit the <i>Order of Duel</i> to a Host</h7><br>
-            <h7><b>d</b>. Each team will send 1 player based on the <i>Order of Duel</i> to 1v1 around the map</h7><br>
+            <h7><b>c</b>. Both Teams pick 3 players and submit the <i>Order of Duel</i> to a Host</h7><br>
+            <h7><b>d</b>. Each Team will send 1 player based on the <i>Order of Duel</i> to 1v1 around the map</h7><br>
             <h7><b>e</b>. Eliminated player gets replaced, surviving player stays</h7><br><br>
             <h7><i>Restrictions</i></h7><br>
             <h7><b>a</b>. Players that are not dueling cannot use their Attack, Gadget, and Star Power</h7><br>

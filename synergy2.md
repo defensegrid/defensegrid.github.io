@@ -57,7 +57,7 @@ title: Synergy
             <h7><i>Final Battle</i></h7><br>
             <h7><b>a</b>. Both Teams Fight in the <i>Map of the Day</i></h7><br>
             <h7><b>b</b>. Both Teams Ban 1 brawler</h7><br>
-            <h7><b>b</b>. Both Teams alternatingly pick 1 brawler, starting with the team with the least wins in this match-up</h7><br><br>
+            <h7><b>c</b>. Both Teams alternatingly pick 1 brawler, starting with the team with the least wins in this match-up</h7><br><br>
             <h6><b>4</b>. Submit the results on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>
             <a href="{{site.url}}/hall-of-fame"><h6><b>5</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
             <h7><b>a</b>. The team with the highest points gets the title <b>Dream Team</b></h7><br><br>

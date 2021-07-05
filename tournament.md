@@ -63,17 +63,18 @@ title: Defense Grid League
             <div class="divider gray-shadow full-width"></div>
             <br>
             <h4>Overall System</h4>
-            <h6><b>1</b>. Elect Captains</h6><br>
-            <h6><b>2</b>. Captains will <u><a href="{{site.url}}/team-creator">Build a Team</a></u> of 3-5 club members</h6>
-            &emsp;<h7><b>a</b>. Consider a variety of skills, as all 4 Game Modes provide equal points</h7><br>
-            &emsp;<h7><b>b</b>. Test your team in <u><a href="{{site.url}}/team-creator">Team Creator</a></u></h7><br>
-            &emsp;<h7><b>c</b>. If successful and you think your team can do it, submit the result on Discord</h7><br>
-            &emsp;<h7><b>d</b>. Once everything is successful, your team will be added to this page</h7><br>
-            <h7> <small>ⓘ Your team can be recreated anytime</small></h7><br><br>
-            <h6><b>3</b>. Battle with another player or team in an assigned Game Mode</h6><br>
-            <h6><b>4</b>. Both teams record the results of the battle and the winner shall submit the result on Discord</h6><br>
-            <h6><b>5</b>. Hosts will verify the results by checking the brawlers used and the agreements of both teams</h6><br>
-            <a href="{{site.url}}/hall-of-fame"><h6><b>6</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
+            <h6><b>1</b>. <u><a href="{{site.url}}/team-creator">Build a Team</a></u> of 3-5 players</h6>
+            &emsp;<h7><b>a</b>. Consider a variety of skills, as all Game Modes provide <i>equal points</i></h7><br>
+            &emsp;<h7><b>b</b>. Consider a balanced team, as Game Modes have <i>bans and rotations</i></h7><br>
+            &emsp;<h7><b>c</b>. Test your team in <u><a href="{{site.url}}/team-creator">Team Creator</a></u></h7><br>
+            &emsp;<h7><b>d</b>. Consider choosing a <i>Captain</i>, leading is important</h7><br>
+            &emsp;<h7><b>e</b>. If successful and your team is confident, submit the result on <u><a href="{{site.url}}/#chat">Discord</a></u> with your <i>Team Name</i></h7><br>
+            &emsp;<h7><b>f</b>. Once everything is verified, your new team will be announced to all</h7><br>
+            &emsp;<h7> <small>ⓘ Your team can be recreated anytime</small></h7><br><br>
+            <h6><b>2</b>. Battle with another player or team in an assigned Game Mode</h6><br>
+            <h6><b>3</b>. Both teams record the results of the battle and the winner shall submit the result on <u><a href="{{site.url}}/#chat">Discord</a></u></h6><br>
+            <h6><b>4</b>. Hosts will verify the results by checking the brawlers used and the agreements of both teams</h6><br>
+            <a href="{{site.url}}/hall-of-fame"><h6><b>5</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
             &emsp;<h7><b>a</b>. Champion Team - highest overall points</h7><br>
             &emsp;<h7><b>b</b>. Best Captain - best captain according to all participants</h7><br>
             &emsp;<h7><b>c</b>. Most Valuable Player - best stats in the whole season</h7><br>

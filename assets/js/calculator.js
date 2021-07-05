@@ -20,10 +20,12 @@ let data_map = new Map();
 let player_map = new Map();
 let stat_map = new Map();
 var key_list = [];
-var TOO_OP = 2;
+var TOO_OP = 100;
+var STACKED = 1000;
 var REWORK = 0;
-var SUCCESS = 1;
-var ERROR = 100;
+var SUCCESS_BAL = 1;
+var SUCCESS_SPE = 2;
+var ERROR = -1;
 var ERROR_STRING = "There seems to be a problem... Please check your input and try again";
 var PLAYERS = "";
 
@@ -39,8 +41,6 @@ function processElo(allText) {
         key_list[data[0]] = null;
         key_list[data[1]] = null;
     }
-
-    console.log(player_map)
 }
 
 function processStat(allText) {
@@ -51,8 +51,6 @@ function processStat(allText) {
         var data = allTextLines[i].split(',');
         stat_map.set(String(data[0]), parseFloat(data[1]))
     }
-
-    console.log(stat_map)
 }
 
 function getKeyList() {
@@ -72,10 +70,14 @@ function calculateTeamElo(team) {
         if (parsed.length == 0) {
             continue
         }
-        console.log(parsed)
 
         if (parsed[0] == "#") {
             parsed = player_map.get(parsed)
+        }
+
+        if (PLAYERS.search(parsed) != -1) {
+            ERROR_STRING = parsed + " was entered more than once";
+            return ERROR;
         }
 
         console.log("parsed: " + parsed)
@@ -98,12 +100,16 @@ function calculateTeamElo(team) {
         PLAYERS += parsed + " + ";
     }
 
-    PLAYERS = PLAYERS.substr(PLAYERS.length-3)
+    PLAYERS = PLAYERS.substr(0,PLAYERS.length-3)
 
     team_wxr = total_wxr / member_count;
     team_vss = total_vss / member_count;
     min_wxr = stat_map.get("WXR_MIN");
     min_vss = stat_map.get("VSS_MIN");
+    mean_wxr = stat_map.get("WXR_MEAN");
+    mean_vss = stat_map.get("VSS_MEAN");
+    std_wxr = stat_map.get("WXR_STD");
+    std_vss = stat_map.get("VSS_STD");
     limit_wxr = stat_map.get("WXR_LIMIT");
     limit_vss = stat_map.get("VSS_LIMIT");
 
@@ -114,9 +120,33 @@ function calculateTeamElo(team) {
     console.log(min_vss)
     console.log(limit_vss)
 
-    if(team_vss > limit_vss || team_wxr > limit_wxr)
+    if(team_vss > limit_vss && team_wxr > limit_wxr)
     {
+        return STACKED;
+    }
+
+    if (team_vss > (mean_vss + std_vss)) {
         return TOO_OP;
+    }
+
+    if (team_vss < mean_vss) {
+        return REWORK;
+    }
+
+    if (team_vss < min_vss) {
+        return SUCCESS_SPE;
+    }
+
+    if (team_wxr > (mean_wxr + std_wxr)) {
+        return TOO_OP;
+    }
+
+    if (team_wxr < mean_wxr) {
+        return REWORK;
+    }
+
+    if (team_wxr < min_wxr) {
+        return SUCCESS_SPE;
     }
 
     if(team_vss < min_vss || team_wxr < min_wxr)
@@ -124,5 +154,5 @@ function calculateTeamElo(team) {
         return REWORK;
     }
 
-    return SUCCESS;
+    return SUCCESS_BAL;
 }

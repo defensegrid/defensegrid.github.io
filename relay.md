@@ -64,7 +64,8 @@ title: Relay
             <h7><b>e</b>. Eliminated player gets replaced, surviving player stays</h7><br><br>
             <h7><i>Restrictions</i></h7><br>
             <h7><b>a</b>. Players that are not dueling cannot use their Attack, Gadget, and Star Power</h7><br>
-            <h7><b>b</b>. Players that are not dueling should always move away from the duelists</h7><br><br>
+            <h7><b>b</b>. Duelists cannot attack players that are not dueling</h7><br>
+            <h7><b>c</b>. Players that are not dueling should try to move away from the duelists</h7><br><br>
             <h6><b>4</b>. Submit the results on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>
             <a href="{{site.url}}/hall-of-fame"><h6><b>5</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
             <h7><b>a</b>. The team with the highest points gets the title <b>Battle-Hardened</b></h7><br>

@@ -1,13 +1,13 @@
 ---
-layout: default
+layout: dgl
 permalink: /team-creator
 title: Team Creator
 ---
 
 <div class="row">
-    <div class="col s12 center-align bg-dark-gray">
+    <div class="col s12 center-align bg-defense-grid">
         <h4 class="logo-text">Team Creator</h4>
-        <h6 class="logo-sub-text">Relevance & Balance</h6>
+        <h6 class="logo-sub-text">Specialized & Balanced</h6>
         <br>
     </div>
 </div>
@@ -22,16 +22,29 @@ title: Team Creator
             </p>
         </div>
     </div>
-    <div class="row" id="result_success" hidden>
+    <div class="row" id="result_success_bal" hidden>
         <div class="col s12">
             <h4>Congratulations!</h4>
             <h5>You have created a balanced team!</h5>
-            <h4 id="members"></h4><br><br>
+            <h4 id="balanced"></h4><br><br>
+        </div>
+    </div>
+    <div class="row" id="result_success_spe" hidden>
+        <div class="col s12">
+            <h4>Congratulations!</h4>
+            <h5>You have created a specialized team!</h5>
+            <h4 id="specialized"></h4><br><br>
         </div>
     </div>
     <div class="row" id="result_op" hidden>
         <div class="col s12">
-            <h4>Your team is TOO OP!</h4>
+            <h4 id="op">Your team is TOO OP!</h4>
+            <h5>Consider teaming up with other participants.</h5><br><br>
+        </div>
+    </div>
+    <div class="row" id="result_stacked" hidden>
+        <div class="col s12">
+            <h4 id="stacked">Can you please stop stacking? 🛑</h4>
             <h5>Consider teaming up with other participants.</h5><br><br>
         </div>
     </div>
@@ -80,12 +93,15 @@ title: Team Creator
             </div>
             <div class="col s7 m3 l3"></div>
             <div class="input-field col right-align s5 m3 l3">
-                <button class="btn waves-effect waves-light" type="submit">Create
+                <button class="btn waves-effect waves-light grey darken-4" type="submit">Create
                     <i class="material-icons right">science</i>
                 </button>
             </div>
         </form>
     </div>
+    <br>
+    <br>
+    <br>
 </div>
 
 <script type="text/javascript" src="/assets/js/calculator.js"></script>
@@ -104,12 +120,14 @@ title: Team Creator
     })
 
     $( "#search_form" ).submit(function( event ) {
+        event.preventDefault();
         $("#result_error").hide();
         $("#result_op").hide();
+        $("#result_stacked").hide();
         $("#result_rework").hide();
-        $('#result_success').hide();
+        $('#result_success_bal').hide();
+        $('#result_success_spe').hide();
         $("#page_filler").hide();
-        event.preventDefault();
 
         var str = ""
         var team_size = 0
@@ -127,13 +145,8 @@ title: Team Creator
             ERROR_STRING = "Your team should have 3-5 members. Please recruit more!"
             $("#result_error").show();
             $("#error").text(ERROR_STRING);
-            $("#result_op").hide();
-            $("#result_rework").hide();
-            $('#result_success').hide();
-            $("#page_filler").hide();
             return;
         }
-
 
         var calculation = calculateTeamElo(str);
         var code = LZString.compressToEncodedURIComponent(str);
@@ -143,41 +156,38 @@ title: Team Creator
         {
             $("#result_error").show();
             $("#error").text(ERROR_STRING);
-            $("#result_op").hide();
-            $("#result_rework").hide();
-            $('#result_success').hide();
-            $("#page_filler").hide();
             return;
         }
 
         if(calculation == TOO_OP)
         {
             $("#result_op").show();
-            $("#result_rework").hide();
-            $("#result_error").hide();
-            $('#result_success').hide();
-            $("#page_filler").hide();
+            $("#op").text(PLAYERS + " is TOO OP!")
             return;
         }
         
-        if(calculation == REWORK)
+        if(calculation == STACKED)
         {
-            $("#result_rework").show();
-            $("#result_error").hide();
-            $("#result_op").hide();
-            $('#result_success').hide();
-            $("#page_filler").hide();
+            $("#result_stacked").show();
             return;
         }
 
-        if(calculation == SUCCESS)
+        if(calculation == REWORK)
         {
-            $('#result_success').show();
-            $("#members").text(PLAYERS);
-            $("#result_rework").hide();
-            $("#result_error").hide();
-            $("#result_op").hide();
-            $("#page_filler").hide();
+            $("#result_rework").show();
+            return;
+        }
+
+        if(calculation == SUCCESS_BAL)
+        {
+            $('#result_success_bal').show();
+            $("#balanced").text(PLAYERS);
+        }
+
+        if(calculation == SUCCESS_SPE)
+        {
+            $('#result_success_spe').show();
+            $("#specialized").text(PLAYERS);
         }
 
         $("#search_event").val('');

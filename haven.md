@@ -46,8 +46,9 @@ title: Haven
             <h7><b>a</b>. Choose your Team's Map based on the <i>Game Mode of the Day</i></h7><br>
             <h7> <small>ⓘ Your team can use a Custom Map.</small></h7><br>
             <h7><b>b</b>. Choose the Skills and Roles of each Brawler</h7><br>
-            <h7><b>c</b>. Practice your Plan</h7><br><br>
-            <h6><b>3</b>. Battle another Team</h6>
+            <h7><b>c</b>. Practice your Plan</h7><br>
+            <h7> <small>ⓘ Rotation: For teams with more than 3 players, 1 player from the trio in the previous 3v3 Game Mode has to sub out. Players can't sub in alternatingly</small></h7><br><br>
+            <h6><b>3</b>. Match-up with another Team</h6>
             <h7><i>Defenders</i></h7><br>
             <h7><b>a</b>. The team that uses their chosen Map in Step #2 are the Defenders</h7><br>
             <h7><b>b</b>. Choose 1 brawler or 2 star powers that cannot be used by the Attackers</h7><br>

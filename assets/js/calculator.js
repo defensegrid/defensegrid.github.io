@@ -51,6 +51,8 @@ function processStat(allText) {
         var data = allTextLines[i].split(',');
         stat_map.set(String(data[0]), parseFloat(data[1]))
     }
+
+    console.log(stat_map)
 }
 
 function getKeyList() {
@@ -96,20 +98,20 @@ function calculateTeamElo(team) {
         PLAYERS += parsed + " + ";
     }
 
-    PLAYERS = PLAYERS.substr(0,PLAYERS.length-3)
+    PLAYERS = PLAYERS.substr(PLAYERS.length-3)
 
     team_wxr = total_wxr / member_count;
     team_vss = total_vss / member_count;
-    mean_wxr = stat_map.get("WXR_MEAN");
-    mean_vss = stat_map.get("VSS_MEAN");
+    min_wxr = stat_map.get("WXR_MIN");
+    min_vss = stat_map.get("VSS_MIN");
     limit_wxr = stat_map.get("WXR_LIMIT");
     limit_vss = stat_map.get("VSS_LIMIT");
 
     console.log(team_wxr)
-    console.log(mean_wxr)
+    console.log(min_wxr)
     console.log(limit_wxr)
     console.log(team_vss)
-    console.log(mean_vss)
+    console.log(min_vss)
     console.log(limit_vss)
 
     if(team_vss > limit_vss || team_wxr > limit_wxr)
@@ -117,7 +119,7 @@ function calculateTeamElo(team) {
         return TOO_OP;
     }
 
-    if(team_vss < mean_vss || team_wxr < mean_wxr)
+    if(team_vss < min_vss || team_wxr < min_wxr)
     {
         return REWORK;
     }

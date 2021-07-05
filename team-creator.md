@@ -12,34 +12,21 @@ title: Team Creator
     </div>
 </div>
 <div class="container">
-    <div class="row">
-        <form id="search_form" class="col s12">
-            <div class="input-field col s12">
-              <i class="material-icons prefix">calculate</i>
-              <input id="search_event" type="text" class="validate">
-              <label for="search_event">#TAG_1, #TAG_2, #TAG_3, #TAG_4 ...</label>
-            </div>
-        </form>
-    </div>
     <div class="row" id="page_filler">
         <div class="col s12">
             <p class="flow-text">
-                We value fairness in every competition. That is why we ensure balanced teams by using relevant stats<br>
+                We value fairness in every competition<br>
                 <br>
-                Please enter the tag of each member of your team separated by a comma<i>(,)</i> in the input field above so we can start the calculation<br>
-                &emsp;<small>e.g.&ensp;#1U0G8VCR, #AVRV9CR2, #PPUQJ9C0 </small><br>
-                <br>
-                <i>Tags are located below the profile name</i>
-                <br>
-                <br>
+                Please enter the tag or name of each member of your team, so we can start the calculation<br>
+                <small>ⓘ Tags are located below the profile name</small>
             </p>
         </div>
     </div>
     <div class="row" id="result_success" hidden>
         <div class="col s12">
             <h4>Congratulations!</h4>
-            <h5>You have successfully created a balanced team!</h5>
-            <h5 id="members"></h5><br><br>
+            <h5>You have created a balanced team!</h5>
+            <h4 id="members"></h4><br><br>
         </div>
     </div>
     <div class="row" id="result_op" hidden>
@@ -59,10 +46,45 @@ title: Team Creator
             <h5 id="error"></h5><br><br>
         </div>
     </div>
-    <div class="row">
+    <div class="row" id="team_code_cont" hidden>
         <div class="col s12">
-            <h5 id="code"></h5><br><br>
+            <h5 id="team_code"></h5><br><br>
         </div>
+    </div>
+    <div class="row">
+        <form id="search_form">
+            <div class="input-field col s12 m6 l6">
+              <i class="material-icons prefix">person_outline</i>
+              <input id="p1" type="text" class="autocomplete">
+              <label for="p1">Player 1</label>
+            </div>
+            <div class="input-field col s12 m6 l6">
+              <i class="material-icons prefix">person_outline</i>
+              <input id="p2" type="text" class="autocomplete">
+              <label for="p2">Player 2</label>
+            </div>
+            <div class="input-field col s12 m6 l6">
+              <i class="material-icons prefix">person_outline</i>
+              <input id="p3" type="text" class="autocomplete">
+              <label for="p3">Player 3</label>
+            </div>
+            <div class="input-field col s12 m6 l6">
+              <i class="material-icons prefix">person_outline</i>
+              <input id="p4" type="text" class="autocomplete">
+              <label for="p4">(Optional) Player 4</label>
+            </div>
+            <div class="input-field col s12 m6 l6">
+              <i class="material-icons prefix">person_outline</i>
+              <input id="p5" type="text" class="autocomplete">
+              <label for="p5">(Optional) Player 5</label>
+            </div>
+            <div class="col s7 m3 l3"></div>
+            <div class="input-field col right-align s5 m3 l3">
+                <button class="btn waves-effect waves-light" type="submit">Create
+                    <i class="material-icons right">science</i>
+                </button>
+            </div>
+        </form>
     </div>
 </div>
 
@@ -70,16 +92,52 @@ title: Team Creator
 <script type="text/javascript" src="/assets/js/bin/lz-string.js"></script>
 
 <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.autocomplete');
+        var list = getKeyList();
+        var options = {
+            data: list,
+            limit: 2,
+            minLength: 2,
+        };
+        var instances = M.Autocomplete.init(elems, options);
+    })
+
     $( "#search_form" ).submit(function( event ) {
-        var str = $("#search_event").val()
+        $("#result_error").hide();
+        $("#result_op").hide();
+        $("#result_rework").hide();
+        $('#result_success').hide();
+        $("#page_filler").hide();
         event.preventDefault();
+
+        var str = ""
+        var team_size = 0
+        for (let i = 1; i < 6; i++) {
+            var key = "#p" + String(i) 
+            var val = $(key).val()
+
+            if (val.length > 0) {
+                str += val + ","
+                team_size++
+            }
+        }
+
+        if (team_size < 3) {
+            ERROR_STRING = "Your team should have 3-5 members. Please recruit more!"
+            $("#result_error").show();
+            $("#error").text(ERROR_STRING);
+            $("#result_op").hide();
+            $("#result_rework").hide();
+            $('#result_success').hide();
+            $("#page_filler").hide();
+            return;
+        }
+
 
         var calculation = calculateTeamElo(str);
         var code = LZString.compressToEncodedURIComponent(str);
-        //var decode = LZString.decompressFromEncodedURIComponent(code);
         const code_text = "YOUR TEAM CODE IS: "
-
-        $("#code").text(code_text + code + ":: " + decode);
 
         if(calculation == ERROR)
         {
@@ -115,7 +173,7 @@ title: Team Creator
         if(calculation == SUCCESS)
         {
             $('#result_success').show();
-            $("#members").text(str);
+            $("#members").text(PLAYERS);
             $("#result_rework").hide();
             $("#result_error").hide();
             $("#result_op").hide();

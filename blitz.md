@@ -50,16 +50,17 @@ title: Blitz
             <h7><b>b</b>. Bans 1 Brawler or 2 Star Powers</h7><br>
             <h7><b>c</b>. Can also choose 1 modifier to be used in the map</h7><br><br>
             <h7><i>Other teams</i></h7><br>
-            <h7><b>a</b>. Choose 1 representative to participate in the Blitz</h7><br><br>
+            <h7><b>a</b>. Choose 1 representative to participate in the Blitz</h7><br>
+            <h7> <small>ⓘ Rotation: The same representative can play again after 2 other players have played</small></h7><br><br>
             <h6><b>3</b>. Battle other Players</h6>
             <h7><i>The Calm</i></h7><br>
             <h7><b>a</b>. Players power-up, take key positions, or scout</h7><br>
-            <h7><b>b</b>. 2 or 4 bots roam around the map</h7><br>
+            <h7><b>b</b>. 0 or 1 bot roams around the map</h7><br>
             <h7><b>c</b>. Players can choose to eliminate or save the bots</h7><br><br>
             <h7><i>Blitz</i></h7><br>
             <h7><b>a</b>. All bots got eliminated</h7><br>
-            <h7><b>b</b>. A player killed another player</h7><br>
-            <h7><b>c</b>. When 1 event above occurred, the blitz begins</h7><br>
+            <h7><b>b</b>. A player was killed</h7><br>
+            <h7><b>c</b>. When 1 event above happens, the blitz begins</h7><br>
             <h7><b>d</b>. Eliminate other players and Survive</h7><br><br>
             <h7><i>Restrictions</i></h7><br>
             <h7><b>a</b>. Players cannot attack or damage each other during <i>The Calm</i></h7><br>
@@ -68,7 +69,7 @@ title: Blitz
             <h6><b>4</b>. Submit the results on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>
             <a href="{{site.url}}/hall-of-fame"><h6><b>5</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
             <h7><b>a</b>. The player with the most points gets the title <b>True Mettle</b></h7><br>
-            <h7><b>b</b>. The player with the most bot kills or first blood gets the title <b>Peacebreaker</b></h7><br><br>
+            <h7><b>b</b>. The player with the most first bloods gets the title <b>Peacebreaker</b></h7><br><br>
         </div>
     </div>
     <br><br><br>

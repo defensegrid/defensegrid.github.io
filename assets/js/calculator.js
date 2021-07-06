@@ -112,20 +112,24 @@ function calculateTeamElo(team) {
     std_vss = stat_map.get("VSS_STD");
     limit_wxr = stat_map.get("WXR_LIMIT");
     limit_vss = stat_map.get("VSS_LIMIT");
+    ulimit_wxr = mean_wxr + (std_wxr/1.2);
+    ulimit_vss = mean_vss + (std_vss/1.2);
 
     console.log(team_wxr)
     console.log(min_wxr)
     console.log(limit_wxr)
+    console.log(ulimit_wxr)
     console.log(team_vss)
     console.log(min_vss)
     console.log(limit_vss)
+    console.log(ulimit_vss)
 
     if(team_vss > limit_vss && team_wxr > limit_wxr)
     {
         return STACKED;
     }
 
-    if (team_vss > (mean_vss + std_vss)) {
+    if (team_vss > ulimit_vss) {
         return TOO_OP;
     }
 
@@ -133,11 +137,11 @@ function calculateTeamElo(team) {
         return REWORK;
     }
 
-    if (team_vss < min_vss) {
+    if (team_vss < min_vss && team_wxr > limit_wxr) {
         return SUCCESS_SPE;
     }
 
-    if (team_wxr > (mean_wxr + std_wxr)) {
+    if (team_wxr > ulimit_wxr) {
         return TOO_OP;
     }
 
@@ -145,7 +149,7 @@ function calculateTeamElo(team) {
         return REWORK;
     }
 
-    if (team_wxr < min_wxr) {
+    if (team_wxr < min_wxr && team_vss > limit_vss) {
         return SUCCESS_SPE;
     }
 

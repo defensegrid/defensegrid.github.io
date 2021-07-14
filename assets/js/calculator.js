@@ -31,24 +31,26 @@ var PLAYERS = "";
 
 function processElo(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
-    var headers = allTextLines[0].split(',');
+    var headers = allTextLines[0].split('£');
 
     for (var i=0; i<allTextLines.length; i++) {
-        var data = allTextLines[i].split(',');
+        var data = allTextLines[i].split('£');
 
         data_map.set(String(data[0]), [parseFloat(data[2]), parseFloat(data[3])]);
         player_map.set(String(data[1]), String(data[0]));
         key_list[data[0]] = null;
         key_list[data[1]] = null;
     }
+
+    console.log(data_map)
 }
 
 function processStat(allText) {
     var allTextLines = allText.split(/\r\n|\n/);
-    var headers = allTextLines[0].split(',');
+    var headers = allTextLines[0].split('£');
 
     for (var i=0; i<allTextLines.length; i++) {
-        var data = allTextLines[i].split(',');
+        var data = allTextLines[i].split('£');
         stat_map.set(String(data[0]), parseFloat(data[1]))
     }
 }
@@ -59,7 +61,7 @@ function getKeyList() {
 
 function calculateTeamElo(team) {
     PLAYERS = ""
-    var members = team.split(',');
+    var members = team.split('£');
     var member_count = 0;
 
     total_wxr = 0;

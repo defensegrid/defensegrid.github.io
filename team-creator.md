@@ -136,7 +136,7 @@ title: Team Creator
             var val = $(key).val()
 
             if (val.length > 0) {
-                str += val + ","
+                str += val + "£"
                 team_size++
             }
         }

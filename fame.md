@@ -19,7 +19,7 @@ title: Hall of Fame
       <form id="search_form" class="col s12">
         <div class="input-field col s12">
           <i class="material-icons prefix">search</i>
-          <input id="search_event" type="text" class="validate">
+          <input id="search_event" type="text" class="autocomplete">
           <label for="search_event">Player Name</label>
         </div>
       </form>
@@ -46,7 +46,7 @@ title: Hall of Fame
       <div class="col s12 m6 l4" id="achievement-{{forloop.index}}">
         <div class="card-search" hidden>
           <div class="card-id">achievement-{{forloop.index}}</div>
-          <div class="players">{{achievement.players | join: ";"}}</div>
+          <div class="players">{{achievement.players | join: "£"}}</div>
         </div>
         <a class="modal-trigger" href="#show-achievement-{{forloop.index}}">
         {% if achievement.difficulty <= 2 %}
@@ -118,6 +118,25 @@ title: Hall of Fame
     console.log(card_ids);
     console.log(players);
 
+    var list = [];
+    for ( var i = 0; i < players.length; i++ ) {
+      var player_list = players[i].split("£");
+
+      for ( var j = 0; j < player_list.length; j++ ) {
+        list[player_list[j]] = null;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.autocomplete');
+        var options = {
+            data: list,
+            limit: 2,
+            minLength: 2,
+        };
+        var instances = M.Autocomplete.init(elems, options);
+    })
+
     $( "#search_form" ).submit(function( event ) {
         var similarity_threshold = ACCURATE;
         var str = $("#search_event").val()
@@ -131,7 +150,7 @@ title: Hall of Fame
         for ( var i = 0, l = card_ids.length; i < l; i++ ) {
             $("#" + card_ids[i]).hide();
             var similarity_tracker = 0;
-            var player_list = players[i].split(";");
+            var player_list = players[i].split("£");
             
             for( var j = 0; j < player_list.length; j++) {
                 similarity_score = similarity(str,player_list[j]);

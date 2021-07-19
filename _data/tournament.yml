@@ -1,4 +1,42 @@
-teams:
+s2teams:
+  - name: Rice Lovers 
+    placement: 1st
+    ready: yes
+  - name: Endbringers
+    placement: 1st
+    ready: yes
+  - name: GREEN ENTITY
+    placement: 1st
+    ready: yes
+  - name: We Got DMoney
+    placement: 1st
+    ready: yes
+s2modes:
+  - name: Synergy 
+    results:
+      - "-"
+      - "-"
+      - "-"
+      - "-"
+  - name: Relay 
+    results:
+      - "-"
+      - "-"
+      - "-"
+      - "-"
+  - name: Haven
+    results:
+      - "-"
+      - "-"
+      - "-"
+      - "-"
+  - name: Blitz
+    results:
+      - "-"
+      - "-"
+      - "-"
+      - "-"
+s1teams:
   - name: Alpha Gang
     captain: CryAlphaST
     placement: 1st
@@ -15,7 +53,7 @@ teams:
     captain: Seijuro
     placement: 4th
     ready: yes
-modes:
+s1modes:
   - name: Gem Grab
     results:
       - "10"

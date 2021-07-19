@@ -18,7 +18,7 @@ title: Defense Grid League
         <div class="col s12 m12 l12">
             <h4>Teams</h4>
         </div>
-        {% for team in site.data.tournament.teams %}
+        {% for team in site.data.tournament.s1teams %}
             <div class="col s12 m4 l3 center-align" id="col1-{{forloop.index}}">
             {% if team.ready == true or team.ready == 'yes' %}
                 <div class="card red-shadow">
@@ -39,7 +39,7 @@ title: Defense Grid League
                 <thead>
                     <tr>
                         <td></td>
-                        {% for team in site.data.tournament.teams %}
+                        {% for team in site.data.tournament.s1teams %}
                         {% if team.ready == true or team.ready == 'yes' %}
                         <th><i><sup>{{team.placement}}</sup></i> {{team.name}}</th>
                         {% endif %}
@@ -47,7 +47,7 @@ title: Defense Grid League
                     </tr>
                 </thead>
                 <tbody>
-                    {% for mode in site.data.tournament.modes %}
+                    {% for mode in site.data.tournament.s1modes %}
                     <tr>
                         <th>{{mode.name}}</th>
                         {% for result in mode.results %}
@@ -65,7 +65,7 @@ title: Defense Grid League
             <br>
             <h4>Game Modes</h4>
         </div>
-        {% for mode in site.data.tournament.modes %}
+        {% for mode in site.data.tournament.s1modes %}
         <div class="col s12 m12 l12" id="col2-{{forloop.index}}">
             <h5><b>{{mode.name}}</b></h5>
             {% for submode in mode.submodes %}
@@ -124,7 +124,7 @@ title: Defense Grid League
             &emsp;<h7><b>a</b>. Alpha Gang <i>vs.</i> Potentia Imperium</h7><br>
             &emsp;<h7><b>b</b>. Tilt Squad <i>vs.</i> Blaze Walkers</h7><br><br>
             <h6><b></b> Captains will agree on which map to use in the current game mode at least 2 days before the 1st battle</h6>
-            {% for mode in site.data.tournament.modes %}
+            {% for mode in site.data.tournament.s1modes %}
             &emsp;<h7><b>Cycle {{forloop.index}}</b>&emsp;{{mode.name}}</h7><br>
             {% endfor %}
             <br>

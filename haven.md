@@ -52,15 +52,18 @@ title: Haven
             <h7><i>Defenders</i></h7><br>
             <h7><b>a</b>. The team that uses their chosen Map in Step #2 are the Defenders</h7><br>
             <h7><b>b</b>. Choose 1 brawler or 2 star powers that cannot be used by the Attackers</h7><br>
-            <h7><b>b</b>. Protect your base(s); Stall the Attackers</h7><br><br>
+            <h7><b>c</b>. Protect your base(s); Stall the Attackers</h7><br><br>
             <h7><i>Attackers</i></h7><br>
-            <h7><b>a</b>. Destroy or capture the base(s) of the Defenders</h7><br>
-            <h7><b>a</b>. When time runs out or the game ends, the teams switch sides</h7><br><br>
+            <h7><b>a</b>. Destroy or capture the base(s) of the Defenders</h7><br><br>
+            <h7><i>Overtime</i></h7><br>
+            <h7><b>a</b>. Defenders can now destroy or capture the base(s) of the Attackers</h7><br>
+            <h7><b>b</b>. When time runs out or the game ends, the teams switch sides</h7><br><br>
             <h7><i>Restrictions</i></h7><br>
-            <h7><b>a</b>. Attackers and Defenders switch after 1 battle</h7><br>
-            <h7><b>a</b>. There will only be 2 battles</h7><br>
-            <h7><b>b</b>. Defenders cannot destroy the safe of the Attackers</h7><br>
-            <h7><b>c</b>. Defenders cannot capture all zones of the Attackers</h7><br><br>
+            <h7><b>a</b>. If the Defenders are spawned on the wrong side, the match does not count and should be restarted</h7><br>
+            <h7><b>b</b>. Attackers and Defenders switch after 1 battle</h7><br>
+            <h7><b>c</b>. There will only be 2 battles</h7><br>
+            <h7><b>d</b>. Defenders cannot damage the safe of the Attackers before Overtime</h7><br>
+            <h7><b>e</b>. Defenders cannot capture the zones of the Attackers before Overtime</h7><br><br>
             <h6><b>4</b>. Submit the results on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>
             <a href="{{site.url}}/hall-of-fame"><h6><b>5</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
             <h7><b>a</b>. The team with the overall longest defending time gets the title <b>Living Fortress</b></h7><br>

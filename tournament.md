@@ -79,12 +79,6 @@ title: Defense Grid League
             &emsp;<h7><b>b</b>. Best Captain - best captain according to all participants</h7><br>
             &emsp;<h7><b>c</b>. Most Valuable Player - best stats in the whole season</h7><br>
             &emsp;<h7><b>d</b>. Game Mode Awards - Each game mode rewards specific skills, visit them all to know more</h7><br>
-        </div>
-        <div class="col s12 m12 l12">
-            <br>
-            <div class="divider red-shadow full-width"></div>
-            <br>
-            <h4 class="center-align"><a href="https://forms.gle/Xhq8QwxLKYeH4ypS6">Register Here<i class="material-icons">north_east</i></a></h4>
             <br><br><br>
         </div>
     </div>

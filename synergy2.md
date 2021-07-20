@@ -1,6 +1,6 @@
 ---
 layout: dgl
-permalink: /synergy2
+permalink: /synergy
 title: Synergy
 ---
 
@@ -40,11 +40,11 @@ title: Synergy
             <br>
             <h4>Mechanics</h4>
             <h6><b>1</b>. Website / Host</h6>
-            <h7><b>a</b>. Choose the <i>Game Mode of the Day</i></h7><br>
-            <h7> <small>ⓘ All Modes for the week are updated every Sunday</small></h7><br>
-            <h7><b>b</b>. Choose the <i>Map of the Day</i></h7><br><br>
+            <h7><b>a</b>. Choose the <i>Round Game Mode</i></h7><br>
+            <h7> <small>ⓘ Modes are updated every Sunday</small></h7><br>
+            <h7><b>b</b>. Choose the <i>Round Map</i></h7><br><br>
             <h6><b>2</b>. Form a Synergy with your team</h6>
-            <h7><b>a</b>. Choose your Team's Map based on the <i>Game Mode of the Day</i></h7><br>
+            <h7><b>a</b>. Choose your Team's Map based on the <i>Round Game Mode</i></h7><br>
             <h7> <small>ⓘ Your team can use a symmetrical Custom Map.</small></h7><br>
             <h7><b>b</b>. Choose the Skills and Roles of each Brawler</h7><br>
             <h7><b>c</b>. Practice your Plan, beware of Bans</h7><br>
@@ -56,9 +56,14 @@ title: Synergy
             <h7><b>c</b>. Both teams alternatingly pick 1 brawler, starting with the team that chose the map</h7><br>
             <h7><b>d</b>. In the next battle, teams switch roles</h7><br><br>
             <h7><i>Final Battle</i></h7><br>
-            <h7><b>a</b>. Both Teams Fight in the <i>Map of the Day</i></h7><br>
+            <h7><b>a</b>. Both Teams Fight in the <i>Round Map</i></h7><br>
             <h7><b>b</b>. Both Teams Ban 1 brawler</h7><br>
             <h7><b>c</b>. Both Teams alternatingly pick 1 brawler, starting with the team with the least wins in this match-up</h7><br><br>
+            <h7><i>Overtime</i></h7><br>
+            <h7><b>a</b>. <i>Gem Grab:</i> Total Collected Gems exceeded 20</h7><br>
+            <h7><b>b</b>. <i>Brawl Ball:</i> Overtime Timer Triggered</h7><br>
+            <h7><b>c</b>. <i>Bounty:</i> Match ended with both teams tied</h7><br>
+            <h7><b>d</b>. <i>Siege:</i> Match ended with both towers not broken</h7><br><br>
             <h6><b>4</b>. Submit the results on <a href="{{site.url}}/#chat">Discord<i class="material-icons tiny">north_east</i></a></h6><br>
             <a href="{{site.url}}/hall-of-fame"><h6><b>5</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
             <h7><b>a</b>. The team with the highest points gets the title <b>Dream Team</b></h7><br><br>

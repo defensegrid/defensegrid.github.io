@@ -47,7 +47,7 @@ brawl-events:
   gamemode: Challenge
   gameplay: N/A
   creator: Seijuro
-  link: synergy
+  link: synergy1
   status: published
 
 - name: Synergy
@@ -57,7 +57,7 @@ brawl-events:
   gamemode: DGL Mode
   gameplay: N/A
   creator: Seijuro
-  link: synergy2
+  link: synergy
   status: published
 
 - name: Relay 

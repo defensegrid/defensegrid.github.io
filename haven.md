@@ -40,10 +40,10 @@ title: Haven
             <br>
             <h4>Mechanics</h4>
             <h6><b>1</b>. Website / Host</h6>
-            <h7><b>a</b>. Choose the <i>Game Mode of the Day</i></h7><br>
+            <h7><b>a</b>. Choose the <i>Round Game Mode</i></h7><br>
             <h7> <small>ⓘ All Modes for the week are updated every Sunday</small></h7><br>
             <h6><b>2</b>. Build a Haven with your team</h6>
-            <h7><b>a</b>. Choose your Team's Map based on the <i>Game Mode of the Day</i></h7><br>
+            <h7><b>a</b>. Choose your Team's Map based on the <i>Round Game Mode</i></h7><br>
             <h7> <small>ⓘ Your team can use a Custom Map.</small></h7><br>
             <h7><b>b</b>. Choose the Skills and Roles of each Brawler</h7><br>
             <h7><b>c</b>. Practice your Plan</h7><br>
@@ -51,13 +51,17 @@ title: Haven
             <h6><b>3</b>. Match-up with another Team</h6>
             <h7><i>Defenders</i></h7><br>
             <h7><b>a</b>. The team that uses their chosen Map in Step #2 are the Defenders</h7><br>
-            <h7><b>b</b>. Choose 1 brawler or 2 star powers that cannot be used by the Attackers</h7><br>
+            <h7><b>b</b>. Choose 1 brawler or 2 gadgets that cannot be used by the Attackers</h7><br>
+            <h7> <small>ⓘ At least 1 Wall Destroying Gadget is immune from ban</small></h7><br>
             <h7><b>c</b>. Protect your base(s); Stall the Attackers</h7><br><br>
             <h7><i>Attackers</i></h7><br>
-            <h7><b>a</b>. Destroy or capture the base(s) of the Defenders</h7><br><br>
-            <h7><i>Overtime (>2 minutes)</i></h7><br>
+            <h7><b>a</b>. Destroy or capture the base(s) of the Defenders</h7><br>
+            <h7><b>b</b>. Choose 2 star powers that cannot be used by the Defenders</h7><br>
+            <h7><b>c</b>. When time runs out or the game ends, the teams switch sides</h7><br><br>
+            <h7><i>Overtime</i></h7><br>
             <h7><b>a</b>. Defenders can now destroy or capture the base(s) of the Attackers</h7><br>
-            <h7><b>b</b>. When time runs out or the game ends, the teams switch sides</h7><br><br>
+            <h7><b>b</b>. <i>Heist:</i> Match ended and both safes are not destroyed</h7><br>
+            <h7><b>c</b>. <i>Hotzone:</i> Match ended and not all zones are captured</h7><br><br>
             <h7><i>Restrictions</i></h7><br>
             <h7><b>a</b>. If the Defenders are spawned on the wrong side, the match does not count and should be restarted</h7><br>
             <h7><b>b</b>. Attackers and Defenders switch after 1 battle</h7><br>

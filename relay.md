@@ -40,7 +40,7 @@ title: Relay
             <br>
             <h4>Mechanics</h4>
             <h6><b>1</b>. Website / Host</h6>
-            <h7><b>a</b>. Choose the <i>Map of the Day</i></h7><br><br>
+            <h7><b>a</b>. Choose the <i>Round Map</i></h7><br><br>
             <h6><b>2</b>. Form a Relay with your team</h6>
             <h7><b>a</b>. Choose your Team's Map</h7><br>
             <h7> <small>ⓘ Your team can use a symmetrical Custom Map.</small></h7><br>
@@ -56,8 +56,8 @@ title: Relay
             <h7><b>d</b>. Each team will send 1 player based on the <i>Order of Duel</i> to 1v1 around the map</h7><br>
             <h7><b>e</b>. Eliminated player gets replaced; the surviving player stays</h7><br>
             <h7><b>f</b>. When all players of one team are eliminated, the teams switch roles</h7><br><br>
-            <h7><i>3rd Battle</i></h7><br>
-            <h7><b>a</b>. Both Teams Fight in the <i>Map of the Day</i></h7><br>
+            <h7><i>Final Battle</i></h7><br>
+            <h7><b>a</b>. Both Teams Fight in the <i>Round Map</i></h7><br>
             <h7><b>b</b>. Both Teams ban either 1 brawler or 2 star powers</h7><br>
             <h7><b>c</b>. Both Teams pick 3 players and submit the <i>Order of Duel</i> to a Host</h7><br>
             <h7><b>d</b>. Each Team will send 1 player based on the <i>Order of Duel</i> to 1v1 around the map</h7><br>

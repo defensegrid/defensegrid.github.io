@@ -118,15 +118,15 @@ title: Defense Grid
       <div id="chat" class="section scrollspy">
         <div class="divider thin-gray-shadow full-width"></div>
         <br>
-        <h4 class="center-align">Chat Us</h4>
+        <h4 class="center-align">Chat</h4>
         <br>
         <div class="row">
           <div class="col s12 m10 offset-m1 l6 offset-l3 center-align">
             <div class="collection center-align">
               <a href="https://discordapp.com/invite/DGnjSqv" class="collection-item">Discord<i class="material-icons tiny">north_east</i></a>
+              <a href="https://www.youtube.com/channel/UCInLbRLqw9OfIlFnx0mXp5Q" class="collection-item">Youtube<i class="material-icons tiny">north_east</i></a>
               <a class="collection-item">Clash Royale <small>(Main)</small>&emsp;#2PUYGP</a>
               <a class="collection-item">Brawl Stars <small>(Main)</small>&emsp;#9RGV8L</a>
-              <a class="collection-item">Brawl Stars <small>(Mini)</small>&emsp;#CL0J02UP</a>
             </div>
           </div>
         </div>

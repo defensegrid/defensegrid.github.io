@@ -100,15 +100,15 @@ title: Defense Grid League
                             <td></td>
                             <th>Home</th>
                             <th>Away</th>
-                            <th>MotD</th>
+                            <th>FB</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <th>Win</th>
-                            <td>+7</td>
-                            <td>+9</td>
+                            <td>+4</td>
                             <td>+8</td>
+                            <td>+6</td>
                         </tr>
                         <tr>
                             <th>Loss</th>
@@ -117,10 +117,16 @@ title: Defense Grid League
                             <td>-3</td>
                         </tr>
                         <tr>
-                            <th>Draw</th>
-                            <td>+0</td>
+                            <th>OTW</th>
                             <td>+2</td>
-                            <td>+1</td>
+                            <td>+4</td>
+                            <td>+3</td>
+                        </tr>
+                        <tr>
+                            <th>OTL</th>
+                            <td>-2</td>
+                            <td>+0</td>
+                            <td>-1</td>
                         </tr>
                     </tbody>
                 </table>
@@ -133,7 +139,7 @@ title: Defense Grid League
                             <td></td>
                             <th>Home</th>
                             <th>Away</th>
-                            <th>MotD</th>
+                            <th>FB</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -152,7 +158,7 @@ title: Defense Grid League
                         <tr>
                             <th>1K</th>
                             <td>+0</td>
-                            <td>+3</td>
+                            <td>+2</td>
                             <td>+1</td>
                         </tr>
                         <tr>
@@ -177,23 +183,23 @@ title: Defense Grid League
                     <tbody>
                         <tr>
                             <th><1.5m</th>
-                            <td>-1</td>
-                            <td>+9</td>
+                            <td>-3</td>
+                            <td>+11</td>
                         </tr>
                         <tr>
                             <th><2m</th>
-                            <td>+1</td>
+                            <td>-1</td>
                             <td>+7</td>
                         </tr>
                         <tr>
-                            <th>>2m</th>
-                            <td>+2</td>
+                            <th>OTW</th>
                             <td>+5</td>
+                            <td>+4</td>
                         </tr>
                         <tr>
-                            <th>End</th>
+                            <th>OTL</th>
                             <td>+3</td>
-                            <td>+1</td>
+                            <td>+2</td>
                         </tr>
                     </tbody>
                 </table>
@@ -218,7 +224,7 @@ title: Defense Grid League
                         </tr>
                         <tr>
                             <th>Mid</th>
-                            <td>+1</td>
+                            <td>+0.5</td>
                         </tr>
                         <tr>
                             <th>Half</th>
@@ -247,12 +253,13 @@ title: Defense Grid League
             &emsp;<h7><b>c</b>. All participants will agree on a specific time and day of battle, ideally on Weekends</h7><br>
             &emsp;<h7><b>d</b>. Battles can be requested to be redone (once) by a player or team that had issues during the battle</h7><br><br>
             <h6><b>3</b>. Both teams record the results of the battle and the winner shall submit the result on <u><a href="{{site.url}}/#chat">Discord</a></u></h6><br>
-            <h6><b>4</b>. Hosts will verify the results by checking the agreements of both teams</h6><br>
+            <h6><b>4</b>. Hosts will verify the results by checking the agreements of both teams/players</h6><br>
             <a href="{{site.url}}/hall-of-fame"><h6><b>5</b>. Hall of Fame<i class="material-icons tiny">north_east</i></h6></a>
             &emsp;<h7><b>a</b>. Champion Team - highest overall points</h7><br>
-            &emsp;<h7><b>b</b>. Best Captain - best captain according to all participants</h7><br>
-            &emsp;<h7><b>c</b>. Most Valuable Player - best stats in the whole season</h7><br>
-            &emsp;<h7><b>d</b>. Game Mode Awards - Each game mode rewards specific skills, visit them all to know more</h7><br>
+            &emsp;<h7><b>b</b>. Solo Champion - highest overall in Blitz</h7><br>
+            &emsp;<h7><b>c</b>. Best Captain - best captain according to all participants</h7><br>
+            &emsp;<h7><b>d</b>. Most Valuable Player - best stats in the whole season</h7><br>
+            &emsp;<h7><b>e</b>. Game Mode Awards - Each game mode rewards specific skills, visit them all to know more</h7><br>
             <br><br><br>
         </div>
     </div>

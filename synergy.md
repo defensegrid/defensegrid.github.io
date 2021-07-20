@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /synergy
+permalink: /synergy1
 title: Synergy
 ---
 

@@ -90,6 +90,35 @@ brawl-of-fame:
     difficulty: 6
     status: published
 
+  - name: Bad Randoms Challenge
+    description: Description not available
+    category:
+      - 9-win Challenge
+    mechanics: Complete the Challenge and get the Vicious Bibi Skin for Free
+    players:
+      - master kurt
+      - Ichiro
+      - Seijuro
+      - Chill
+      - me,myself and I
+      - GYG|GABIZCOOL
+      - BlackThunder
+      - Kapil.K
+      - K.K jr
+    difficulty: 6
+    status: published
+
+  - name: Summer Sports Challenge 
+    description: Description not available
+    category: 
+      - 9-win Challenge
+    mechanics: Complete the Challenge and get the rewards for Free
+    players: 
+      - Chill
+      - CryAlphaST
+    difficulty: 11
+    status: published
+
   - name: Duo Challenge
     description: Description not available
     category:
@@ -228,6 +257,7 @@ brawl-of-fame:
       - Shichi
       - AriKingKing
       - CryAlphaST
+      - Chill
     difficulty: 7
     status: published
 

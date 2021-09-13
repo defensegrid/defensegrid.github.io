@@ -22,11 +22,11 @@ title: Polls
         <div class="col s12">
             <ul class="collection with-header">
                 <li class="collection-header">
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3VDEo8g5lDCQAKT5GFz4WNrJ3W7564wBTmszRPZYksEAAXw/viewform" class="secondary-content" class="collection-header" style="border-bottom:none;padding-left:20px;padding:0px;"><h4>Clan Status Survey <i class="material-icons md-dark">link</i></h4></a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy8ypZHRY20MdnwYGThU3sRtRIYg4rHVF9PiL8XWXWjL2nUg/viewform" class="secondary-content" class="collection-header" style="border-bottom:none;padding-left:20px;padding:0px;"><h4>Club Roles Rework <i class="material-icons md-dark">link</i></h4></a>
                 </li>
                 <li class="collection-item">
                     <div>
-                    <p>An anonymous survey that will be used to identify or discover what types of events or system we should be doing in Clash Royale</p>
+                    <p>An anonymous survey to discover how we want Seniors and Vice Presidents to handle the club</p>
                     </div>
                 </li>
             </ul>

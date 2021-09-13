@@ -85,12 +85,13 @@ title: Defense Grid
                 <div class="collapsible-header center-header">Clash Royale</div>
                 <div class="collapsible-body">
                   <p>
+                    <b>Minimum Requirements:</b><br><br>
                     <b>Member</b><br>
-                    100 Donations or Clan Trophy Requirement<br><br>
+                    Clan Trophy Requirement<br><br>
                     <b>Elder</b><br>
-                    200 Donations or At least 50 War Wins<br><br>
+                    15000 Donations or At least 50 War Wins<br><br>
                     <b>Co-leader</b><br>
-                    250 Donations or At least 100 War Wins<br><br>
+                    Should have become Elder and should have participated in major clan events<br><br>
                     <b>Ace</b><br>
                     Win the <a href="{{site.url}}/dgl">Defense Grid League<i class="material-icons tiny">north_east</i></a><br><br>
                   </p>
@@ -100,12 +101,13 @@ title: Defense Grid
                 <div class="collapsible-header center-header">Brawl Stars</div>
                 <div class="collapsible-body">
                   <p>
+                    <b>Minimum Requirements:</b><br><br>
                     <b>Member</b><br>
                     Should meet the Club Trophy Requirement<br><br>
                     <b>Senior</b><br>
                     Should be 2k Trophies above the Club Trophy Requirement<br><br>
                     <b>Vice President</b><br>
-                    Should place higher than the lowest Vice President in trophies<br><br>
+                    Should have become Senior and should have participated in major club events<br><br>
                     <b>Ace</b><br>
                     Win the <a href="{{site.url}}/dgl">Defense Grid League<i class="material-icons tiny">north_east</i></a><br>
                   </p>

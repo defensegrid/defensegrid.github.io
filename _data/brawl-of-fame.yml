@@ -90,6 +90,32 @@ brawl-of-fame:
     difficulty: 6
     status: published
 
+  - name: V8-Bit Retropolis Challenge 
+    description: Description not available
+    category:
+      - 10-win Challenge
+    mechanics: Complete the Challenge and get the V8-Bit for Free
+    players:
+      - master kurt
+      - ACE
+      - Kapil.K
+      - me,myself and I
+      - CryAlphaST
+      - Its Chriz
+      - Ichiro
+      - Nature_gaming
+      - SuperakaayKT
+      - GYG|GABIZCOOL
+      - Bot1
+      - Nanat_Ramas
+      - Chill
+      - THICC
+      - Mortis Legend
+      - Get Wrecked Nub
+      - DMoney XD
+    difficulty: 6
+    status: published
+
   - name: Bad Randoms Challenge
     description: Description not available
     category:
@@ -301,6 +327,8 @@ brawl-of-fame:
       - lid3R(^_^*)
       - CryAlphaST
       - Megalodon
+      - Ichiro
+      - Its Chriz
     difficulty: 4
     status: published
 

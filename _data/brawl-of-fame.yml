@@ -134,6 +134,19 @@ brawl-of-fame:
     difficulty: 6
     status: published
 
+  - name: 10-win Sweep<br>3v3 Challenge
+    description: Description not available
+    category:
+      - 10-win Challenge
+      - Clan Challenge
+    mechanics: Complete a Challenge with no losses
+    players:
+      - CryAlphaST
+      - Its Chriz
+      - Ichiro
+    difficulty: 6 
+    status: published
+
   - name: Summer Sports Challenge 
     description: Description not available
     category: 

@@ -12,7 +12,7 @@ title: Stickers
   <div class="row center-align" id="page_filler">
       <div class="col s12">
           <p class="flow-text">
-              Click to copy your an Expression<br>
+              Click to copy an Expression<br>
           </p>
       </div>
       <form id="search_form" class="col s12">
@@ -76,7 +76,7 @@ title: Stickers
     console.log(sticker_names)
 
     $( "#search_form" ).submit(function( event ) {
-        var similarity_threshold = FORGIVING;
+        var similarity_threshold = PASSABLE;
         var str = $("#search_event").val()
 
         if(str == ""){
@@ -84,7 +84,6 @@ title: Stickers
         }
 
         str = "sticker/" + str
-        M.toast({html: str})
         event.preventDefault();
 
         var names_similarity = [];

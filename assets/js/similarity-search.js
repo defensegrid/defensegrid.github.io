@@ -1,6 +1,7 @@
 var VERY_ACCURATE = 0.95;
 var ACCURATE = 0.75;
 var FORGIVING = 0.60;
+var PASSABLE = 0.50;
 
 function editDistance(s1, s2) {
   s1 = s1.toLowerCase();

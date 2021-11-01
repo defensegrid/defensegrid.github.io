@@ -3,7 +3,6 @@ layout: default
 permalink: /stickers
 title: Stickers
 ---
-
 <div class="row">
   <div class="col s12 bg-dark-gray-upper center-align">
     <h3 class="logo-text">Stickers</h3>
@@ -35,10 +34,10 @@ title: Stickers
   <div class="row">
   {% assign files = site.static_files %}
   {% for file in files %}
-      {% if file.path contains 'assets/stickers'%}
+      {% if file.path contains 'assets/sticker'%}
        {% continue %} 
       {%endif%}
-      {% if file.path contains 'stickers'%}
+      {% if file.path contains 'sticker'%}
       <div class="col s12 m6 l4" id="stickers-{{forloop.index}}">
         <div class="card-search" hidden>
           <div class="sticker-id">stickers-{{forloop.index}}</div>
@@ -67,7 +66,7 @@ title: Stickers
 
     function copyToClipboard(file) {
       const prefix = "Copied "
-      M.toast({html: prefix + file.slice(10)})
+      M.toast({html: prefix + file.slice(9)})
       var promise = navigator.clipboard.writeText(site_url + file)
     }
 
@@ -84,7 +83,7 @@ title: Stickers
           return
         }
 
-        str = "stickers/" + str
+        str = "sticker/" + str
         M.toast({html: str})
         event.preventDefault();
 

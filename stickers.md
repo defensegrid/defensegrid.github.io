@@ -12,7 +12,7 @@ title: Stickers
   <div class="row center-align" id="page_filler">
       <div class="col s12">
           <p class="flow-text">
-              Favorite Expressions<br>
+              Click to copy your an Expression<br>
           </p>
       </div>
       <form id="search_form" class="col s12">

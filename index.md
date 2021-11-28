@@ -117,18 +117,38 @@ title: Defense Grid
           </div>
         </div>
       </div>
-      <div id="chat" class="section scrollspy">
+      <div id="visit" class="section scrollspy">
         <div class="divider thin-gray-shadow full-width"></div>
         <br>
-        <h4 class="center-align">Chat</h4>
+        <h4 class="center-align">Visit</h4>
         <br>
         <div class="row">
           <div class="col s12 m10 offset-m1 l6 offset-l3 center-align">
             <div class="collection center-align">
-              <a href="https://discordapp.com/invite/DGnjSqv" class="collection-item">Discord<i class="material-icons tiny">north_east</i></a>
-              <a href="https://www.youtube.com/channel/UCInLbRLqw9OfIlFnx0mXp5Q" class="collection-item">Youtube<i class="material-icons tiny">north_east</i></a>
-              <a class="collection-item">Clash Royale <small>(Main)</small>&emsp;#2PUYGP</a>
-              <a class="collection-item">Brawl Stars <small>(Main)</small>&emsp;#9RGV8L</a>
+              <a href="https://discordapp.com/invite/DGnjSqv" class="collection-item">
+                <i class="material-icons logo"><img class="square-logo-img logo" id="logo" src="/assets/img/discord_logo.png"/></i>&nbsp;
+                Discord
+              </a>
+              <a href="https://www.youtube.com/channel/UCInLbRLqw9OfIlFnx0mXp5Q" class="collection-item">
+                <i class="material-icons logo"><img class="square-logo-img logo" id="logo" src="/assets/img/yt_logo.png"/></i>&nbsp;
+                Youtube
+              </a>
+              <a href="https://royaleapi.com/clan/2PUYGP" class="collection-item">
+                <i class="material-icons logo"><img class="square-logo-img logo" id="logo" src="/assets/img/cr_logo.png"/></i>&nbsp;
+                Red Shield <small>#2PUYGP</small>
+              </a>
+              <a href="https://brawlify.com/stats/club/9RGV8L" class="collection-item">
+                <i class="material-icons logo"><img class="square-logo-img logo" id="logo" src="/assets/img/bs_logo.png"/></i>&nbsp;
+                Red Star <small>#9RGV8L</small>
+              </a>
+              <a href="https://brawlify.com/stats/club/2G88Y9RQY" class="collection-item">
+                <i class="material-icons logo"><img class="square-logo-img logo" id="logo" src="/assets/img/bs_logo.png"/></i>&nbsp;
+                Yellow Star <small>#2G88Y9RQY</small>
+              </a>
+              <a href="https://brawlify.com/stats/club/2GYVPR88Q" class="collection-item">
+                <i class="material-icons logo"><img class="square-logo-img logo" id="logo" src="/assets/img/bs_logo.png"/></i>&nbsp;
+                Purple Star <small>#2GYVPR88Q</small>
+              </a>
             </div>
           </div>
         </div>
@@ -146,7 +166,7 @@ title: Defense Grid
           <li><a href="#home"><i class="material-icons md-dark">home</i></a></li>
           <li><a href="#rules"><i class="material-icons md-dark">gavel</i></a></li>
           <li><a href="#nominations"><i class="material-icons md-dark">how_to_vote</i></a></li>
-          <li><a href="#chat"><i class="material-icons md-dark">chat</i></a></li>
+          <li><a href="#chat"><i class="material-icons md-dark">flight_takeoff</i></a></li>
         </ul>
       </div>
     </div>

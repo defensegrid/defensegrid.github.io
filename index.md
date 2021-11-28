@@ -166,7 +166,7 @@ title: Defense Grid
           <li><a href="#home"><i class="material-icons md-dark">home</i></a></li>
           <li><a href="#rules"><i class="material-icons md-dark">gavel</i></a></li>
           <li><a href="#nominations"><i class="material-icons md-dark">how_to_vote</i></a></li>
-          <li><a href="#chat"><i class="material-icons md-dark">flight_takeoff</i></a></li>
+          <li><a href="#visit"><i class="material-icons md-dark">flight_takeoff</i></a></li>
         </ul>
       </div>
     </div>

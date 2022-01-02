@@ -32,6 +32,7 @@ brawl-of-fame:
     mechanics: Unquestionably an Expert of the Game
     players: 
       - CryAlphaST
+      - Mortis Legend
     difficulty: 3
     status: published
 
@@ -89,6 +90,44 @@ brawl-of-fame:
       - glumy
       - Mortis Legend
     difficulty: 6
+    status: published
+
+  - name: Grom Challenge
+    description: Description not available
+    category: 
+      - 9-win Challenge
+    mechanics: Complete the challenge and get Grom for Free
+    players:
+      - GYG|GABIZCOOL
+      - Cute
+      - Chill
+      - WolvesKing
+      - NOT JOE BIDEN
+      - MASTERKILLER
+      - ANIMESH
+      - Doctor Strange
+      - Black Panther
+      - SpartanJaz
+      - master kurt
+      - Kapil.K
+      - me,myself and I
+      - Nitrofun
+      - crowlol
+      - sean
+      - DMoney XD
+      - Ichiro
+      - CryAlphaST
+      - Its Chriz
+      - Ch3At
+      - Joker
+      - KARTIK
+      - SuperakaayKT
+      - Ichika
+      - Disenchanted
+      - ÆGON
+      - SP|Speedy
+      - Seijuro 
+    difficulty: 8
     status: published
 
   - name: Brawl-O-Ween 2021
@@ -193,6 +232,7 @@ brawl-of-fame:
       - K.K jr
       - Mortis Legend
       - hemu
+      - NEGI
     difficulty: 6
     status: published
 
@@ -212,6 +252,8 @@ brawl-of-fame:
       - Mortis Legend
       - Get Wrecked Nub
       - DMoney XD
+      - hemu
+      - NEGI
     difficulty: 6 
     status: published
 
@@ -422,6 +464,7 @@ brawl-of-fame:
       - Megalodon
       - Ichiro
       - Its Chriz
+      - master kurt
     difficulty: 4
     status: published
 

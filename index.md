@@ -149,6 +149,10 @@ title: Defense Grid
                 <i class="material-icons logo"><img class="square-logo-img logo" id="logo" src="/assets/img/bs_logo.png"/></i>&nbsp;
                 Purple Star <small>#2GYVPR88Q</small>
               </a>
+              <a href="{{site.url}}#visit" class="collection-item">
+                <i class="material-icons logo"><img class="square-logo-img logo" id="logo" src="/assets/img/logo.png"/></i>&nbsp;
+                Clash Quest
+              </a>
             </div>
           </div>
         </div>

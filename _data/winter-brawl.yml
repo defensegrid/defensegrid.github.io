@@ -52,6 +52,8 @@ modes:
     restrictions:
     mechanics:
       - step: Try not to ruin Bob's face
+      - step: Win Condition
+        substeps: Player with the most destruction done Wins
 
   - name: Bouncy Orb
     url: bouncy-orb
@@ -397,25 +399,6 @@ modes:
         substeps:
           - Teams that reached the center wins
 
-  - name: nwh
-    url: nwh
-    map: nwh.jpg
-    map-creator: CryAlphaST
-    map-concept: BS Community
-    desc-creator: N/A
-    description:
-    restrictions:
-      - Daryll
-    mechanics:
-      - step: Participants will be randomly divided into teams of 5
-      - step: Coordinate with your team to reach the center
-        substeps:
-          - Charge your Super but don't kill
-      - step: Spin
-      - step: Win Condition
-        substeps:
-          - Teams that reached the center wins
-
   - name: Porter Panic
     url: porter-panic
     map: Porter-Panic.jpg
@@ -559,3 +542,22 @@ modes:
         substeps:
           - Last survivor standing wins
           - Last survivor can choose to become the next hunter
+
+  - name: Waterways
+    url: nwh
+    map: nwh.jpg
+    map-creator: CryAlphaST
+    map-concept: BS Community
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Daryll
+    mechanics:
+      - step: Participants will be randomly divided into teams of 5
+      - step: Coordinate with your team to reach the center
+        substeps:
+          - Charge your Super but don't kill
+      - step: Spin
+      - step: Win Condition
+        substeps:
+          - Teams that reached the center wins

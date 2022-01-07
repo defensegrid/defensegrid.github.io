@@ -1,0 +1,561 @@
+modes:
+  - name: Arcade Run
+    url: arcade-run
+    map: Arcade-Run.jpg
+    map-creator: Ichiro
+    map-concept: Ichiro
+    desc-creator: N/A
+    description:
+    restrictions:
+      - 8-Bit
+    mechanics:
+      - step: Pick any Gadget and Star Power 
+      - step: Complete the race
+        substeps:
+          - Move to the top through the maze
+          - Pass through Jump Pads
+          - Trap opponents but don't kill
+      - step: Win Condition
+        substeps:
+          - First one to reach the top wins
+
+  - name: Bibi Race
+    url: bibi-race
+    map: Bibi-Race.jpg
+    map-creator: me,myself and I
+    map-concept: BS Community
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Bibi
+    mechanics:
+      - step: Choose your Star Power
+        substeps:
+          - Speed is recommended for competitive players
+          - Shield is safer and more consistent
+      - step: The Race
+        substeps:
+          - Rely on movement and precise gadget timing to survive
+          - Participants cannot attack each other
+      - step: Win Condition
+        substeps:
+          - First one to reach the boxes win
+          - Has not killed anyone
+
+  - name: Bob The Fisher
+    url: bob-the-fisher
+    map: Bob-The-Fisher.jpg
+    map-creator: NOT JOE BIDEN 
+    map-concept: NOT JOE BIDEN
+    desc-creator: NOT JOE BIDEN
+    description: Nothing much to mention here. Just a classic masterpiece. Beautiful eyes. Flamboyant style. Just Outstanding.
+    restrictions:
+    mechanics:
+      - step: Try not to ruin Bob's face
+
+  - name: Bouncy Orb
+    url: bouncy-orb
+    map: Bouncy-Orb.jpg
+    map-creator: Ichiro
+    map-concept: Ichiro
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Bibi
+      - Frank
+      - Tick
+    mechanics:
+      - step: Power Up!
+        substeps:
+          - Bibi will collect 16 Power Cubes
+      - step: Bouncy Trouble
+        substeps:
+          - With the help of Frank, Bibi will charge her super
+          - Bibi will use her super and try to eliminate Ticks
+      - step: Win Condition
+        substeps:
+          - Last Tick standing Wins
+
+  - name: Bubble Blitz
+    url: bubble-blitz
+    map: Bubble-Blitz.jpg
+    map-creator: Ch3At
+    map-concept: Ch3At
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Bibi
+      - Frank
+      - Edgar
+    mechanics:
+      - step: Team Up!
+        substeps:
+          - 4 Teams of Bibi and Frank
+          - 1 Team of 2 Edgars
+      - step: Base Setup
+        substeps:
+          - Each Bibi and Frank Team occupies 1 base at one corner of the map
+          - Bibi and Frank Teams can collect boxes on the way
+          - Edgars go to the Safe Zone (base) at the Middle
+      - step: Attacking Phase
+        substeps:
+          - Bibi and Frank Teams fight against each other with Bibi's Super
+          - Edgars work together and try to eliminate the Bibi and Frank Team one-by-one 
+      - step: Restrictions
+        substeps: 
+          - Attacking Phase starts when all teams have occupied their base
+          - Edgars cannot attack before Attacking Phase
+          - Boxes can't be collected once the Attacking Phase starts
+          - Edgars can be eliminated when they are outside their Safe Zone (base)
+          - Edgars can also be eliminated when they try to infiltrate your base
+      - step: Win Condition
+        substeps:
+          - Last Bibi and Frank Team Wins
+
+  - name: Colette + Buzz
+    url: colette-buzz
+    map: Colette+Buzz.jpg
+    map-creator: me,myself and I
+    map-concept: me,myself and I
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Colette
+      - Buzz
+    mechanics:
+      - step: Choose Your Brawler
+        substeps:
+          - 5 Colette
+          - 5 Buzz
+      - step: Team Up
+        substeps:
+          - Participants will be randomly divided into 5 Teams of Colette and Buzz
+      - step: Coordinate with your team to reach the center
+        substeps:
+          - Colette pushes Buzz to the next island
+          - Buzz stuns Collete during the push to drop to the next island
+      - step: Spin
+      - step: Win Condition
+        substeps:
+          - Teams that reached the center wins
+
+  - name: Dyna Go Seek
+    url: dyna-go-seek
+    map: Dyna-Go-Seek.jpg
+    map-creator: CryAlphaST
+    map-concept: CryAlphaST
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Dynamike
+    mechanics:
+      - step: Team Up
+        substeps:
+          - 1 Dynamike will be the Seeker
+          - 9 Dynamikes will hide
+      - step: Setup
+        substeps:
+          - Seeker will go to Seeker Area using the Red Teleporter
+          - The rest will go to the Bush Area using a Jump Pad and hide
+      - step: Power Up
+        substeps:
+          - Seeker will collect all Power Cubes in the Seeker Area
+          - 1 Hit from the Seeker should be enough to eliminate a hiding Dynamike
+      - step: Seek
+        substeps:
+          - Use the Blue Teleporter to visit the Bush Area
+          - Try to guess which Bush did the hiders choose using 1 attack
+          - After performing 1 attack, go back to the Seeker Area using the Blue Teleporter
+          - When your Super is charged, you can choose to destroy 1 Bush
+      - step: Hide
+        substeps:
+          - Hide before the Seeker visits the Bush Area through the Blue Teleporter
+          - When the Seeker goes back to their area, you can choose to switch bushes
+          - You cannot eliminate the Seeker
+      - step: Win Condition
+        substeps:
+          - Last Dynamike standing wins
+
+  - name: Edgar Apocalypse
+    url: edgar-apocalypse
+    map: Edgar-Apocalypse.jpg
+    map-creator: Ch3At
+    map-concept: Ch3At
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Edgar
+    mechanics:
+      - step: Setup
+        substeps:
+          - All Edgars can collect boxes before Poison Gas appears
+          - 5 Defender Edgars can go to their Checkpoint Island
+          - 5 Invader Edgars stay outside
+      - step: Apocalypse
+        substeps:
+          - Invader Edgars try to go to the Middle Island 
+          - Defender Edgars prevent them
+      - step: Invader Restrictions
+        substeps:
+          - You can't go back once you get inside a Checkpoint Island
+          - You can't use gadgets
+          - 1 Invader Edgar per Checkpoint Island
+          - You can charge your Super through the Defender Edgar
+          - You can't eliminate the Defender Edgar
+      - step: Defender Restrictions
+        substeps:
+          - Can only be in Checkpoint Island
+          - You should be in the Checkpoint Island before the Poison Gas appears
+          - 1 Defender Edgar per Checkpoint Island
+          - You can eliminate or stall the Invader Edgar
+      - step: Win Condition
+        substeps:
+          - Invaders win if at least 3 Invaders reach the Middle Island
+          - Defenders win if 3 Invaders don't reach the Middle Island
+
+  - name: Feeshon Shoe
+    url: feeshon-shoe
+    map: Feeshon-Shoe.jpg
+    map-creator: MASTERKILLER
+    map-concept: BS Community
+    desc-creator: N/A
+    description:
+    restrictions:
+    mechanics:
+      - step: The player at the center is the judge and can eliminate other players
+      - step: Try not to pick a bad skin or act sus
+
+  - name: Gene Fishing
+    url: gene-fishing
+    map: Gene-Fishing.jpg
+    map-creator: GYG|GABIZCOOL
+    map-concept: GYG|GABIZCOOL
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Gene
+      - Rosa
+    mechanics:
+      - step: Host can choose the distribution of Rosa and Gene teams
+      - step: Setup
+        substeps:
+          - Rosas go to the Bush Area through the Yellow or Green teleporter
+          - Genes go to the Fishing Area through the Blue or Red teleporter
+          - Both left and right area should have at least 1 player
+      - step: Go Fish
+        substeps:
+          - Genes charge their Super through each other
+          - Genes try to Fish Rosa in the Bush Area using their Super
+          - Rosas try to not get caught
+          - Genes can only eliminate a Rosa when they're caught
+          - Only 1 Gene per side can use their Attack to try and locate a Rosa
+      - step: Win Condition
+        substeps: 
+          - Last Rosa standing wins
+
+  - name: Grid Defense
+    url: grid-defense
+    map: Grid-Defense.jpg
+    map-creator: BS Community
+    map-concept: Ichiro
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Mortis
+      - Dynamike
+    mechanics:
+      - step: Choose Your Brawler
+        substeps:
+          - 1 Mortis
+          - 9 Dynamikes
+      - step: Power Up
+        substeps:
+          - Mortis will collect 16 Power Cubes
+      - step: Grid Defense
+        substeps:
+          - Mortis attempts to reach the end of the path
+          - Dynamikes prevent Mortis from reaching the end by trying to eliminate him
+          - Mortis can't eliminate the Dynamikes
+      - step: Win Condition
+        substeps:
+          - Mortis wins if he managed to reach the end of the path
+          - Dynamike wins if they managed to eliminate Mortis before he reaches the end of the path
+
+  - name: Happy Nuke
+    url: happy-nuke
+    map: Happy-Nuke.jpg
+    map-creator: NOT JOE BIDEN
+    map-concept: NOT JOE BIDEN
+    desc-creator: NOT JOE BIDEN
+    description: The miniature city with a torture chamber for the ones who ignore the Bible. A park, a movie theater, a wonderful banquet hall with a car parking in the bottom right. Small residential houses shaped like cubes, with luxurious decor. And also not to mention the artificial islands where turtles are grown!
+    restrictions:
+    mechanics:
+      - step: Enjoy the City!
+
+  - name: Jump x1 = Lose
+    url: jump-x1-lose
+    map: Jump-x1=Lose.jpg
+    map-creator: me,myself and I
+    map-concept: BS Community
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Leon
+      - Max
+      - Jacky
+      - Mortis
+      - Rico
+      - Bibi
+      - Edgar
+      - Carl
+      - Bull
+      - Daryll
+      - Brock
+      - Tick
+    mechanics:
+      - step: Choose your brawler
+        substeps:
+          - Host can limit the choice to only 1 brawler
+      - step: Charged Up
+        substeps:
+          - You can charge your Super but don't kill
+          - You can charge the supers that can help you win (speed increase, knockback)
+      - step: Disqualification
+        substeps:
+          - You get disqualified if you get launched by a Jump Pad
+          - You get disqualified if you eliminated another brawler
+      - step: Win Condition
+        substeps:
+          - Last brawler standing wins 
+
+  - name: Missile Dodge
+    url: missile-dodge
+    map: Missile-Dodge.jpg
+    map-creator: Ichiro
+    map-concept: Ichiro
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Brock
+      - Tick
+    mechanics:
+      - step: Choose your brawler
+        substeps:
+          - 9 Ticks
+          - 1 Brock
+      - step: Power Up
+        substeps:
+          - Brock will collect 16 Power Cubes
+      - step: Dodge
+        substeps:
+          - Brock will go to the center through the Red Teleporter
+          - Brock will try to eliminate the Ticks
+          - Ticks will hide in bushes and avoid Brock
+      - step: Win Condition
+        substeps:
+          - Last Tick standing wins 
+
+  - name: mortis
+    url: mortis
+    map: mortis.jpg
+    map-creator: NOT JOE BIDEN
+    map-concept: NOT JOE BIDEN
+    desc-creator: NOT JOE BIDEN
+    description: It's Mortis, what else do u need?
+    restrictions:
+    mechanics:
+      - step: Appreciate Mortis
+
+  - name: mr trump
+    url: mr-trump
+    map: mr-trump.jpg
+    map-creator: NOT JOE BIDEN
+    map-concept: NOT JOE BIDEN
+    desc-creator: NOT JOE BIDEN
+    description: Yet another beautiful and finest work ever by any artist around the globe. The beautiful face, significant chin and the eyes resemble the yet rich mr trump. It is a memento for all that has happened and an inspiration for all that is to come.
+    restrictions:
+    mechanics:
+      - step: Appreciate mr trump
+
+  - name: Nani Golf =P
+    url: nani-golf
+    map: Nani-Golf=P.jpg
+    map-creator: me,myself and I
+    map-concept: BS Community
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Nani
+    mechanics:
+      - step: Participants will be randomly divided into 4 teams of 2 or more
+      - step: Coordinate with your team to reach the center
+        substeps:
+          - Charge your Super to teleport to the next island
+          - Be careful not to kill your teammates
+      - step: Spin
+      - step: Win Condition
+        substeps:
+          - Teams that reached the center wins
+
+  - name: nwh
+    url: nwh
+    map: nwh.jpg
+    map-creator: CryAlphaST
+    map-concept: BS Community
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Daryll
+    mechanics:
+      - step: Participants will be randomly divided into teams of 5
+      - step: Coordinate with your team to reach the center
+        substeps:
+          - Charge your Super but don't kill
+      - step: Spin
+      - step: Win Condition
+        substeps:
+          - Teams that reached the center wins
+
+  - name: Porter Panic
+    url: porter-panic
+    map: Porter-Panic.jpg
+    map-creator: CryAlphaST
+    map-concept: CryAlphaST
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Mr.P
+      - Bull
+      - El-Primo
+      - Rosa
+      - Daryll
+      - Jacky
+      - Frank
+      - Ash
+      - Sprout
+    mechanics:
+      - step: Team Up
+        substeps:
+          - 1 player will be Mr.P
+          - The remaining players can use a tank or Sprout
+          - Host can make adjustments to the recommeded player distribution
+      - step: Power Up
+        substeps:
+          - Mr. P will collect all Power Cubes
+      - step: Invasion
+        substeps:
+          - Mr. P endlessly spawns Porters
+          - The tanks and Sprout can only run away
+          - Tanks can work together on taking taking damage to keep everyone alive
+          - Sprout can use his abilities to block pathways
+      - step: Win Condition
+        substeps:
+          - Last 1-3 players standing wins
+
+  - name: Primo is Gae
+    url: primo-is-gae
+    map: Primo-is-Gae.jpg
+    map-creator: me,myself and I
+    map-concept: BS Community
+    desc-creator: N/A
+    description:
+    restrictions:
+      - El-Primo
+    mechanics:
+      - step: Choose your Utilities
+        substeps:
+          - Choose any Star Power
+          - Choose Supplex Supplement Gadget
+      - step: Supplex other El Primos into the jumpads to make them stuck
+        substeps:
+          - Elimination is allowed
+          - Teaming is allowed
+      - step: Win Condition
+        substeps:
+          - Last El Primo standing wins
+
+  - name: Racest
+    url: racest
+    map: Racest.jpg
+    map-creator: Ender
+    map-concept: Ender
+    desc-creator: N/A
+    description:
+    restrictions:
+      - Max
+    mechanics:
+      - step: Host will choose a modifier
+        substeps:
+          - Fast Brawlers
+          - Super Charge
+          - Graveyard Shift
+      - step: Choose your Utilities
+        substeps:
+          - Gear should be Speed and Damage
+          - Star Power should be Super Charged (1st)
+          - Gadget should be Sneaky Sneakers (2nd)
+      - step: Ring Supremacy
+        substeps:
+          - Outer Ring and Inner Ring players try to eliminate each other
+      - step: Racest
+        substeps:
+          - The Ring that wins will enter in another elimination
+      - step: Win Condition
+        substeps:
+          - Last Max standing wins
+
+  - name: Skin Contest
+    url: skin-contest
+    map: Skin-Contest.jpg
+    map-creator: Ichiro
+    map-concept: Ichiro
+    desc-creator: N/A
+    description:
+    restrictions:
+    mechanics:
+      - step: Pick a Skin
+      - step: The Judge
+        substeps:
+          - The player that spawned at the middle is the judge
+      - step: Contest
+        substeps:
+          - The judge will eliminate skins in order, from worst to best
+      - step: Win Condition
+        substeps:
+          - Last contestant standing wins
+
+  - name: Stage
+    url: stage
+    map: Stage.jpg
+    map-creator: MASTERKILLER
+    map-concept: MASTERKILLER
+    desc-creator: N/A
+    description:
+    restrictions:
+      - El-Primo
+      - Bull
+      - Buzz
+      - Gale
+      - Tick
+      - Edgar
+    mechanics:
+      - step: Setup
+        substeps:
+          - The 1-2 Hunters will choose Bull or El Primo
+          - The rest will be Survivors and choose Buzz, Gale, Tick, or Edgar
+      - step: Power Up
+        substeps:
+          - Hunters will collect all Power Cubes in the middle
+          - Survivors find safe places while they're gaining strength
+      - step: Hunt
+        substeps:
+          - The hunter will eliminate all survivors
+      - step: Survive
+        substeps:
+          - A survivor cannot kill anyone
+          - A survivor cannot destroy the map
+          - A survivor can charge their Super
+      - step: Win Condition
+        substeps:
+          - Last survivor standing wins
+          - Last survivor can choose to become the next hunter

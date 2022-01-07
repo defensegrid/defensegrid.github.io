@@ -342,6 +342,9 @@ img.header-img{
 	max-height: 300px;
 }
 
+.medium-img {
+	max-height: 400px;
+}
 
 .dirty-white{
 	color: rgba(234, 243, 247, 0.95);
@@ -394,3 +397,102 @@ img.header-img{
 	max-height: 90%;
 	background-color: transparent !important;
 }
+
+.card .card-content .card-title {
+	font-weight: 500;
+}
+
+/*** Winter Brawl ***/
+
+.wb-header-text {
+	font-family: 'Grandstander', cursive;
+	font-weight: 400;
+}
+
+.wb-header-dark-text {
+	font-family: 'Grandstander', cursive;
+	font-weight: 600;
+}
+
+.wb-text-1 {
+	font-family: 'Grandstander', cursive;
+	font-weight: 100;
+}
+
+.wb-text-2 {
+	font-family: 'Grandstander', cursive;
+	font-weight: 200;
+}
+
+.wb-header-bg{
+	background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1));
+}
+
+.wb-bg-deep-ice{
+	background-image: linear-gradient(to bottom, rgba(1,19,38,1), rgba(1,19,38,1), rgba(1,19,38,1));
+}
+
+.wb-nav-deep-ice{
+	background-image: linear-gradient(to bottom, rgba(1,19,38,0.85), rgba(1,19,38,0.95), rgba(1,19,38,0.95), rgba(1,19,38,1), rgba(1,19,38,1));
+}
+
+.wb-text-deep-ice {
+	color: #011326;
+}
+
+.wb-text-white {
+	color: white;
+}
+
+.wb-card-title {
+	color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    padding: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(1,19,38,0), rgba(1,19,38,0.1), rgba(1,19,38,0.2), rgba(1,19,38,0.3), rgba(255,255,255,0));
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.wb-card-image {
+	border-radius: 3px;	
+}
+
+.wb-image-wrapper {
+	padding: 15px;
+	margin: 0px;
+	box-shadow: inset 0px 5px 10px 0px rgb(1, 19, 38);
+}
+
+.wb-credit {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: right;
+	font-size: 10px;
+}
+
+.wb-mode {
+	border-radius: 10px;
+}
+
+.card.wb-card {
+	text-align: center;
+	background-image: linear-gradient(to bottom right, rgba(5,37,66,1), rgba(5,37,66,1), rgba(62,101,137,1));
+	color: white !important;
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.14),0 6px 2px -4px rgba(255,255,255,0.12),0 2px 10px 0 rgba(255,255,255,0.3);
+}
+
+.card.wb-card > a {
+	color: white;
+}
+
+/*** Winter Brawl ***/

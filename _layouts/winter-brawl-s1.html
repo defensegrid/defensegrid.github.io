@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% include header.html %}
+  </head>
+  <body>
+    <script type="text/javascript" src="/assets/js/bin/materialize.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery-3.5.1.min.js"></script>
+    {% include navbar.html %}
+    <div>
+      {% for mode in site.data.winter-brawl.modes %}
+      {% if mode.name == page.title %}
+      <a class="modal-trigger" href="#show-map">
+      <div class="{{mode.background}}">
+          <div class="row">
+              <div class="col s12 center-align bg-dark-gray">
+                  <h4 class="logo-text">{{page.title}}</h4>
+                  <br>
+              </div>
+          </div>
+          <div class="row {{mode.background}} padding-bottom-small center-align">
+              <div class="col s12 m5 offset-m1 l4 offset-l2">
+                <img class="responsive-img small-img" src="/assets/img/maps/{{mode.map}}">
+              </div>
+              <div class="col s12 m5 l4 left-align">
+                  <p class="flow-text">{{mode.description}}</p>
+              </div>
+          </div>
+      </div>
+      </a>
+      <div id="show-map" class="modal" style="max-width: 500px">
+        <div class="modal-content center-align bg-dark-gray">
+          <img class="responsive-img" src="/assets/img/map-previews/{{mode.show-map}}"><br>
+          <h7>Game Mode</h7>&ensp;<h7 class="logo-text">{{mode.map-creator}}</h7><br>
+          <h7>Flavor Text</h7>&ensp;<h7 class="logo-text">{{mode.desc-creator}}</h7>
+        </div>
+      </div>
+      <div class="container"> 
+          <div class="row">
+              <div class="col s12 m12 l12">
+                  <div class="col s12 m8 offset-m2 l10 offset-l1 center-align">
+                      <h4 class="logo-text">Brawlers</h4><br>
+                      {% for restriction in mode.restrictions %}
+                      <div class="col s4 m3 l2">
+                          <img class="responsive-img" style="max-width:70px" src="/assets/img/restrictions/{{restriction}}.png" alt="{{restriction}}">
+                      </div>
+                      {% endfor %}
+                  </div>
+              </div>
+              <div class="col s12 m8 offset-m2 l10 offset-l1">   
+                  <br> 
+                  <div class="divider thin-gray-shadow full-width"></div>
+                  <br>
+                  <h4 class="center-align logo-text">Mechanics</h4><br>
+                  {% assign letters = "a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z" | split: ", " %}
+                  {% assign step_count = 0 %}
+                  {% for mechanics in mode.mechanics %}
+                      {% assign step_count = step_count | plus: 1 %}
+                      <h6><b>{{step_count}}</b>. {{mechanics.step}}</h6>
+                      {% assign substep_count = 0 %}
+                      {% for substep in mechanics.substeps %}
+                      &ensp;&ensp;<h7><b>{{letters[substep_count]}}</b>. {{substep}}</h7><br>
+                      {% assign substep_count = substep_count | plus: 1 %}
+                      {% endfor %}
+                      <br>
+                  {% endfor %}
+              </div>
+          </div>
+          <br><br><br>
+      </div>
+      {%endif%}
+      {% endfor %}
+    </div>
+    {% include footer.html %}
+  </body>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.modal');
+      var options = {};
+      var instances = M.Modal.init(elems, options);
+    });
+  </script>
+</html>

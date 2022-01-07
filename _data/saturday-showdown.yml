@@ -1,0 +1,395 @@
+modes:
+  - name: Death Canyon
+    resource: Showdown-Icon
+    background: bg-dark-ice
+    color: 0096b3
+    url: events/saturday-showdown/death-canyon
+    map: death-canyon.png
+    show-map: death-canyon-preview.png
+    map-creator: CryAlphaST
+    desc-creator: N/A
+    description: A deadly sounding description would be nice
+    restrictions:
+      - Daryll
+    mechanics:
+      - step: Choose your brawler
+        substeps:
+          - Host can limit the choice to only 1 brawler
+      - step: Participants will be randomly divided into teams of 3 or more
+      - step: Coordinate with your team to reach the center
+        substeps:
+          - Charge your Super but don't kill
+      - step: Spin
+
+  - name: For The Worthy
+    resource: Bounty-Icon
+    background: bg-semi-dark-red
+    color: B31D00
+    url: events/for-the-worthy
+    map: for-the-worthy.png
+    show-map: for-the-worthy-preview.png
+    map-creator: Seijuro
+    desc-creator: Seijuro
+    description: Any weapon is allowed. Any martial art uncontained. You only need to bring out your true strength. Are you worthy to be in the arena?
+    restrictions:
+      - Edgar
+      - Rosa
+      - Daryll
+      - Nita
+      - Jacky
+      - Tick
+      - 8-Bit
+      - Carl
+      - Rico
+      - Bea
+      - Amber
+      - Crow
+      - Spike
+      - Sandy
+      - Max
+      - Surge
+      - Colette
+      - Gale
+    mechanics:
+      - step: Choose any brawler
+        substeps: 
+          - Host can restrict the choice to only the brawlers above
+          - Host can restrict the choice to at least 2 brawlers
+      - step: Participants will be randomly divided into teams of 5
+      - step: 1v1 Tag Team
+        substeps:
+          - <b>Use the Spring Traps to switch with your Teammate</b>
+      - step: Battle Phase
+        substeps:
+          - <b>Only 1 Player from each team can enter the arena</b>
+          - Players outside the arena cannot eliminate or kill anyone
+          - Players outside the arena can search for hidden power cubes
+          - <b>Only players in the arena can eliminate or damage each other</b>
+      - step: Win Condition
+        substeps:
+          - The last team standing wins
+          - <b>When a team is not in the arena for 10 seconds, the opposing team automatically wins</b>
+          - If a rule was broken, the opposing side automatically wins
+
+  - name: Jump Park
+    resource: Showdown-Icon
+    background: bg-semi-dark-flax
+    color: E5CD57
+    url: events/jump-park
+    map: jump-park.png
+    show-map: jump-park-preview.jpg
+    map-creator: CryAlphaST
+    desc-creator: Seijuro
+    description: It might be chilly, but it won't stop us from popping. Hop in and keep jumping or become one with these half-frozen relics.
+    restrictions:
+      - Dynamike
+    mechanics:
+      - step: Choose a brawler
+      - step: Complete the race
+        substeps:
+          - Keep Jumping
+          - Clear obstacles
+          - Stun opponents but don't kill
+          - Use the launch pad at the right end
+      - step: Win Condition
+        substeps:
+          - Reached the right end
+          - First to be eliminated by the poison cloud
+          - Did not kill anyone
+
+  - name: Last Sanctuary
+    resource: Hot-Zone-Icon
+    background: bg-semi-dark-green
+    color: 33763E
+    url: events/last-sanctuary
+    map: last-sanctuary.png
+    show-map: last-sanctuary-preview.png
+    map-creator: Seijuro & Christian.10
+    desc-creator: Seijuro
+    description: No matter the season, famine is ever-present in this realm. We would even fight over spoilt food just to sate our hunger. But now that a new sanctuary was found, we may be able to bring providence to our people.
+    restrictions: 
+      - Rosa
+      - Bull
+      - Shelly
+      - Bo
+      - Amber
+      - Sandy
+      - Piper
+      - Colt
+      - Brock
+      - Lou
+      - Tara
+      - Poco
+    mechanics:
+      - step: Choose a side
+        substeps:
+          - Defenders should have at least 4 members
+          - Invaders should have at least 4 members
+          - Host decides the distribution of both sides
+      - step: Pick a brawler
+        substeps:
+          - <b>Invaders</b> are - <b><i>Piper, Colt, Brock, Lou, Tara, and Poco</i></b>
+          - <b>Defenders</b> are - <b><i>Rosa, Bull, Shelly, Bo, Amber, and Sandy</i></b>
+          - Both sides <b>can have duplicate brawlers</b>
+          - To allow healing, Host can switch to Duo Showdown (in the future)
+      - step: Preparation Phase
+        substeps:
+          - <b>Invaders can't attack until the poison gas appears</b>
+          - <b>Defenders go to the Sanctuary (Center Bush Area)</b>
+          - Both sides can charge their super while waiting
+      - step: Battle Phase
+        substeps:
+          - All players can eliminate or kill each other
+          - Invaders can break the walls and bushes of the Defenders
+          - <b>Invaders cannot break fences until all walls are broken</b>
+          - <b>Defenders cannot kill outside the bushes until all walls are broken</b>
+      - step: Win Condition
+        substeps:
+          - <b>Invaders win if they managed to break all walls and fences, or eliminate all Defenders</b>
+          - <b>Defenders win if they managed to eliminate all Invaders</b>
+          - If a rule was broken, the opposing side automatically wins
+      - step: Extra
+        substeps:
+          - Classic Mode — Rosa vs Piper (Damsels and De-stress)
+
+  - name: Dash Island
+    resource: Showdown-Icon
+    background: bg-dark-purple
+    color: 5B29A3
+    url: events/dash-island
+    map: dash-island.png
+    show-map: dash-island-preview.png
+    map-creator: CryAlphaST
+    desc-creator: Seijuro
+    description: Keep dashing. Be dashing. No slashing.
+    restrictions:
+      - Mortis
+    mechanics:
+      - step: Choose a brawler
+      - step: Complete the race
+        substeps:
+          - Keep Dashing
+          - Clear obstacles for shortcuts
+          - Reach the center
+          - Spin
+      - step: Win Condition
+        substeps:
+          - Reached the center
+          - Did not kill anyone
+
+  - name: Dicey Brawl
+    resource: Heist-Icon
+    background: bg-semi-dark-purple
+    color: A329A3
+    url: events/dicey-brawl
+    map: dicey-brawl.png
+    show-map: dicey-brawl-preview.png
+    map-creator: Seijuro
+    desc-creator: Seijuro
+    description: A world perfectly balanced. Will it be ruined by greed? Maybe revenge? Hopefully not decadence.
+    restrictions:
+      - Piper
+      - Colt
+      - Brock
+      - Emz
+      - Dynamike
+      - Tick
+      - Nani
+      - Bull
+      - Shelly
+      - El-Primo
+      - Tara
+      - Bo
+      - Mr.P
+      - Penny
+      - Jacky
+      - Bibi
+      - Leon
+      - Max
+      - Daryll
+      - Spike
+    mechanics:
+      - step: Pick a brawler
+        substeps:
+          - Only the brawlers mentioned above can be chosen
+          - Both sides <b>can have duplicate brawlers</b>
+      - step: Distribution
+        substeps:
+          - There will be two teams with 5 members each
+          - One team will be on the left side, the other on the right
+      - step: Preparation Phase
+        substeps:
+          - <b>No one can eliminate or kill anyone until the poison gas appears</b>
+          - Players can charge their super while waiting for the poison gas
+      - step: Battle Phase
+        substeps:
+          - Charge your Super with your Team
+          - Secure key positions
+          - Watch and support your allies
+          - Eliminate or control your enemies
+      - step: Win Condition
+        substeps:
+          - <b>The first team that manages to destroy all cactuses of the other side wins</b>
+          - If no team managed to destroy all cactuses, the one with the most cactuses standing wins
+          - <b>If all cactuses from both sides are standing until the end, everyone wins</b>
+          - If a rule was broken by a team, the opposing team automatically wins
+
+  - name: Dodgy Ball
+    resource: Showdown-Icon
+    background: bg-pale-blue
+    color: 84BFCF
+    url: events/dodgy-ball
+    map: dodgy-ball.png
+    show-map: dodgy-ball-preview.png
+    map-creator: Seijuro
+    desc-creator: Seijuro
+    description: Trust the Ball... See the Ball... Feel the Ball... Hear the Ball... Be the Ball.. Now throw the f*****' Ball!
+    restrictions:
+      - Sprout
+    mechanics:
+      - step: Choose a brawler
+      - step: Team Distribution
+        substeps:
+          - 2 Sprouts will be chosen as Game Masters and will spawn at a different location
+          - 8 Sprouts will be chosen as Players and will spawn at the same location
+      - step: Players have to reach the Central Area
+        substeps:
+          - Clear obstacles
+          - Dodge projectiles
+          - Survive the Poison Gas
+          - Use the Jump Pad at the bottom of the map to enter the Central Area
+          - <b>Players cannot attack the Game Masters when outside the Central Area</b>
+      - step: Game Masters have to protect the Central Area
+        substeps:
+          - Prevent the players from reaching the Central Area
+          - The entrance to the Central Area is the Jump Pad located at the bottom of the map
+          - <b>Game Masters can only damage or trap Players outside the Central Area</b>
+      - step: Central Area Breached
+        substeps:
+          - 1 Player has used the Bottom Jump Pad and reached the Central Area
+          - <b>Game Masters and Players can eliminate or kill each other in the Central Area</b>
+          - Everyone can use the Jump Pads and Teleporters
+      - step: Win Condition
+        substeps:
+          - Last Team standing wins
+
+  - name: Final Hour
+    resource: Bounty-Icon
+    background: bg-desert
+    color: CE7544
+    url: events/final-hour
+    map: final-hour.jpg
+    show-map: final-hour-preview.jpg
+    map-creator: SP | Speedy
+    desc-creator: Seijuro
+    description: It's the eleventh hour. Don't let things go sour. Do everything in your power. Be brave and don't cower.
+    restrictions:
+      - Bea
+      - Brock
+      - Piper
+      - Colt
+      - Tick
+    mechanics:
+      - step: Choose a brawler
+      - step: Team Distribution
+        substeps: 
+          - There will be two teams with 5 members each
+      - step: 5v5 Deathmatch
+        substeps:
+          - Move around; Use Teleporters or Jump Pads
+          - Closely watch and support your allies
+          - Eliminate or kill the other team
+      - step: Win Condition
+        substeps:
+          - Last Team standing wins
+
+  - name: Mortar Madness
+    resource: Showdown-Icon
+    background: bg-dark-ice
+    color: 0096b3
+    url: events/mortar-madness
+    map: mortar-madness.jpg
+    show-map: mortar-madness-preview.jpg
+    map-creator: Seijuro & Ichiro
+    desc-creator: Christian.10
+    description: Ahoy me hearties! Tis time to see how ye measure up against Penny's Old Lobber! It would be a blunder to misuse da Plunderbuss, so take heart to only use it to charge thy super and not kill ye mates, or ye be walking the plank! Mortarrrgh!
+    restrictions:
+      - Penny
+    mechanics:
+      - step: Pick Penny
+      - step: Charge your super with other players
+      - step: Deploy your mortars
+        substeps: Use your gadget as needed
+        substeps: Host may ban gadget usage
+      - step: Dodge like you mean it
+      - step: Win Condition
+        substeps:
+          - Last Player standing wins
+
+  - name: Dyna's Hell
+    resource: Showdown-Icon
+    background: bg-semi-dark-red
+    color: B31D00
+    url: events/dynas-hell
+    map: dynas-hell.jpg
+    show-map: dynas-hell-preview.jpg
+    map-creator: Ichiro
+    desc-creator: N/A
+    description: A deadly sounding description would be nice
+    restrictions:
+      - Dynamike
+      - Tick
+    mechanics:
+      - step: Choose your brawler
+      - step: Participants will be divided into 2 Dynamikes and 8 Ticks
+      - step: Ticks can't attack but Dynamikes can attack them
+      - step: Last Tick Wins
+
+  - name: Speed Relay
+    resource: Showdown-Icon
+    background: bg-semi-dark-flax
+    color: E5CD57
+    url: events/speed-relay
+    map: speed-relay.png
+    show-map: speed-relay-preview.png
+    map-creator: Seijuro
+    desc-creator: N/A
+    description: A quick sounding description would be nice
+    restrictions:
+      - Max
+    mechanics:
+      - step: Choose a brawler
+      - step: Run
+        substeps:
+          - Dash smart
+          - Clear obstacles
+          - Find shortcuts
+      - step: Relay Race
+        substeps:
+          - Wait for another max to arrive
+          - Charge your super while waiting
+          - Only the arriving max can break the skull that is blocking your way
+      - step: Win Condition
+        substeps:
+          - Reached the center
+          - First to break the Skulls at the Center 
+
+
+  - name: Useless Snipe
+    resource: Showdown-Icon
+    background: bg-semi-dark-green
+    color: 33763E
+    url: events/useless-snipe
+    map: useless-snipe.jpg
+    show-map: useless-snipe-preview.jpg
+    map-creator: SP|Speedy & Ichiro
+    desc-creator: N/A
+    description: A description that feels like hunting would be nice
+    restrictions: 
+      - Piper
+    mechanics:
+      - step: Pick a brawler
+      - step: Go to the bushes and Snipe
+      - step: Win Condition
+        substeps:
+          - Last Piper Standing Wins

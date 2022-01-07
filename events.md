@@ -16,7 +16,7 @@ title: Events
             </p>
         </div>
     </div>
-    <div class="row">
+<!--     <div class="row">
         <form id="search_form" class="col s12">
             <div class="input-field col s12">
               <i class="material-icons prefix">search</i>
@@ -32,12 +32,12 @@ title: Events
                 Please check the spelling and try again.<br>
             </p>
         </div>
-    </div>
+    </div> -->
     <div class="row">
     {% for event in site.data.brawl-events.brawl-events %}
         {% if event.name != "Template" and event.name != "template"%}
         {% if event.status == "published"%}
-        <div class="col s12 m6 l4" id="col-{{forloop.index}}">
+        <div class="col s12 m8 offset-m2 l6" id="col-{{forloop.index}}">
             <div class="card-search" hidden>
                 <div class="card-id">col-{{forloop.index}}</div>
                 <div class="event-name">{{event.name}}</div>
@@ -74,7 +74,7 @@ title: Events
                 <a class="activator" href="{{site.url}}/{{event.link}}">
                 <div class="card-content">
                     <span class="card-title logo-text">{{event.name}}</span>
-                    <h6 class="logo-sub-text">{{event.description}}</h6>
+                    <h7 class="logo-sub-text">{{event.description}}</h7>
                 </div>
                 </a>
             </div>
@@ -84,17 +84,17 @@ title: Events
                 <a class="activator" href="{{site.url}}/{{event.link}}">
                 <div class="card-content">
                     <span class="card-title logo-text">{{event.name}}</span>
-                    <h6 class="logo-sub-text">{{event.description}}</h6>
+                    <h7 class="logo-sub-text">{{event.description}}</h7>
                 </div>
                 </a>
             </div>
             {%endif%}
             {% if event.gamemode == "Winter"%}
-            <div class="card blue-card">
+            <div class="card wb-card">
                 <a class="activator" href="{{site.url}}/{{event.link}}">
                 <div class="card-content">
-                    <span class="card-title logo-text">{{event.name}}</span>
-                    <h6 class="logo-sub-text">{{event.description}}</h6>
+                    <span class="card-title wb-header-dark-text">{{event.name}}</span>
+                    <h7 class="wb-text-2">{{event.description}}</h7>
                 </div>
                 </a>
             </div>

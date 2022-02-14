@@ -22,6 +22,16 @@ title: Polls
         <div class="col s12">
             <ul class="collection with-header">
                 <li class="collection-header">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1gm_pYPcLibTu748tykXgJ5236LX1N6fB-O0fsAylXRDuRQ/viewform" class="secondary-content" class="collection-header" style="border-bottom:none;padding-left:20px;padding:0px;"><h4>Defense Grid Awards <i class="material-icons md-dark">link</i></h4></a>
+                </li>
+                <li class="collection-item">
+                    <div>
+                    <p>A Celebration of Excellence</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="collection with-header">
+                <li class="collection-header">
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdy8ypZHRY20MdnwYGThU3sRtRIYg4rHVF9PiL8XWXWjL2nUg/viewform" class="secondary-content" class="collection-header" style="border-bottom:none;padding-left:20px;padding:0px;"><h4>Club Roles Rework <i class="material-icons md-dark">link</i></h4></a>
                 </li>
                 <li class="collection-item">

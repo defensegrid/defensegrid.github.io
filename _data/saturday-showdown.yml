@@ -25,7 +25,7 @@ modes:
     resource: Bounty-Icon
     background: bg-semi-dark-red
     color: B31D00
-    url: events/for-the-worthy
+    url: events/saturday-showdown/for-the-worthy
     map: for-the-worthy.png
     show-map: for-the-worthy-preview.png
     map-creator: Seijuro
@@ -75,7 +75,7 @@ modes:
     resource: Showdown-Icon
     background: bg-semi-dark-flax
     color: E5CD57
-    url: events/jump-park
+    url: events/saturday-showdown/jump-park
     map: jump-park.png
     show-map: jump-park-preview.jpg
     map-creator: CryAlphaST
@@ -101,7 +101,7 @@ modes:
     resource: Hot-Zone-Icon
     background: bg-semi-dark-green
     color: 33763E
-    url: events/last-sanctuary
+    url: events/saturday-showdown/last-sanctuary
     map: last-sanctuary.png
     show-map: last-sanctuary-preview.png
     map-creator: Seijuro & Christian.10
@@ -156,7 +156,7 @@ modes:
     resource: Showdown-Icon
     background: bg-dark-purple
     color: 5B29A3
-    url: events/dash-island
+    url: events/saturday-showdown/dash-island
     map: dash-island.png
     show-map: dash-island-preview.png
     map-creator: CryAlphaST
@@ -181,7 +181,7 @@ modes:
     resource: Heist-Icon
     background: bg-semi-dark-purple
     color: A329A3
-    url: events/dicey-brawl
+    url: events/saturday-showdown/dicey-brawl
     map: dicey-brawl.png
     show-map: dicey-brawl-preview.png
     map-creator: Seijuro
@@ -238,7 +238,7 @@ modes:
     resource: Showdown-Icon
     background: bg-pale-blue
     color: 84BFCF
-    url: events/dodgy-ball
+    url: events/saturday-showdown/dodgy-ball
     map: dodgy-ball.png
     show-map: dodgy-ball-preview.png
     map-creator: Seijuro
@@ -277,7 +277,7 @@ modes:
     resource: Bounty-Icon
     background: bg-desert
     color: CE7544
-    url: events/final-hour
+    url: events/saturday-showdown/final-hour
     map: final-hour.jpg
     show-map: final-hour-preview.jpg
     map-creator: SP | Speedy
@@ -307,7 +307,7 @@ modes:
     resource: Showdown-Icon
     background: bg-dark-ice
     color: 0096b3
-    url: events/mortar-madness
+    url: events/saturday-showdown/mortar-madness
     map: mortar-madness.jpg
     show-map: mortar-madness-preview.jpg
     map-creator: Seijuro & Ichiro
@@ -330,7 +330,7 @@ modes:
     resource: Showdown-Icon
     background: bg-semi-dark-red
     color: B31D00
-    url: events/dynas-hell
+    url: events/saturday-showdown/dynas-hell
     map: dynas-hell.jpg
     show-map: dynas-hell-preview.jpg
     map-creator: Ichiro
@@ -349,7 +349,7 @@ modes:
     resource: Showdown-Icon
     background: bg-semi-dark-flax
     color: E5CD57
-    url: events/speed-relay
+    url: events/saturday-showdown/speed-relay
     map: speed-relay.png
     show-map: speed-relay-preview.png
     map-creator: Seijuro
@@ -379,7 +379,7 @@ modes:
     resource: Showdown-Icon
     background: bg-semi-dark-green
     color: 33763E
-    url: events/useless-snipe
+    url: events/saturday-showdown/useless-snipe
     map: useless-snipe.jpg
     show-map: useless-snipe-preview.jpg
     map-creator: SP|Speedy & Ichiro

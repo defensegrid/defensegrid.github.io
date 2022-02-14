@@ -1,12 +1,12 @@
 ---
 layout: default
-permalink: /saturday-showdown
-title: Saturday Showdown
+permalink: /wbs1
+title: Winter Brawl Season 1
 ---
 
 <div class="row">
     <div class="col s12 center-align bg-light-ice">
-        <h4 class="logo-text">Saturday Showdown</h4>
+        <h4 class="logo-text">Winter Brawl Season 1</h4>
         <h6 class="logo-sub-text">Icy Dicey Spicy</h6>
         <br>
     </div>

@@ -308,6 +308,96 @@ brawl-of-fame:
     difficulty: 5
     status: published
 
+  - name: Member of the Era
+    description: Description not available
+    category:
+      - Distinction
+    mechanics: People perceived you as a role model
+    players:
+      - Seijuro
+    difficulty: 5
+ 
+  - name: Host of the Era
+    description: Description not available
+    category:
+      - Distinction
+    mechanics: People perceived you as a role model
+    players:
+      - CryAlphaST
+    difficulty: 5
+    status: published
+
+  - name: Member of the Year
+    description: Description not available
+    category:
+      - Distinction
+    mechanics: People perceived you as a role model
+    players:
+      - Ichiro
+    difficulty: 5
+    status: published
+
+  - name: Best Player of the Era
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Defense Grid Awards 2
+    players:
+      - Ichiro
+      - CryAlphaST
+    difficulty: 5
+    status: published
+
+  - name: Host of the New Era
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Defense Grid Awards 2
+    players:
+      - me,myself and I
+    difficulty: 5
+    status: published
+
+  - name: Leader of the New Era
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Defense Grid Awards 2
+    players:
+      - master kurt
+    difficulty: 5
+    status: published
+
+  - name: Best Team Leader
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Defense Grid Awards 2
+    players:
+      - CryAlphaST
+    difficulty: 5
+    status: published
+
+  - name: Best Support
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Defense Grid Awards 2
+    players:
+      - me,myself and I
+    difficulty: 5
+    status: published
+
+  - name: Best Carry
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Defense Grid Awards 2
+    players:
+      - CryAlphaST
+    difficulty: 5
+    status: published
+
   - name: Most Valuable Player
     description: Description not available
     category:
@@ -341,6 +431,171 @@ brawl-of-fame:
     difficulty: 5
     status: published
 
+  - name: Game of the Era
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: The Best Saturday Showdown Game mode
+    players:
+      - Ichiro
+    difficulty: 5
+    status: published
+
+  - name: Best New Game Mode 
+    description: Description not available
+    category:
+      - Defense Grid Awards
+      - Winter Brawl Season 2
+    mechanics: The best new Saturday Showdown from Winter Brawl Season 2
+    players:
+      - me,myself and I
+    difficulty: 5
+    status: published
+
+  - name: Marvelous Invention
+    description: Description not available
+    category:
+      - Defense Grid Awards
+      - Winter Brawl Season 2
+    mechanics: The new original game mode of Saturday Showdown
+    players:
+      - CryAlphaST
+    difficulty: 5
+    status: published
+
+  - name: Teamwork makes the Dream work 
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Create a Saturday Showdown game mode that requires great coordination
+    players:
+      - me,myself and I
+    difficulty: 5
+    status: published
+
+  - name: A Common Enemy
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Create a Saturday Showdown Big Boss game mode
+    players:
+      - CryAlphaST
+    difficulty: 5
+    status: published
+
+  - name: True Competition
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Create a Saturday Showdown player vs player game mode
+    players:
+      - Ichiro
+      - SP|Speedy
+    difficulty: 5
+    status: published
+
+  - name: Mini Gems
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Create a Saturday Showdown mini game
+    players:
+      - Ichiro
+    difficulty: 5
+    status: published
+
+  - name: Chaotic Frenzy
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Create a chaotic Saturday Showdown game mode
+    players:
+      - CryAlphaST
+    difficulty: 5
+    status: published
+
+  - name: Challenger Course
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Create a race or obstacle Saturday Showdown game mode
+    players:
+      - Ichiro
+      - CryAlphaST
+    difficulty: 5
+    status: published
+
+  - name: Work of Art
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Create a Saturday Showdown game mode that is also a work of art
+    players:
+      - NOT JOE BIDEN
+    difficulty: 5
+    status: published
+
+  - name: Old but Gold
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Best Saturday Showdown game mode or concept created before map maker
+    players:
+      - Seijuro
+    difficulty: 5
+    status: published
+
+  - name: Sparkling Regrets
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Most Gems Wasted
+    players:
+      - DarkApple
+    difficulty: 5
+    status: published
+
+  - name: Clinking Tears
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Most Gold Wasted
+    players:
+      - DarkApple
+    difficulty: 5
+    status: published
+
+  - name: Play Money
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Most Gold Stacked
+    players:
+      - Seijuro
+    difficulty: 5
+    status: published
+
+  - name: Precious Ornaments
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Most Gems Stacked
+    players:
+      - Seijuro
+    difficulty: 5
+    status: published
+
+  - name: Bottled Opportunity
+    description: Description not available
+    category:
+      - Defense Grid Awards
+    mechanics: Most Brawl Boxes Stacked
+    players:
+      - Seijuro
+    difficulty: 5
+    status: published
+
+
   - name: Hidden Rites
     description: Description not available
     category:
@@ -350,16 +605,6 @@ brawl-of-fame:
       - remi
       - Ichiro
       - SS Participants
-    difficulty: 5
-    status: published
-
-  - name: Member of the Year
-    description: Description not available
-    category:
-      - Distinction
-    mechanics: People perceived you as a role model
-    players:
-      - Ichiro
     difficulty: 5
     status: published
 

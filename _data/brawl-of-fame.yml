@@ -316,6 +316,7 @@ brawl-of-fame:
     players:
       - Seijuro
     difficulty: 5
+    status: published
  
   - name: Host of the Era
     description: Description not available
@@ -542,7 +543,7 @@ brawl-of-fame:
     mechanics: Best Saturday Showdown game mode or concept created before map maker
     players:
       - Seijuro
-    difficulty: 5
+    difficulty: 6
     status: published
 
   - name: Sparkling Regrets
@@ -552,7 +553,7 @@ brawl-of-fame:
     mechanics: Most Gems Wasted
     players:
       - DarkApple
-    difficulty: 5
+    difficulty: 7
     status: published
 
   - name: Clinking Tears
@@ -562,7 +563,7 @@ brawl-of-fame:
     mechanics: Most Gold Wasted
     players:
       - DarkApple
-    difficulty: 5
+    difficulty: 7
     status: published
 
   - name: Play Money
@@ -572,7 +573,7 @@ brawl-of-fame:
     mechanics: Most Gold Stacked
     players:
       - Seijuro
-    difficulty: 5
+    difficulty: 7
     status: published
 
   - name: Precious Ornaments
@@ -582,7 +583,7 @@ brawl-of-fame:
     mechanics: Most Gems Stacked
     players:
       - Seijuro
-    difficulty: 5
+    difficulty: 7
     status: published
 
   - name: Bottled Opportunity
@@ -592,9 +593,8 @@ brawl-of-fame:
     mechanics: Most Brawl Boxes Stacked
     players:
       - Seijuro
-    difficulty: 5
+    difficulty: 7
     status: published
-
 
   - name: Hidden Rites
     description: Description not available

@@ -80,7 +80,7 @@ title: Events
             </div>
             {%endif%}
             {% if event.gamemode == "Tournament"%}
-            <div class="card dgl2-card">
+            <div class="card dgl-card">
                 <a class="activator" href="{{site.url}}/{{event.link}}">
                 <div class="card-content">
                     <span class="card-title logo-text">{{event.name}}</span>

@@ -23,7 +23,8 @@ title: Defense Grid League
             <h7><b>3</b>. Team Power League: Diamond League Players</h7><br>
             <br>
             <h5 class="text-white">Eligible Teams</h5>
-            <h7><b>1</b>. Has only 0 or 1 Mythic League Player in Solo Power League</h7><br>
+            <h7><b>1</b>. Has only 0-1 Mythic League or Higher Player in Solo Power League</h7><br>
+            <h7><b>1</b>. Has only 0-2 Diamond League or Higher Player in Solo Power League</h7><br>
             <h7><b>2</b>. All Members are Gold League or Higher in Team Power League</h7><br>
             <h7><b>3</b>. Minimum 6 Teams will be accepted, 1 from each club</h7><br>
             <br>

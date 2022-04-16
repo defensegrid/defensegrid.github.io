@@ -38,9 +38,9 @@ brawl-events:
   gameplay: N/A
   creator: Defense Grid
   link: wbs1
-  status: published
+  status: hidden
 
-- name: Winter Brawl S2
+- name: Winter Brawl
   description: Icy Dicey Spicy
   brawler: Any
   map: N/A
@@ -118,7 +118,7 @@ brawl-events:
   gameplay: When you are the passer, choose a target and use 'Angry Emote' before you pass the bullet. If you miss your shot, you will be eliminated by everyone. The person that eliminated you will be the new passer.
   creator: Seijuro
   link: N/A
-  status: published
+  status: hidden
 
 - name: Stop or Drop
   description: She's quick...tempered. You can't outrun her. Follow her orders or she'll gun you down. Ohhh and please keep the energy drinks away from Mike.
@@ -128,7 +128,7 @@ brawl-events:
   gameplay: 1 Max 9 Dynamikes. When Max sends an 'Angry Emote' you have to stop. The last person to stop will be eliminated by Max. Any other movements done by Max is a signal to move.
   creator: Seijuro & SP|Speedy
   link: N/A
-  status: published
+  status: hidden
 
 - name: Detonation Express
   description: Meteors won't likely hit you but a warped rocket will.
@@ -138,7 +138,7 @@ brawl-events:
   gameplay: Nani and a helper will charge her Super. Bibi's have to dodge Nani's Super. Last Bibi standing wins.
   creator: Ichiro
   link: N/A
-  status: published
+  status: hidden
 
 - name: Revenge of The Bots
   description: The bots went out of control! This is not a drill! Buy enough time to find a way around JunkerNet.
@@ -148,7 +148,7 @@ brawl-events:
   gameplay: Pick a fragile brawler. Don't kill the bots and don't collect power ups until you're the last brawler standing. If you defeat the bots, you win. Else, humanity loses.
   creator: Seijuro
   link: N/A
-  status: published
+  status: hidden
 
 - name: Useless Snipe
   description: A true marksman does not rely on sight.
@@ -158,7 +158,7 @@ brawl-events:
   gameplay: In a map full of bushes the Last Piper Standing Wins.
   creator: SP|Speedy
   link: N/A
-  status: published
+  status: hidden
 
 - name: Turret Rampage
   description: The Junker Family is renowned for their contraptions. The secret? Trial and Error! Construction and Destruction!
@@ -168,7 +168,7 @@ brawl-events:
   gameplay: 5 Jessie's Team Up. 1 Team will have a base at the top, another at the bottom. Jessie's have to deploy at least 1 turret at a time. The first team to destroy 5 turrets wins.
   creator: Ichiro
   link: N/A
-  status: published
+  status: hidden
 
 - name: Pixels and Bugs
   description: Bee-ware of the swarming Bea's spreading Bugs to the Arcade Machines to slow and shut their systems down. A Revolution to Pollinate and Eliminate! The Pixel Pirates incarnated nature has posed a threat to Arcadia's democracy! War has dawned, who will claim power to govern over the new face of Arcadia?
@@ -178,7 +178,7 @@ brawl-events:
   gameplay: 8-Bits claim map center early game. 8-Bits can attack Bea's, they use the Extra Life Star Power. Bea's must work together to eliminate 8-Bits from the center, they use the Honey Coat Star Power. Both brawlers can use their Gadget and Super. Anyone can collect Power Cubes.
   creator: Christian.10
   link: N/A
-  status: published
+  status: hidden
 
 - name: Hidden Rites
   description: An annual ritual is performed by the ancient tribe of the greatest eagle hunters to seek it's new leader. The spirits will take the form of an 8-bit arcade machine stripping them off all their abilities granting only superior vision. With the tribe in panic and survival at the test, only one Bo will live to soar over his slained brothers.
@@ -188,7 +188,7 @@ brawl-events:
   gameplay: No one can kill except 8-Bit. Bo's should take advantage of their Star Power for a wider vision. 8-Bit can use any skill to eliminate all Bo's. The last Bo and the last 8-Bit standing wins.
   creator: remi & Ichiro
   link: N/A
-  status: published
+  status: hidden
 
 - name: Raze to Ten
   description: Throwers are here to troll and they've taken a toll! The big guns won't be riding shotgun so expect some melee mayhem! You can expect they'll be watching this drama unfold while the throwers on the other hand bash out at enemy Throwers calling it democracy! 
@@ -198,7 +198,7 @@ brawl-events:
   gameplay: Only Melees can kill Melees and only Throwers can kill Throwers. If a Melee is killed the Thrower can be killed and vice versa. First team to accumulate 10 Power Cubes and reach the center wins the Showdown.
   creator: Christian.10 & Seijuro
   link: N/A
-  status: published
+  status: hidden
 
 - name: Damsels and De-stress
   description: These ladies have been practicing social distancing to the best of their abilities. However their problem is unlikely to be resolved due to the constraints of long distanced relationships. The fog will intervene in time to end this cold war.
@@ -208,7 +208,7 @@ brawl-events:
   gameplay: At the center of the map, Rosa's create a 9 x 9 section of bushes by using their Grow Light Gadget about 9 times. Piper's can start attacking after 1 minute. Rosa's can kill Piper's if reachable from the created bushes. Piper's can destroy bushes outside the 9x9 size requirement.
   creator: Christian.10 & Seijuro
   link: N/A
-  status: published
+  status: hidden
 
 - name: Bears no Punch
   description: No bear hugs guaranteed, so stay away from those Bear Paws! With both bears out, this elimination chamber just went wild! Fellow brethren will you be able to bear this pain? 
@@ -218,7 +218,7 @@ brawl-events:
   gameplay: No one can kill except for Nita's Bear. Nita's respawn the bear when it dies. 8-Bit should always stay in the center bush and survive. Last 8-Bit standing wins.
   creator: Seijuro & Ichiro
   link: N/A
-  status: published
+  status: hidden
 
 - name: Mortar Madness
   description: Ahoy me hearties! Tis time to see how ye measure up against Penny's Old Lobber! It would be a blunder to misuse da Plunderbuss, so take heart to only use it to charge thy super and not kill ye mates, or ye be walking the plank! Mortarrrgh!
@@ -228,7 +228,7 @@ brawl-events:
   gameplay: Eliminate your opponents by only using Penny's Super. You canrecharge your Super with your Attack but you can't kill opponents directly.
   creator: Seijuro
   link: N/A
-  status: published
+  status: hidden
 
 - name: Battered Bits
   description: Somebody order a knuckle sandwich? These arcade machines are just slow to understand the retrospective of getting knocked back to the good ol 70's by a baseball bat! Which 8-Bit will make a Home Run this season? Or will they all be shutdown for good by a Bat that breaks bricks? 
@@ -238,7 +238,7 @@ brawl-events:
   gameplay: Two Bibi's coordinate Bat knockbacks to push 8-Bit's out. 8-Bit's use gadget to escape, can recharge Super from other 8-Bit's, can destroy the Super of other 8-Bit's. No one can kill anyone directly. Last 8-bit standing gets to Home Run!
   creator: Christian.10 & Seijuro
   link: N/A
-  status: published
+  status: hidden
 
 - name: Flipremo Fiesta
   description: The macho men have started to flex their muscle madness again yet in new fashion. Flip 'em like pancakes, the punches have decided to take breakfast instead of lunch. Who's hungry?
@@ -248,7 +248,7 @@ brawl-events:
   gameplay: Eliminate your opponents by using only El Primo's Suplex Supplement Gadget. Last Brawler or Team Standing wins
   creator: Christian.10
   link: N/A
-  status: published
+  status: hidden
 
 - name: Blind By Nature
   description: Blinded by her own dark magic now. Remember the bushes have eyes, the walls have ears. Will you be able to deal the right cards? With no fortune to seek, misfortune is expected! Shoot thrice, but only fate rolls the dice.
@@ -268,4 +268,4 @@ brawl-events:
   gameplay: Attacking is not allowed. Plant land mines and only use Bo's Gadget to recharge them. The Last Brawler or Team Standing wins
   creator: Seijuro
   link: N/A
-  status: published
+  status: hidden

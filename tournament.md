@@ -24,15 +24,15 @@ title: Defense Grid League
             <br>
             <h5 class="text-white">Eligible Teams</h5>
             <h7><b>1</b>. Has only 0-1 Mythic League or Higher Player in Solo Power League</h7><br>
-            <h7><b>1</b>. Has only 0-2 Diamond League or Higher Player in Solo Power League</h7><br>
-            <h7><b>2</b>. All Members are Gold League or Higher in Team Power League</h7><br>
-            <h7><b>3</b>. Minimum 6 Teams will be accepted, 1 from each club</h7><br>
+            <h7><b>2</b>. Has only 0-2 Diamond League or Higher Player in Solo Power League</h7><br>
+            <h7><b>3</b>. All Members are Gold League or Higher in Team Power League</h7><br>
+            <h7><b>4</b>. Minimum 6 Teams will be accepted, 1 from each club</h7><br>
             <br>
             <h5 class="text-white">Registration</h5>
             <h7><b>1</b>. Build a Team of 3 Players</h7><br>
             <h7><b>2</b>. All Members should reach Gold League or Higher in Team Power League</h7><br>
-            <h7><b>3</b>. The team should win in Gold League or Higher Four(4) consecutive times in Team Power League</h7><br>
-            <h7><b>4</b>. Submit results from the previous steps to <u><a class="text-white" href="{{site.url}}/#chat">Discord</a></u></h7><br>
+            <h7><b>3</b>. The Team should Win Four(4) consecutive matches in Gold League or Higher in Team Power League</h7><br>
+            <h7><b>4</b>. Submit results from the previous steps with your Team Name to <u><a class="text-white" href="{{site.url}}/#chat">Discord<i class="material-icons tiny dirty-white">north_east</i></a></u></h7><br>
             <h7><b>5</b>. Hosts will verify and announce your teams registration result</h7><br>
             <br>
             <h5 class="text-white">Overall System</h5>
@@ -44,12 +44,13 @@ title: Defense Grid League
             <h7><b>2</b>. Battles</h7><br>
             &emsp;<h7><b>a</b>. All participants will agree on a specific time and day of battle, ideally on DGL Days</h7><br>
             &emsp;<h7><b>b</b>. Failure to show up on the scheduled day will automatically count as a loss</h7><br>
-            &emsp;<h7><b>c</b>. Battles can be requested to be redone if both teams agree, this can only happen once per team</h7><br>
-            &emsp;<h7><b>d</b>. Both teams shall submit the battle results on <u><a class="text-white" href="{{site.url}}/#chat">Discord</a></u></h7><br>
-            &emsp;<h7><b>e</b>. Hosts will verify the results by checking the agreements of both teams</h7><br><br>
+            &emsp;<h7><b>c</b>. Battles can be requested to be redone if both teams agree, but teams can only request once per DGL Day</h7><br>
+            &emsp;<h7><b>d</b>. Both teams shall submit the battle results to <u><a class="text-white" href="{{site.url}}/#chat">Discord<i class="material-icons tiny dirty-white">north_east</i></a></u></h7><br>
+            &emsp;<h7><b>e</b>. Hosts will verify the results and confirm the winner</h7><br><br>
             <h7><b>3</b>. <b>Defense Grid League Masters</b></h7><br>
             &emsp;<h7><b>a</b>. Top 3 Teams will be invited to DGL Masters</h7><br>
-            &emsp;<h7><b>b</b>. Defeated Teams can rejoin if all members are Diamond League in Team Power League</h7><br><br>
+            &emsp;<h7><b>b</b>. Defeated Teams can rejoin with their points intact but should have 2-3 members that are Diamond League in Team Power League</h7><br>
+            &emsp;<h7><b>b</b>. New Teams can join but start from 0 points and should have 2-3 members that are Diamond League in Team Power League</h7><br><br><br>
             <a class="text-white" href="{{site.url}}/hall-of-fame"><h7><b>4</b>. <b>Hall of Fame</b><i class="material-icons tiny dirty-white">north_east</i></h7></a><br>
             &emsp;<h7><b>a</b>. Champion Team - highest overall points</h7><br>
             &emsp;<h7><b>b</b>. Best Captain - best captain according to all participants</h7><br>

@@ -38,6 +38,7 @@ exclude:
 
 sass:
   style: compressed
+  sass_dir: _sass
 
 # Render pages
 collections:

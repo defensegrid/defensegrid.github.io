@@ -24,7 +24,10 @@ var TOO_OP = 100;
 var STACKED = 1000;
 var REWORK = 0;
 var SUCCESS_BAL = 1;
-var SUCCESS_SPE = 2;
+var SUCCESS_SPE_WXR = 2;
+var SUCCESS_SPE_VSS = 3;
+var SUCCESS_BELOW_MEAN_WXR = 4;
+var SUCCESS_BELOW_MEAN_VSS = 5;
 var ERROR = -1;
 var ERROR_STRING = "There seems to be a problem... Please check your input and try again";
 var PLAYERS = "";
@@ -82,9 +85,9 @@ function calculateTeamElo(team) {
             return ERROR;
         }
 
-        console.log("parsed: " + parsed)
+        // console.log("parsed: " + parsed)
         result = data_map.get(parsed)
-        console.log("res: " + result)
+        // console.log("res: " + result)
         
         if (result == undefined)
         {
@@ -107,57 +110,60 @@ function calculateTeamElo(team) {
     team_wxr = total_wxr / member_count;
     team_vss = total_vss / member_count;
     min_wxr = stat_map.get("WXR_MIN");
-    min_vss = stat_map.get("VSS_MIN");
+    min_vss = stat_map.get("VSS_MEAN");
     mean_wxr = stat_map.get("WXR_MEAN");
     mean_vss = stat_map.get("VSS_MEAN");
     std_wxr = stat_map.get("WXR_STD");
     std_vss = stat_map.get("VSS_STD");
     limit_wxr = stat_map.get("WXR_LIMIT");
-    limit_vss = stat_map.get("VSS_LIMIT");
-    ulimit_wxr = mean_wxr + (std_wxr/1.2);
-    ulimit_vss = mean_vss + (std_vss/1.2);
+    limit_vss = stat_map.get("VSS_MIN");
+    ulimit_wxr = mean_wxr + std_wxr;
+    ulimit_vss = mean_vss + std_vss;
 
-    console.log(team_wxr)
-    console.log(min_wxr)
-    console.log(limit_wxr)
-    console.log(ulimit_wxr)
-    console.log(team_vss)
-    console.log(min_vss)
-    console.log(limit_vss)
-    console.log(ulimit_vss)
+    // console.log(team_wxr)
+    // console.log(std_wxr)
+    // console.log(mean_wxr)
+    // console.log(min_wxr)
+    // console.log(limit_wxr)
+    // console.log(ulimit_wxr)
+    // console.log("-------")
+    // console.log(team_vss)
+    // console.log(std_vss)
+    // console.log(mean_vss)
+    // console.log(min_vss)
+    // console.log(limit_vss)
+    // console.log(ulimit_vss)
 
-    if(team_vss > limit_vss && team_wxr > limit_wxr)
-    {
+    if (team_vss > ulimit_vss && team_wxr > ulimit_wxr) {
         return STACKED;
     }
 
-    if (team_vss > ulimit_vss) {
+    if (team_vss > ulimit_vss && team_wxr > min_wxr) {
         return TOO_OP;
     }
 
-    if (team_vss < mean_vss) {
+    if (team_wxr > ulimit_wxr && team_vss > min_vss) {
+        return TOO_OP;
+    }
+
+    if (team_vss < mean_vss && team_wxr < mean_wxr) {
         return REWORK;
     }
 
     if (team_vss < min_vss && team_wxr > limit_wxr) {
-        return SUCCESS_SPE;
-    }
-
-    if (team_wxr > ulimit_wxr) {
-        return TOO_OP;
-    }
-
-    if (team_wxr < mean_wxr) {
-        return REWORK;
+        return SUCCESS_SPE_WXR;
     }
 
     if (team_wxr < min_wxr && team_vss > limit_vss) {
-        return SUCCESS_SPE;
+        return SUCCESS_SPE_VSS;
     }
 
-    if(team_vss < min_vss || team_wxr < min_wxr)
-    {
-        return REWORK;
+    if (team_wxr < mean_wxr) {
+        return SUCCESS_BELOW_MEAN_WXR;
+    }
+
+    if (team_vss < mean_vss) {
+        return SUCCESS_BELOW_MEAN_VSS;
     }
 
     return SUCCESS_BAL;

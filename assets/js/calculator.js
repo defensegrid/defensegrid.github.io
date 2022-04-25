@@ -116,7 +116,7 @@ function calculateTeamElo(team) {
     std_wxr = stat_map.get("WXR_STD");
     std_vss = stat_map.get("VSS_STD");
     limit_wxr = stat_map.get("WXR_LIMIT");
-    limit_vss = stat_map.get("VSS_MIN");
+    limit_vss = stat_map.get("VSS_LIMIT");
     ulimit_wxr = mean_wxr + std_wxr;
     ulimit_vss = mean_vss + std_vss;
 

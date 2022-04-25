@@ -110,7 +110,7 @@ function calculateTeamElo(team) {
     team_wxr = total_wxr / member_count;
     team_vss = total_vss / member_count;
     min_wxr = stat_map.get("WXR_MIN");
-    min_vss = stat_map.get("VSS_MEAN");
+    min_vss = stat_map.get("VSS_MIN");
     mean_wxr = stat_map.get("WXR_MEAN");
     mean_vss = stat_map.get("VSS_MEAN");
     std_wxr = stat_map.get("WXR_STD");

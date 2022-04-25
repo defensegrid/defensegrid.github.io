@@ -138,11 +138,11 @@ function calculateTeamElo(team) {
         return STACKED;
     }
 
-    if (team_vss > ulimit_vss && team_wxr > mean_wxr) {
+    if (team_vss > limit_vss && team_wxr > mean_wxr) {
         return TOO_OP;
     }
 
-    if (team_wxr > ulimit_wxr && team_vss > mean_vss) {
+    if (team_wxr > limit_wxr && team_vss > mean_vss) {
         return TOO_OP;
     }
 

@@ -47,14 +47,14 @@ title: Teams
         <div class="col s12">
             <h5>QUALIFIED</h5>
             <h4 id="specialized_bm_wxr"></h4>
-            <h6>Your team can become stronger by winning more</h6><br><br>
+            <h6>Your team has good experience</h6><br><br>
         </div>
     </div>
     <div class="row" id="result_success_spe_bm_vss" hidden>
         <div class="col s12">
             <h5>QUALIFIED</h5>
             <h4 id="specialized_bm_vss"></h4>
-            <h6>Your team can become stronger by playing more brawlers</h6><br><br>
+            <h6>Your team has good versatility</h6><br><br>
         </div>
     </div>
     <div class="row" id="result_op" hidden>
@@ -203,13 +203,13 @@ title: Teams
             return;
         }
 
-        if(calculation == SUCCESS_BELOW_MEAN_WXR)
+        if(calculation == SUCCESS_QUAL_WXR)
         {
             $('#result_success_spe_bm_wxr').show();
             $("#specialized_bm_wxr").text(PLAYERS);
         }
 
-        if(calculation == SUCCESS_BELOW_MEAN_VSS)
+        if(calculation == SUCCESS_QUAL_VSS)
         {
             $('#result_success_spe_bm_vss').show();
             $("#specialized_bm_vss").text(PLAYERS);

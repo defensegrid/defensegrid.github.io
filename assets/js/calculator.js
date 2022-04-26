@@ -26,8 +26,8 @@ var REWORK = 0;
 var SUCCESS_BAL = 1;
 var SUCCESS_SPE_WXR = 2;
 var SUCCESS_SPE_VSS = 3;
-var SUCCESS_BELOW_MEAN_WXR = 4;
-var SUCCESS_BELOW_MEAN_VSS = 5;
+var SUCCESS_QUAL_WXR = 4;
+var SUCCESS_QUAL_VSS = 5;
 var ERROR = -1;
 var ERROR_STRING = "There seems to be a problem... Please check your input and try again";
 var PLAYERS = "";
@@ -134,7 +134,7 @@ function calculateTeamElo(team) {
     // console.log(limit_vss)
     // console.log(ulimit_vss)
 
-    if (team_vss > ulimit_vss && team_wxr > ulimit_wxr) {
+    if (team_vss > ulimit_vss && team_wxr > mean_wxr) {
         return STACKED;
     }
 
@@ -142,28 +142,32 @@ function calculateTeamElo(team) {
         return TOO_OP;
     }
 
-    if (team_wxr > limit_wxr && team_vss > mean_vss) {
-        return TOO_OP;
-    }
-
-    if (team_vss < mean_vss && team_wxr < mean_wxr) {
+    if (team_vss < min_vss && team_wxr < mean_wxr) {
         return REWORK;
     }
 
-    if (team_vss < min_vss && team_wxr > limit_wxr) {
+    if (min_vss > team_vss && team_vss > mean_vss && team_wxr > limit_wxr) {
         return SUCCESS_SPE_WXR;
     }
 
-    if (team_wxr < min_wxr && team_vss > limit_vss) {
+    if (mean_vss > team_vss && team_wxr > limit_wxr) {
+        return SUCCESS_SPE_WXR;
+    }
+
+    if (min_wxr > team_wxr && team_wxr > mean_wxr && team_vss > limit_vss) {
         return SUCCESS_SPE_VSS;
     }
 
-    if (team_wxr < mean_wxr) {
-        return SUCCESS_BELOW_MEAN_WXR;
+    if (mean_wxr > team_wxr && team_vss > limit_vss) {
+        return SUCCESS_SPE_VSS;
     }
 
-    if (team_vss < mean_vss) {
-        return SUCCESS_BELOW_MEAN_VSS;
+    if (team_wxr < mean_wxr && limit_vss > team_vss && team_vss > min_vss) {
+        return SUCCESS_QUAL_VSS;
+    }
+
+    if (team_vss < min_vss && min_wxr > team_wxr && team_wxr > mean_wxr) {
+        return SUCCESS_QUAL_WXR;
     }
 
     return SUCCESS_BAL;
